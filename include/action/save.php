@@ -8,7 +8,7 @@ if (isset($_GET['pb'])) {
   $token = $_POST['token'];
 }
 
-if (1 || $token != $_SESSION['token'] || !$bdd) {
+if ($token != $_SESSION['token'] || !$bdd) {
   $_SESSION['sent_ok'] = true;
   $_SESSION['token'] = null;
   header("Location: ./#crowdsource\n");
@@ -46,7 +46,7 @@ $doc = get_document_from_id($_SESSION['document_id']);
 $req = $bdd->prepare('UPDATE documents SET ips = :ips, tries = :tries WHERE id = :document_id');
 $req->execute(array('ips' => $doc['ips'].','.$_SERVER['REMOTE_ADDR'].',', 'tries' => $doc['tries'] + 1, 'document_id' => $_SESSION['document_id']));
 
-$_SESSION['lastpage'] = "./declaration.php?partie=".$doc['partie']."&nom=".$doc['nom'];
+$_SESSION['lastpage'] = "./contribution.php?id=".$_SESSION['document_id'];
 $_SESSION['sent_ok'] = true;
 $_SESSION['token'] = null;
 $_SESSION['document_id'] = null;

@@ -14,7 +14,7 @@
          <div class="col-md-6">
 	   <?php
 	   if (!$nodoc) {
-	     include(__DIR__.'/declarationimg.php');
+	     include(__DIR__.'/consultation_frame.php');
 	   }
 ?>         </div>
          <div class="numerise col-md-6">

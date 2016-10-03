@@ -9,13 +9,8 @@ $nodoc = 0;
 if (!$doc) {
   $nodoc = 1;
 }else{
-  $nom = $doc['nom'];
-  $img = $doc['img'];
-  $form = $doc['form'];
-  $section = $doc['section'];
-  $avatar = $doc['avatar'];
-  $partie = $doc['partie'];
-  $source = $doc['source'];
+  $text = $doc['text'];
+  $theme = $doc['theme'];
   $_SESSION['document_id'] = $doc['id'];
 }
 

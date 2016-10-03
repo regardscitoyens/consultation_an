@@ -7,16 +7,14 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 CREATE TABLE IF NOT EXISTS `documents` (
-`id` int(10) unsigned NOT NULL,
-  `img` varchar(100) NOT NULL,
-  `type` int(10) unsigned NOT NULL,
-  `parlementaire` varchar(100) NOT NULL,
-  `parlementaire_avatarurl` varchar(100),
+  `id` int(10) unsigned NOT NULL,
   `source` varchar(100),
+  `theme` varchar(255),
+  `text` text,
   `enabled` tinyint(1) NOT NULL DEFAULT '1',
   `done` tinyint(1) NOT NULL DEFAULT '0',
   `ips` text NOT NULL,
-  `tries` int(10) unsigned NOT NULL
+  `tries` int(10) unsigned NOT NULL,
   `selected_task` int(10) unsigned NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
@@ -41,11 +39,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 ALTER TABLE `users` ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `auth` (`auth`);
 ALTER TABLE `users` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
-
 ALTER TABLE `tasks` ADD PRIMARY KEY (`id`), ADD KEY `nickname` (`nickname`), ADD FULLTEXT KEY `data` (`data`);
 ALTER TABLE `tasks` MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT;
 
-ALTER TABLE `documents` ADD PRIMARY KEY (`id`), ADD FULLTEXT KEY `parlementaire` (`parlementaire`,`ips`);
+ALTER TABLE `documents` ADD PRIMARY KEY (`id`), ADD FULLTEXT KEY `ips` (`ips`);
 ALTER TABLE `documents` MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT;
-ALTER TABLE `documents` ADD UNIQUE(`img`);
-ALTER TABLE `documents` ADD UNIQUE( `type`, `parlementaire`);

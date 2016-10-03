@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="FR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aidons l'Assemblée à écouter les citoyens</title>
+<link href="https://www.regardscitoyens.org/interets-des-elus/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://www.regardscitoyens.org/interets-des-elus/css/jquery.fs.zoomer.css" rel="stylesheet">
+<link href="https://www.regardscitoyens.org/interets-des-elus/css/datepicker.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="https://www.regardscitoyens.org/interets-des-elus/css/bootstrap-theme.min.css" rel="stylesheet" id="bs-theme-stylesheet">
+<link rel="shortcut icon" href="img/favicon.png">
+
+<!-- Twitter metas -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@RegardsCitoyens">
+<meta name="twitter:domain" content="RegardsCitoyens.org">
+<meta name="twitter:title" content="Numérisons les déclarations d'intérêts - Regards Citoyens">
+<meta name="twitter:description" content="Déclaration d'intérêts de Jean-Yves Le Déaut - activités de consultant">
+<meta name="twitter:image:src" content="http://www.regardscitoyens.org/interets-des-elus/img/declarations/le-deaut-jean-yves-dia-depute-54-mask-2_1.jpg">
+
+<!-- Facebook metas -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Numérisons les déclarations d'intérêts - Regards Citoyens" />
+<meta property="og:site_name" content="Numérisons les déclarations d'intérêts - Regards Citoyens" />
+<meta property="og:description" content="Déclaration d'intérêts de Jean-Yves Le Déaut - activités de consultant" />
+<meta property="og:url" content="http://www.regardscitoyens.org/interets-des-elus/" />
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="http://www.regardscitoyens.org/interets-des-elus/img/declarations/le-deaut-jean-yves-dia-depute-54-mask-2_1.jpg" />
+<meta property="og:image:type" content="image/jpeg">
+
+<style>
+.logo{float:right;height:50px;margin-right:6px;margin-top:2px;}
+.declaration{background: gray; padding: 10px;}
+.middlecenter {display:table-cell; vertical-align:middle !important; float:none;}
+.msg {padding: 15px; text-align: center;}
+.media {margin-top: 0px;}
+.media img {margin-top: 5px;}
+body: {padding-left: 10px; padding-right: 10px;}
+#stats h3 {margin-top: 0px;}
+#a-propos, #faq {padding-top: 50px}
+#a-propos p, #faq p {margin: 28px}
+.numerise .well {background-color: #fBfBdb}
+.numerise .text-muted {font-size: 85%}
+.jumbotron p {font-size: 14px; margin: 16px;}
+.jumbotron h1 {font-size: 44px}
+h1 {margin-bottom: 20px}
+#crowdtable { margin-top: 22px;}
+.consigne { font-size: 15px }
+.page-header {margin: 8px!important}
+#permalink-img, #start-num{padding-top:12px;}
+#crowdtable tr.extracol {opacity: 0.5}
+#crowdtable tr.extracol td.buttons {display: none}
+.container-fluid {overflow: scroll;}
+.numerisations {margin-top:90px;}
+.numerisations table {width: 95%; margin: 10px; text-align: center}
+.numerisations td {border: 1px grey solid; padding: 5px; max-width: 50%}
+.numerisations .selected td {background-color: #fBfBdb}
+.numerisations .auteur td {text-align: right; font-size: 80%; color: grey; width: 100%; border: none}
+.numerisations .selected2 td {color: black; font-weight: bold}
+</style>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="logo"><a target="_blank" href="http://RegardsCitoyens.org" title="Une initiative de Regards Citoyens"><img alt="Regards Citoyens" src="https://www.regardscitoyens.org/interets-des-elus/img/logo_regardscitoyens.png" height="50" /></a></div>
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./">Aidons l'Assemblée à écouter les citoyens</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active" ><a href="./#crowdsource">Participer</a></li>
+            <li><a href="./contributeurs.php">Les contributeurs</a></li>
+            <li><a target="_blank" href="http://www.hatvp.fr/consulter-les-declarations-rechercher.html">Consulter les déclarations</a></li>
+            <li><a href="./#faq">FAQ</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+   <li><a href="#signin" data-toggle="modal" data-target="#signin"><span class="glyphicon glyphicon-user"></span> S'enregistrer</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" role="main">
+      <div class="jumbotron"><div class="row">
+        <div class="col-md-12"><h1 class="text-center">Aidons l'Assemblée à écouter les citoyens</h1> </div>
+        <div class="col-md-8 ">
+        <p>bla bla bla bla bla bla</p>
+        <p id="start-num" class="text-right" style="margin-right: 50px"><a href="#crowdsource" class="btn btn-primary btn-lg" role="button">Participer à l'évaluation &raquo;</a></p>
+        </div>
+        <div id="stats" class="col-md-4 well well-lg">
+          <h3 class="text-center page-header">Statistiques</h3>
+          <div class="row">
+            <div class="col-xs-6">
+               <div id="statpie" style="height: 200px;"></div>
+            </div>
+            <div class="col-xs-6">
+	               <h4>Top des contributeurs</h1>
+               <ol>
+		<li title="Duncan - 1033 contributions"><a target="_blank" href="http://twitter.com/@duncan_rdvav">Duncan</a><small class="text-muted"> (1033)</small></li><li title="Yepok - 918 contributions">Yepok<small class="text-muted"> (918)</small></li><li title="cquest - 825 contributions"><a target="_blank" href="http://twitter.com/@cq94">cquest</a><small class="text-muted"> (825)</small></li><li title="sylvainl - 770 contributions"><a target="_blank" href="http://twitter.com/@sylvainlefur">sylvainl</a><small class="text-muted"> (770)</small></li><li title="XX - 665 contributions"><a target="_blank" href="http://twitter.com/@_X_i_a_o_X_i_n_">XX</a><small class="text-muted"> (665)</small></li>               </ol>
+               <span><a href="contributeurs.php">Consulter le top 50</a></span>
+              </div>
+	        <div class="col-xs-12 text-center">
+              <span class="text-muted text-center">Un total de 11&nbsp;095 éléments à numériser<br/>
+              7924 citoyens ont déjà contribué au total 86&nbsp;239 fois</span>
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+      <div id="crowdsource">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="well">
+            <div class="page-header">
+              <h3>Propos issu de la consultation Égalité Femme / Homme</h3>
+            </div>
+            <p>Voici le propos d'une personne qui souhaite porter à la connaissance des députés des informations ou expériences qui lui semblent intéressantes pour <strong>améliorer la place et l’image des femmes dans les médias audiovisuels et sur Internet</strong>&nbsp;:</p>
+            <p><b class="lead">«&nbsp;</b><samp>Les plateformes de consultation s'inscrivant dans une démocratie renouvelée à l'heure du numérique doivent respecter les principes de transparence attendus en démocratie. C'est pour cette raison qu'ils doivent reposer sur des logiciels libres dont le code source est diffusé et réutilisable librement, et que ces plateformes doivent permettre la production de données ouvertes non nominatives.</samp></p>
+            <p><samp>Enfin, si un acteur privé est chargé de la mise en place de ces plateformes, il ne peut en aucun cas faire usage des données à caractère personnel collectées dans un autre cadre que celui de la consultation pour laquelle elles ont été enregistrées. Ces données doivent de plus être détruites à l'issue du processus de consultation.</samp></p>
+            <p><samp>Assurer la transparence des plateformes de consultation en ligne utilisées par les pouvoirs publics<samp></p>
+            <p><samp>Ajouter un nouvel article ainsi rédigé :</samp></p>
+            <p><samp>" Les données à caractère personnel collectées dans le cadre de ces consultations ne peuvent faire l'objet d'aucune réutilisation ou d'aucun traitement en dehors des traitements strictement nécessaires à la réalisation de la consultation. Elles sont détruites à l'issue de la consultation. "</samp></p>
+            <p><samp>" Les plateformes de consultation utilisées par l'Etat, les collectivités territoriales et les autres personnes de droit public ou les personnes de droit privé chargées d'une mission de service public sont diffusées sous logiciel libre et comportent des fonctionnalités d'extraction de toutes les informations publiques non nominatives générées sous un format ouvert permettant leur libre réutilisation. "</samp><b class="lead">&nbsp;»</b></p>
+          </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="well">
+            <div class="page-header">
+              <h3>Aidez à évaluer ce propos</h3>
+            </div>
+              <form>
+              <div class="form-group">
+              <input type="hidden" value="a0cfbc197e1b282425454ef9d8a4d77f" name="token">
+                <label>La personne dont vous étudiez la participation à la consultation a voulu aider les députés car elle semble :</label>
+                <div class="checkbox"><label><input type="checkbox" value="">subir ou avoir subi ce problème</label></div>
+                <div class="checkbox"><label><input type="checkbox" value="">être en contact avec des personnes qui subissent ou ont subi ce problème</label></div>
+                <div class="checkbox"><label><input type="checkbox" value="">pouvoir, par votre action, résoudre ou améliorer ce problème</label></div>
+                <div class="checkbox"><label><input type="checkbox" value="">avoir fait des recherches approfondies sur ce problème</label></div>
+                <div class="checkbox"><label><input type="checkbox" value="">avoir une opinion à exprimer sur ce problème</label></div>
+              </div>
+              <div class="form-group">
+                <label>Parmi les thèmes suivants, quels sont ceux qui sont abordés dans la contribution&nbsp;:</label>
+                <div class="text-center">
+                <div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Violence</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Sexisme</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Enfant</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Couple</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Télévision</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Harcellement</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Pension alimentaire</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>RSA</label>
+                </div><div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Film</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Acteur</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Violence</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Sexisme</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Enfant</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Couple</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Télévision</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Harcellement</label>
+                </div><div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Pension alimentaire</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>RSA</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Film</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Acteur</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Violence</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Sexisme</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Enfant</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Couple</label>
+                </div><div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Télévision</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Harcellement</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Pension alimentaire</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Aide Sociale</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Film</label>
+                  <label class="btn btn-default"><input type="checkbox" autocomplete="off" checked>Acteur</label>
+                </div></div>
+              </div>
+              <div class="form-group">
+                <label>Sélectionner parmi les affirmations suivantes celles qui s'appliquent à cette contribution&nbsp;:</label>
+                <div class="checkbox"><label><input type="checkbox" value="">Le propos relate une expérience</label></div>
+                <div class="checkbox"><label><input type="checkbox" value="">Le propos est argumenté</label></div>
+                <div class="checkbox"><label><input type="checkbox" value="">Le propos soulève un problème juridique</label></div>
+                <div class="checkbox"><label><input type="checkbox" value="">Le propos fait état d'un problème personnel</label></div>
+              </div>
+              <div class="form-group">
+                <label>Quel usage trouveriez vous pertinant de réaliser avec cette contribution&nbsp;?</label>
+                <div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-default"><input type="radio" name="options" id="option1" autocomplete="off" checked>l'ignorer</label>
+                  <label class="btn btn-default"><input type="radio" name="options" id="option2" autocomplete="off" checked>en faire un usage statistique</label>
+                  <label class="btn btn-default"><input type="radio" name="options" id="option3" autocomplete="off" checked>la synthétiser</label>
+                  <label class="btn btn-default"><input type="radio" name="options" id="option4" autocomplete="off" checked>la publier</label>
+                  <label class="btn btn-default"><input type="radio" name="options" id="option5" autocomplete="off" checked>organiser une audition entre les députés et son auteur-e</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-xs-4 form-inline">
+                  <div class="btn-group control">
+                    <button class="form-control btn btn-danger dropdown-toggle" data-toggle="dropdown" type="button">Signaler un problème<span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Le propos n'est pas compréhensible</a></li>
+                      <li><a href="#">Le propos est choquant</a></li>
+                      <li><a href="#">Le propos est diffamatoire</a></li>
+                      <li><a href="#">Le propos viole la vie privée</a></li>
+                    </ul>
+                  </div></div>
+                  <div class="col-xs-8">
+                    <div class="pull-right">
+                      <button id="validate" class="btn btn-success" type="submit">
+                        <span class="libelle">Valider le formulaire vide</span>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </button>
+                    </div>
+                  </div>
+                    <div class="col-xs-offset-4 col-xs-8">
+                      <a class="pull-right btn-link" href="./next.php" style="margin: 10px 25px 0">Changer de déclaration</a>
+                    </div>
+                    <p class="text-muted" style="margin-top: 20px;">Si vous avez le sentiment que la contribution ne devrait pas être étudiée par d'autres internautes, merci de nous l'indiquer en cliquant sur « Signaler un problème », nous vous proposerons un autre extrait de déclaration à saisir.</p>
+                    <p class="text-muted"><a href="#faq">Un doute ou une question ? cliquez ici pour lire les Questions Fréquentes.</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="a-propos" class="col-md-12">
+        <h2 class="text-center page-header">À propos</h2>
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <p>Ce site est une création de <a href="http://regardscitoyens.org" target="_blank">Regards Citoyens</a>. Il vise à assurer de manière collaborative et transparente l'accès en Open Data pour l'ensemble des citoyens aux déclarations d'intérêts des élus publiées par la Haute Autorité pour la Transparence de la Vie Publique comme le prévoit le IV à l'<a href="http://legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000028059568&dateTexte=">article LO135-2 du Code électoral</a> tel que modifié par la <a href="http://www.lafabriquedelaloi.fr/articles.html?loi=pjl12-688">loi organique n° 2013-906 du 11 octobre 2013 relative à la transparence de la vie publique</a>.</p>
+          <p>Les déclarations remplies par les 577 députés et 348 sénateurs comportent chacune 12 parties, soit un total de plus de 11&nbsp;000 extraits de formulaires renseignés à la main à numériser. Pour éviter d'intégrer toute erreur de saisie ou tentative de vandalisme, chaque extrait de formulaire est présenté au hasard aux utilisateurs et n'est considéré comme valablement numérisé que lorsque 3 utilisateurs différents auront saisi les mêmes informations.</p>
+          <p>Le logiciel permettant de réaliser et publier cette interface est un logiciel libre diffusé sous <a href="http://www.gnu.org/licenses/agpl-3.0.html">licence Affero GPL v3</a> et dont le code source est disponible en ligne sur <a href="https://github.com/regardscitoyens/crowdsource_dpi/" target="_blank">GitHub</a>.</p>
+          <p>Toutes les données collaborativement reconstruites grâce à cette interface seront publiées en Open Data sous <a href="http://wiki.data.gouv.fr/wiki/Licence_Ouverte_/_Open_Licence">Licence Ouverte</a> sur <a href="http://nosdonnees.fr">NosDonnées.fr</a> et <a href="http://data.gouv.fr">data.gouv.fr</a>.</p>
+          <p>Les <a href="http://regardscitoyens.org/mentions-legales/">mentions légales</a> usuelles des sites de Regards Citoyens s'appliquent.</p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+      <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="signinLabel" aria-hidden="true">
+       <div class="modal-dialog">
+         <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+            <h4 class="modal-title" id="signinLabel">S'enregistrer</h4>
+          </div>
+          <form class="form-horizontal" role="form" action="login.php" method="POST">
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="nickname" class="col-sm-5 control-label">Nom/Pseudo</label>
+              <div class="col-sm-7">
+                <input class="form-control" name="nickname" required='true' value="" placeholder="Mon pseudo">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="twitter" class="col-sm-5 control-label">Utilisateur Twitter/Identica</label>
+              <div class="col-sm-7">
+                 <input type="text" class="form-control" name="twitter" value="" placeholder="@utilisateur">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="website" class="col-sm-5 control-label">Site web</label>
+              <div class="col-sm-7">
+                 <input type="text" class="form-control" name="website" value="" placeholder="http://....">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <div class="checkbox">
+  	          <small>En fournissant ces informations, vous acceptez qu'elles soient publiées dans la liste des contributeurs</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Abandonner</button>
+           <input type="submit" class="btn btn-primary" value="Valider"/>
+          </form>
+         </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="https://www.regardscitoyens.org/interets-des-elus/js/jquery.min.js"></script>
+    <script src="https://www.regardscitoyens.org/interets-des-elus/js/bootstrap.min.js"></script>
+    <script src="https://www.regardscitoyens.org/interets-des-elus/js/jquery.elevatezoom.min.js"></script>
+    <script src="https://www.regardscitoyens.org/interets-des-elus/js/bootstrap-datepicker.js"></script>
+    <script src="https://www.regardscitoyens.org/interets-des-elus/js/bootstrap-datepicker.fr.js"></script>
+    <script type="text/javascript" src="https://www.regardscitoyens.org/interets-des-elus/js/jquery.flot.min.js"></script>
+    <script type="text/javascript" src="https://www.regardscitoyens.org/interets-des-elus/js/jquery.flot.pie.min.js"></script>
+    <script>
+data = [ { label: "Fait",  data: 100.0180261379, color: '#5CB85C'}, { label: "A faire",  data: -0.018026137899952, color: '#FFF'} ];
+$.plot("#statpie", data , {series: { pie: { show: true,  label: { radius: 0.33, threshold: 0.1, show: true, formatter: function(data, serie){ return serie.label+'<br/>'+Math.round(10*serie.percent)/10+'%';}}}},legend:{show: false}, grid:{hoverable: true}});
+    </script>
+    <script type="text/javascript">
+
+// Google
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10423931-1']);
+  _gaq.push (['_gat._anonymizeIp']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+    </script>
+      <p></p>
+  </body>
+</html>

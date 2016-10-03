@@ -30,7 +30,7 @@
 	   <?php if (true || !$nodoc) : ?>
        <form role="form" action="save.php" method="POST">
          <input type="hidden" name="token" value="<?php echo $token; ?>"/>
-         <?php include("../include/view/forms/form1.php"); ?>
+         <?php include("../include/view/forms/form_consultation.php"); ?>
          <div class="row">
              <div class="col-xs-4">
              <div class="btn-group control">

@@ -22,12 +22,7 @@
               <h3 class="page-header text-center">
               Participer à évaluer ce propos
               </h3>
- 	      <?php if (isset($sent_ok) && $sent_ok) : ?>
-                <div class="alert alert-danger text-center" role="alert">
-                  Les saisies ne sont plus enregistrées
-                </div>
-              <?php endif; ?>
-	   <?php if (true || !$nodoc) : ?>
+	   <?php if (!$nodoc) : ?>
        <form role="form" action="save.php" method="POST">
          <input type="hidden" name="token" value="<?php echo $token; ?>"/>
          <?php include("../include/view/forms/form_consultation.php"); ?>

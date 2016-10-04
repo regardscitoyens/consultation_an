@@ -19,21 +19,17 @@ if (isset($_GET['pb'])) {
 }else if (isset($_POST['neant'])) {
   $data = 'NEANT';
 }else {
+  $vars = $_POST;
+  unset($vars['token']);
+  var_dump($vars);
   $data = array();
-  $champ = $_POST['champ'];
-  for($x = 0 ; $x < 100 ; $x++) {
-    $subdata = array();
-    $fields = '';
-    for($y = 0 ; $y < 100 ; $y++) {
-      if (!isset($champ[$x.','.$y]))
-	break;
-      $fields .= $champ[$x.','.$y];
-      array_push($subdata, $champ[$x.','.$y]);
+  foreach($vars as $name => $on) {
+    $keyval = explode('|', $name);
+    var_dump($keyval);
+    if (!isset($data[$keyval[0]])) {
+      $data[$keyval[0]] = array();
     }
-    if (count($subdata) && $fields) {
-      array_push($data, $subdata) ;
-    }
-    if (!$y) break;
+    array_push($data[$keyval[0]], $keyval[1]);
   }
   if (!count($data)) $data = 'NEANT';
 }

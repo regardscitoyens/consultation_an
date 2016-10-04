@@ -2,6 +2,41 @@
 
 require_once(__DIR__.'/../db.php');
 
+function get_document_categories() {
+  return array(
+    "Violence",
+    "Sexisme",
+    "Enfant",
+    "Couple",
+    "Télévision",
+    "Harcellement",
+    "Pension alimentaire",
+    "RSA",
+    "Film",
+    "Acteur",
+    "Violence",
+    "Sexisme",
+    "Enfant",
+    "Couple",
+    "Télévision",
+    "Harcellement",
+    "Pension alimentaire",
+    "RSA",
+    "Film",
+    "Acteur",
+    "Violence",
+    "Sexisme",
+    "Enfant",
+    "Couple",
+    "Télévision",
+    "Harcellement",
+    "Pension alimentaire",
+    "Aide Sociale",
+    "Film",
+    "Acteur"
+  );
+}
+
 function get_rand_document() {
   global $bdd;
   if (!$bdd) {

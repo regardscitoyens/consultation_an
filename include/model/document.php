@@ -10,7 +10,10 @@ function get_nb_jours_restant() {
 }
 
 function get_document_categories() {
-  return array( "Violence", "Sexisme", "Enfant", "Couple", "Télévision", "Harcellement", "Pension alimentaire", "RSA", "Film", "Acteur", "Violence", "Sexisme", "Enfant", "Couple", "Télévision "Harcelleme "Pension altaire", "RSA", "Film", "Acteur", "Violence", "Sexisme", "Enfant", "Couple", "Télévision", "Harcellement", "Pension alimentaire", "Aide Sociale", "Film", "Acteur");
+  return array( "Violence", "Sexisme", "Enfant", "Couple", "Télévision", "Harcellement", "Pension alimentaire", "RSA",
+      "Film", "Acteur", "Violence", "Sexisme", "Enfant", "Couple", "Télévision", "Harcellement", "Pension altaire", "RSA",
+      "Film", "Acteur", "Violence", "Sexisme", "Enfant", "Couple", "Télévision", "Harcellement", "Pension alimentaire",
+      "Aide Sociale", "Film", "Acteur");
 }
 
 function get_pc_done() {

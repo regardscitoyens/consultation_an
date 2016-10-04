@@ -1,6 +1,6 @@
 <div class='row' style="margin-top: 60px;">
 <div class="col-md-6 col-md-offset-3">
-<?php include(__DIR__.'/declarationimg.php');  ?>
+<?php include(__DIR__.'/consultation_frame.php');  ?>
   <?php if ($numerisations) :
   $exceptions = array(
     '"CORRECTED"' => "Problème remonté, corrigé",

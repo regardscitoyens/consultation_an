@@ -11,12 +11,13 @@
 <div class="form-group">
   <label>Parmi les thèmes suivants, quels sont ceux qui sont abordés dans la contribution&nbsp;:</label>
   <div class="text-center">
-    <div class="text-center"><div class="btn-group" data-toggle="buttons">
+    <div class="pagination">
+      <div class="btn-group" data-toggle="buttons">
     <?php foreach (get_document_categories() as $c ) : ?>
       <label class="btn btn-default"><input type="checkbox" autocomplete="off" name="themes|<?php echo $c; ?>"><?php echo $c; ?></label>
     <?php endforeach; ?>
     </div></div>
-  </div>
+  </div></div>
   <div class="form-group">
     <label>Sélectionner parmi les affirmations suivantes celles qui s'appliquent à cette contribution&nbsp;:</label>
     <ul>

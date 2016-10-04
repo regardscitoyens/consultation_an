@@ -2,39 +2,22 @@
 
 require_once(__DIR__.'/../db.php');
 
+function get_nb_jours_total() {
+  return 14;
+}
+function get_nb_jours_restant() {
+  return 13;
+}
+
 function get_document_categories() {
-  return array(
-    "Violence",
-    "Sexisme",
-    "Enfant",
-    "Couple",
-    "Télévision",
-    "Harcellement",
-    "Pension alimentaire",
-    "RSA",
-    "Film",
-    "Acteur",
-    "Violence",
-    "Sexisme",
-    "Enfant",
-    "Couple",
-    "Télévision",
-    "Harcellement",
-    "Pension alimentaire",
-    "RSA",
-    "Film",
-    "Acteur",
-    "Violence",
-    "Sexisme",
-    "Enfant",
-    "Couple",
-    "Télévision",
-    "Harcellement",
-    "Pension alimentaire",
-    "Aide Sociale",
-    "Film",
-    "Acteur"
-  );
+  return array( "Violence", "Sexisme", "Enfant", "Couple", "Télévision", "Harcellement", "Pension alimentaire", "RSA", "Film", "Acteur", "Violence", "Sexisme", "Enfant", "Couple", "Télévision "Harcelleme "Pension altaire", "RSA", "Film", "Acteur", "Violence", "Sexisme", "Enfant", "Couple", "Télévision", "Harcellement", "Pension alimentaire", "Aide Sociale", "Film", "Acteur");
+}
+
+function get_pc_done() {
+  $total = get_nb_documents();
+  $contribs = get_nb_contribs();
+  $done = get_nb_done();
+  return ($contribs / $total * 4) * (get_nb_jours_total() - get_nb_jours_restant()) / get_nb_jours_total();
 }
 
 function get_rand_document() {
@@ -126,12 +109,6 @@ function get_nb_contribs() {
   return $data['ok'];
 }
 
-function get_pc_done() {
-  $total = get_nb_documents();
-  //  $contribs = get_nb_contribs();
-  $done = get_nb_done();
-  return $done * 100 / $total;
-}
 
 function get_nb_done() {
   global $bdd;
@@ -145,14 +122,11 @@ function get_nb_done() {
   return $data['done'];
 }
 
-
 function get_nb_documents() {
-  return 11057;
   global $bdd;
   if (!$bdd) {
     return 0;
   }
-
   $req = $bdd->prepare("SELECT count(*) as total FROM documents");
   $req->execute();
   $data = $req->fetch();

@@ -38,7 +38,7 @@ function get_document_from_req($req) {
   if (!$data) {
     return 0;
   }
-  $doc['text'] = $data['text'];
+  $doc['text'] = preg_replace('/[ \n]*$/', '', $data['text']);
   $doc['theme'] = $data['theme'];
   $doc['id'] = $data['id'];
   $doc['ips'] = $data['ips'];

@@ -11,8 +11,8 @@ function get_nb_jours_restant() {
 
 function get_document_categories() {
   $mots = array( "Violences faites aux femmes", "Prostitution", "Préjugés sexistes", "Maîtrise de la sexualité",
-  "Précarité des femmes", "Egalité professionnelle et salariale", "Articulation des temps de vie", "Accès aux responsabilités", "construction sociale des rôles sexués",
-  "Pension alimentaire", "RSA", "Représentation médiatique", "Aides sociales", "Internet");
+  "Précarité des femmes", "Egalité professionnelle et salariale", "Articulation des temps de vie", "Accès aux responsabilités", "Construction sociale des rôles sexués",
+  "Pension alimentaire", "RSA", "Représentations médiatiques", "Aides sociales", "Internet", "Expérimentation départementale");
   sort($mots);
   return $mots;
 }

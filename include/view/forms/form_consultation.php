@@ -10,22 +10,11 @@
 </div>
 <div class="form-group">
   <label>Parmi les thèmes suivants, quels sont ceux qui sont abordés dans la contribution&nbsp;:</label>
-  <div class="text-center">
-    <div class="pagination">
-      <div class="btn-group" data-toggle="buttons">
+  <div class="btn-group" data-toggle="buttons">
     <?php foreach (get_document_categories() as $c ) : ?>
       <label class="btn btn-default"><input type="checkbox" autocomplete="off" name="themes|<?php echo $c; ?>"><?php echo $c; ?></label>
     <?php endforeach; ?>
-    </div></div>
-  </div></div>
-  <div class="form-group">
-    <label>Sélectionner parmi les affirmations suivantes celles qui s'appliquent à cette contribution&nbsp;:</label>
-    <ul>
-      <div class="checkbox"><label><input type="checkbox" name="affirmations|Le propos relate une expérience">Le propos relate une expérience</label></div>
-      <div class="checkbox"><label><input type="checkbox" name="affirmations|Le propos est argumenté">Le propos est argumenté</label></div>
-      <div class="checkbox"><label><input type="checkbox" name="affirmations|Le propos soulève un problème juridique">Le propos soulève un problème juridique</label></div>
-      <div class="checkbox"><label><input type="checkbox" name="affirmations|Le propos fait état d'un problème personnel">Le propos fait état d'un problème personnel</label></div>
-    </ul>
+    <label class="btn btn-default" id="autresthemes">Autre</label>
   </div>
   <div class="form-group">
     <label>Quel usage trouveriez vous pertinant de réaliser avec cette contribution&nbsp;?</label>

@@ -1,4 +1,5 @@
 <div class="form-group">
+  <p class="text-muted">Pour mieux traiter les constributions, nous avons besoin de les classer par thèmes.</p>
   <label>Parmi les thèmes suivants, quels sont ceux qui sont abordés dans la contribution&nbsp;:</label>
   <div class="btn-group" data-toggle="buttons">
     <?php foreach (get_document_categories() as $c ) : ?>
@@ -8,6 +9,7 @@
   </div>
 </div>
 <div class="form-group">
+  <p class="text-muted">Les contributions peuvent contenir des éléments très différents. Adiez nous à les identifier.</p>
   <label>La contribution contient&nbsp;:</label>
   <div class="row">
     <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|l'évocation d'expérience(s) personnelle(s)" value="l'évocation d'expérience(s) personnelle(s)">l'évocation d'expérience(s) personnelle(s)</label></div>
@@ -20,6 +22,7 @@
   </div>
 </div>
 <div class="form-group">
+  <p class="text-muted">Aidez nous à faire émerger les propos les plus intéressants. D'un usage statistiques à l'organisation d'une audition à l'Assemblée Nationale, toutes les contributions peuvent être utiles. Si vous pensez que la contribtion n'a pas d'intérêt, indiquez le nous via le bouton « Signaler un problème »</p>
   <label>Quel usage trouveriez vous pertinant de réaliser avec cette contribution&nbsp;?</label>
   <div class="text-center"><div class="btn-group" data-toggle="buttons">
     <label class="btn btn-default"><input type="radio" name="realisation|en faire un usage statistique" id="option2" autocomplete="off">en faire un usage statistique</label>

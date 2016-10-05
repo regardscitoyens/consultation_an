@@ -10,13 +10,13 @@
 <div class="form-group">
   <label>La contribution contient&nbsp;:</label>
   <div class="row">
-    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|l'évocation d'expérience(s) personnelle(s)">l'évocation d'expérience(s) personnelle(s)</label></div>
-    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une information ou donnée sur le problème">des informations ou données sur le problème</label></div>
-    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une analyse des causes du problème">une analyse des causes du problème</label></div>
-    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une prise de position contre une mesure existante">des prises de position contre une mesure existante</label></div>
-    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une proposition de nouvelles mesures">des propositions de nouvelles mesures</label></div>
-    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une question ou demande d'information">des questions ou demandes d'information</label></div>
-    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une prise de position en faveur d'une mesure existante">des prises de position en faveur d'une mesure existante</label></div>
+    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|l'évocation d'expérience(s) personnelle(s)" value="l'évocation d'expérience(s) personnelle(s)">l'évocation d'expérience(s) personnelle(s)</label></div>
+    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une information ou donnée sur le problème" value="des informations ou données sur le problème">des informations ou données sur le problème</label></div>
+    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une analyse des causes du problème" value="une analyse des causes du problème">une analyse des causes du problème</label></div>
+    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une prise de position contre une mesure existante" value="des prises de position contre une mesure existante">des prises de position contre une mesure existante</label></div>
+    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une proposition de nouvelles mesures" value="des propositions de nouvelles mesures">des propositions de nouvelles mesures</label></div>
+    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une question ou demande d'information" value="des questions ou demandes d'information">des questions ou demandes d'information</label></div>
+    <div class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une prise de position en faveur d'une mesure existante" value="des prises de position en faveur d'une mesure existante">des prises de position en faveur d'une mesure existante</label></div>
   </div>
 </div>
 <div class="form-group">

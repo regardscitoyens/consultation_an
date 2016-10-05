@@ -1,14 +1,4 @@
 <div class="form-group">
-  <label>La personne dont vous étudiez la participation à la consultation a voulu aider les députés car elle semble :</label>
-  <ul>
-    <div class="checkbox"><label><input type="checkbox" name="motivations|subir ou avoir subi ce problème">subir ou avoir subi ce problème</label></div>
-    <div class="checkbox"><label><input type="checkbox" name="motivations|être en contact avec des personnes qui subissent ou ont subi ce problème">être en contact avec des personnes qui subissent ou ont subi ce problème</label></div>
-    <div class="checkbox"><label><input type="checkbox" name="motivations|pouvoir, par votre action, résoudre ou améliorer ce problème">pouvoir, par votre action, résoudre ou améliorer ce problème</label></div>
-    <div class="checkbox"><label><input type="checkbox" name="motivations|avoir fait des recherches approfondies sur ce problème">avoir fait des recherches approfondies sur ce problème</label></div>
-    <div class="checkbox"><label><input type="checkbox" name="motivations|avoir une opinion à exprimer sur ce problème">avoir une opinion à exprimer sur ce problème</label></div>
-  </ul>
-</div>
-<div class="form-group">
   <label>Parmi les thèmes suivants, quels sont ceux qui sont abordés dans la contribution&nbsp;:</label>
   <div class="btn-group" data-toggle="buttons">
     <?php foreach (get_document_categories() as $c ) : ?>

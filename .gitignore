@@ -2,3 +2,4 @@
 include/config.php
 .*
 _*
+data/*

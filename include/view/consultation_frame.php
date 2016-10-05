@@ -1,12 +1,15 @@
           <div class="well">
             <div class="media text-center">
               <div class="media-body">
-               <h3 class="page-header text-muted">Contribution de la consultation Égalité Femme / Homme</h3>
+               <h3 class="page-header text-muted">Contribution à la consultation Égalité Femme / Homme</h3>
+               <h4 class="text-muted">Thématique n° 5 : La protection contre les violences conjugales</h4>
               </div>
              </div>
-             <p><small>Voici le propos d'une personne qui souhaite porter à la connaissance des députés des informations ou expériences qui lui semblent intéressantes pour
-               <strong><?php echo $theme; ?></strong>&nbsp;:</small></p>
+             <p>À la question «», une personne a répondu : </p>
              <p><b class="lead">«&nbsp;</b><samp>
                <?php echo preg_replace('/\n/', '</samp></p><p><samp>', $text); ?>
              </samp><b class="lead">&nbsp;»</b></p>
+             <div>
+               <p class="text-right"><a href="">Voir cette partie du questionnaire de la consultation</a></p>
+             </div>
           </div>

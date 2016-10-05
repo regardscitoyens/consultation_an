@@ -19,6 +19,9 @@ if (!$doc) {
 }else{
   $text = $doc['text'];
   $theme = $doc['theme'];
+  $theme_titre = $doc['theme_titre'];
+  $theme_url = $doc['theme_url'];
+  $question = $doc["question"];
   $_SESSION['document_id'] = $doc['id'];
 }
 

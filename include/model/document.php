@@ -31,15 +31,15 @@ function get_rand_document() {
     return get_document_from_id($id);
   }
   if (isset($_GET['goto'])) {
-    $req = $bdd->prepare("SELECT text, theme, source, id, ips, tries, source FROM documents WHERE id = :id ");
+    $req = $bdd->prepare("SELECT text, theme, source, question, id, ips, tries, source FROM documents WHERE id = :id ");
     $req->execute(array('id' => $_GET['goto']));
   }else{
-    $req = $bdd->prepare("SELECT text, theme, source, id, ips, tries, source FROM documents WHERE enabled = 1 AND done = 0 AND ips NOT LIKE :ip ORDER BY rand() LIMIT 1 ");
+    $req = $bdd->prepare("SELECT text, theme, source, question, id, ips, tries, source FROM documents WHERE enabled = 1 AND done = 0 AND ips NOT LIKE :ip ORDER BY rand() LIMIT 1 ");
     $req->execute(array('ip' => '%,'.$_SERVER['REMOTE_ADDR'].',%'));
     if (!$req->rowCount()) {
-      $req = $bdd->prepare("SELECT text, theme, source, id, ips, tries, source FROM documents WHERE enabled = 1 AND ips NOT LIKE :ip ORDER BY rand() LIMIT 1 ");
+      $req = $bdd->prepare("SELECT text, theme, source, question, id, ips, tries, source FROM documents WHERE enabled = 1 AND ips NOT LIKE :ip ORDER BY rand() LIMIT 1 ");
       $req->execute(array('ip' => '%,'.$_SERVER['REMOTE_ADDR'].',%'));
-   }
+    }
   }
   return get_document_from_req($req);
 }
@@ -49,19 +49,34 @@ function get_document_from_id($id) {
   if (!$bdd) {
     return array();
   }
-  $req = $bdd->prepare("SELECT text, theme, source, id, ips, tries, source FROM documents WHERE id = :id");
+  $req = $bdd->prepare("SELECT text, theme, source, question, id, ips, tries, source FROM documents WHERE id = :id");
   $req->execute(array('id' => $id));
   return get_document_from_req($req);
 }
 
 function get_document_from_req($req) {
   global $sections;
+  $theme2url = array("", "", "http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE2",
+                   "http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE3",
+                   "http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE4",
+                   "http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE5",
+                   "http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE6");
+
+  $theme2titre = array("", "", "La place et l’image des femmes dans les médias audiovisuels et sur Internet",
+                        "Le partage des responsabilités parentales",
+                        "La lutte contre les impayés de pensions alimentaires",
+                        "La protection contre les violences conjugales",
+                        "A propos de la consultation");
+
   $data = $req->fetch();
   if (!$data) {
     return 0;
   }
   $doc['text'] = preg_replace('/[ \n]*$/', '', $data['text']);
   $doc['theme'] = $data['theme'];
+  $doc['theme_url'] = $theme2url[$data['theme']];
+  $doc['theme_titre'] = $theme2titre[$data['theme']];
+  $doc['question'] = $data['question'];
   $doc['id'] = $data['id'];
   $doc['ips'] = $data['ips'];
   $doc['tries'] = $data['tries'];

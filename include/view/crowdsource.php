@@ -31,9 +31,12 @@
              <div class="btn-group control">
                <button type="button" class="form-control btn btn-danger dropdown-toggle" data-toggle="dropdown">Signaler un problème <span class="caret"></span></button>
                <ul class="dropdown-menu" role="menu">
-                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=1">Les informations remplies sont illisibles</a></li>
-                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=2">Le scan semble mal découpé</a></li>
-                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=3">Les informations déclarées semblent incomplètes</a></li>
+                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=1">Je ne comprends pas les propos</a></li>
+                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=2">Le propos manque d'argument</a></li>
+                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=3">Le propos est trop technique</a></li>
+                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=4">Le propos me semble illégal</a></li>
+                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=5">J'aurai aimé ne pas avoir à lire ce propos (trop violent, trop personnel, ...)</a></li>
+                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=6">Autre</a></li>
                </ul>
            </div>
            </div>

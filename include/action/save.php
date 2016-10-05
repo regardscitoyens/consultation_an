@@ -2,6 +2,16 @@
 require_once(__DIR__.'/../model/document.php');
 require_once(__DIR__.'/../model/user.php');
 
+$current_url = 'http';
+if ($_SERVER["HTTPS"] == "on") {$current_url .= "s";}
+$current_url .= "://";
+if ($_SERVER["SERVER_PORT"] != "80") {
+  $current_url .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"];
+} else {
+  $current_url .= $_SERVER["SERVER_NAME"];
+}
+$current_url .= str_replace('save.php', '', $_SERVER["REQUEST_URI"]);
+
 if (isset($_GET['pb'])) {
   $token = $_GET['token'];
 }else{
@@ -24,7 +34,7 @@ if (isset($_POST['synthese']) && isset($_SESSION['task_id'])) {
   }
   $_SESSION['task_id'] = null;
   $_SESSION['affirmation'] = null;
-  $_SESSION['lastpage'] = "./consultation.php?id=".$_SESSION['document_id'];
+  $_SESSION['lastpage'] = $current_url."consultation.php?id=".$_SESSION['document_id'];
   $_SESSION['sent_ok'] = true;
   $_SESSION['token'] = null;
   $_SESSION['document_id'] = null;
@@ -75,7 +85,7 @@ if ($req->rowCount() && count($affirmations)) {
   exit;
 }
 
-$_SESSION['lastpage'] = "./consultation.php?id=".$_SESSION['document_id'];
+$_SESSION['lastpage'] = $current_url."consultation.php?id=".$_SESSION['document_id'];
 $_SESSION['sent_ok'] = true;
 $_SESSION['token'] = null;
 $_SESSION['document_id'] = null;

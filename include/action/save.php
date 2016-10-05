@@ -17,13 +17,14 @@ if ($token != $_SESSION['token'] || !$bdd) {
 
 //Gestion du 2d écran (synthèse)
 if (isset($_POST['synthese']) && isset($_SESSION['task_id'])) {
-
-  $req = $bdd->prepare("UPDATE tasks SET synthese = :synthese WHERE id = :task_id");
-  $req->execute(array('synthese' => $_POST['synthese'], 'task_id' => $_SESSION['task_id']));
+  if ($_POST["synthese"]) {
+    $req = $bdd->prepare("UPDATE tasks SET synthese = :synthese WHERE id = :task_id");
+    $req->execute(array('synthese' => $_POST['synthese'], 'task_id' => $_SESSION['task_id']));
+    $_SESSION['synthese'] = $_POST['synthese'];
+  }
   $_SESSION['task_id'] = null;
   $_SESSION['affirmation'] = null;
   $_SESSION['lastpage'] = "./consultation.php?id=".$_SESSION['document_id'];
-  $_SESSION['synthese'] = $_POST['synthese'];
   $_SESSION['sent_ok'] = true;
   $_SESSION['token'] = null;
   $_SESSION['document_id'] = null;

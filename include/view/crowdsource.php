@@ -37,6 +37,7 @@
          ?>
          <div class="row">
              <div class="col-xs-4">
+            <?php if (!$is_synthese): ?>
              <div class="btn-group control">
                <button type="button" class="form-control btn btn-danger dropdown-toggle" data-toggle="dropdown">Signaler un problème <span class="caret"></span></button>
                <ul class="dropdown-menu" role="menu">
@@ -47,7 +48,8 @@
                  <li><a href="./save.php?token=<?php echo $token; ?>&pb=5">J'aurai aimé ne pas avoir à lire ce propos (trop violent, trop personnel, ...)</a></li>
                  <li><a href="./save.php?token=<?php echo $token; ?>&pb=6">Autre</a></li>
                </ul>
-           </div>
+             </div>
+           <?php endif; ?>
            </div>
            <div class="col-xs-8"><div class="pull-right"><button id="validate" type="submit" class="btn btn-success"><span class="libelle">Valider</span>&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></button></div></div>
            <p><a  class="pull-right btn-link" href="./next.php" style="margin: 10px 25px 0">Changer de déclaration</a></p>

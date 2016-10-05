@@ -10,10 +10,11 @@ function get_nb_jours_restant() {
 }
 
 function get_document_categories() {
-  return array( "Violence", "Sexisme", "Enfant", "Couple", "Télévision", "Harcellement", "Pension alimentaire", "RSA",
-      "Film", "Acteur", "Violence", "Sexisme", "Enfant", "Couple", "Télévision", "Harcellement", "Pension altaire", "RSA",
-      "Film", "Acteur", "Violence", "Sexisme", "Enfant", "Couple", "Télévision", "Harcellement", "Pension alimentaire",
-      "Aide Sociale", "Film", "Acteur");
+  $mots = array( "Violences faites aux femmes", "Prostitution", "Préjugés sexistes", "Maîtrise de la sexualité",
+  "Précarité des femmes", "Egalité professionnelle et salariale", "Articulation des temps de vie", "Accès aux responsabilités", "construction sociale des rôles sexués",
+  "Pension alimentaire", "RSA", "Représentation médiatique", "Aides sociales", "Internet");
+  sort($mots);
+  return $mots;
 }
 
 function get_pc_done() {

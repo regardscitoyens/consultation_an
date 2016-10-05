@@ -3,8 +3,16 @@ include(__DIR__."/../model/document.php");
 require_once(__DIR__."/../model/user.php");
 
 retrieve_user_or_create_it();
-$doc = get_rand_document();
-
+if (isset($_SESSION['task_id']) && isset($_SESSION['document_id']) && isset($_SESSION['affirmation'])) {
+  $is_synthese = true;
+  $affirmation = $_SESSION['affirmation'];
+  $_SESSION['affirmation_save'] = $_SESSION['affirmation'];
+  $_SESSION['affirmation'] = null;
+  $doc = get_document_from_id($_SESSION['document_id']);
+}else{
+  $is_synthese = false;
+  $doc = get_rand_document();
+}
 $nodoc = 0;
 if (!$doc) {
   $nodoc = 1;

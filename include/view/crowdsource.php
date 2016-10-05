@@ -6,7 +6,11 @@
 	 echo "N'hésitez pas à <a href=\"#signin\" data-toggle=\"modal\" data-target=\"#signin\">vous enregistrer</a> pour apparaitre parmi les contributeurs de ce projet. ";
 	 }
      echo "Si vous souhaitez partager la section que vous venez de saisir, elle est <a href=\"".$_SESSION['lastpage']."\">consultable ici</a>.";
+     if (isset($_SESSION['synthese'])) {
+       echo "<br/><a href=\"https://twitter.com/intent/tweet?text=".urlencode("« ".$_SESSION['synthese']." » ".$_SESSION['lastpage']." #ConsultEgalite")."\" target='_blank'>Tweeter votre synthèse</a>";
+     }
      $_SESSION['lastpage'] = null;
+     $_SESSION['synthese'] = null;
 ?>
 </div>
        <?php endif; ?>
@@ -25,7 +29,12 @@
 	   <?php if (!$nodoc) : ?>
        <form role="form" action="save.php" method="POST">
          <input type="hidden" name="token" value="<?php echo $token; ?>"/>
-         <?php include("../include/view/forms/form_consultation.php"); ?>
+         <?php if ($is_synthese):
+                include("../include/view/forms/form_synthese.php");
+              else:
+                include("../include/view/forms/form_consultation.php");
+              endif;
+         ?>
          <div class="row">
              <div class="col-xs-4">
              <div class="btn-group control">

@@ -24,7 +24,7 @@
          <div class="numerise col-md-6">
            <div class="well">
               <h3 class="page-header text-center">
-              Participer à évaluer cette contribution
+              Participez à évaluer cette contribution
               </h3>
 	   <?php if (!$nodoc) : ?>
        <form role="form" action="save.php" method="POST">

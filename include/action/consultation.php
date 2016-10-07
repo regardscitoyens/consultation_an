@@ -11,8 +11,9 @@ if (!$doc) {
 }
 $text = $doc['text'];
 $theme = $doc['theme'];
-$source = $doc['source'];
-$numdone = $doc['done'];
+$theme_titre = $doc['theme_titre'];
+$theme_url = $doc['theme_url'];
+$question = $doc["question"];
 
 $menu_declaration = 1;
 

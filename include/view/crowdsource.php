@@ -36,26 +36,28 @@
               endif;
          ?>
          <div class="row">
+           <?php if (!$is_synthese): ?>
+           <div class="col-xs-12">
+             <p class="text-muted" style="margin-top: 20px;">Si vous avez le sentiment que la contribution ne devrait pas être étudiée par d'autres internautes, merci de nous l'indiquer en cliquant sur « Signaler un problème », nous vous proposerons un autre extrait de déclaration à saisir.</p>
+           </div>
              <div class="col-xs-4">
-            <?php if (!$is_synthese): ?>
              <div class="btn-group control">
                <button type="button" class="form-control btn btn-danger dropdown-toggle" data-toggle="dropdown">Signaler un problème <span class="caret"></span></button>
                <ul class="dropdown-menu" role="menu">
                  <li><a href="./save.php?token=<?php echo $token; ?>&pb=1">Je ne comprends pas les propos</a></li>
-                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=2">Le propos manque d'argument</a></li>
-                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=3">Le propos est trop technique</a></li>
-                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=4">Le propos me semble illégal</a></li>
-                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=5">J'aurai aimé ne pas avoir à lire ce propos (trop violent, trop personnel, ...)</a></li>
-                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=6">Autre</a></li>
+                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=2">Le propos me semble illégal</a></li>
+                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=3">J'aurais aimé ne pas avoir à lire ce propos (trop violent, trop personnel, ...)</a></li>
+                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=4">Autre</a></li>
                </ul>
              </div>
            <?php endif; ?>
            </div>
            <div class="col-xs-8"><div class="pull-right"><button id="validate" type="submit" class="btn btn-success"><span class="libelle">Valider</span>&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></button></div></div>
            <p><a  class="pull-right btn-link" href="./next.php" style="margin: 10px 25px 0">Changer de déclaration</a></p>
+           <div class="col-xs-12">
+             <p class="text-muted"><a href="#faq">Un doute ou une question ? cliquez ici pour lire les Questions Fréquentes.</a></p>
+           </div>
          </div>
-           <p class="text-muted" style="margin-top: 20px;">Si vous avez le sentiment que la contribution ne devrait pas être étudiée par d'autres internautes, merci de nous l'indiquer en cliquant sur « Signaler un problème », nous vous proposerons un autre extrait de déclaration à saisir.</p>
-           <p class="text-muted"><a href="#faq">Un doute ou une question ? cliquez ici pour lire les Questions Fréquentes.</a></p>
        </form>
    <?php else : ?>
      <p class="text-center">Nous n'avons plus de document à vous faire numériser !! </p>

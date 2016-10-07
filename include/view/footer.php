@@ -76,10 +76,21 @@
 
 $fait = get_pc_done();
 ?>
+$('#myAffix').affix({
+  offset: {
+    top: 100,
+    bottom: function () {
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
 $("#autresthemes").click(function() {
   autre = prompt('Thème que vous souhaitez ajouter :');
-  $('<label class="btn btn-default active"><input type="checkbox" autocomplete="off" name="themes|'+autre+'" checked="checked">'+autre+'</label>').insertBefore('#autresthemes');
-  $('#autresthemes').addClass('active');
+  if(autre) {
+      $('<div style="margin-top: 2px; margin-bottom: 2px;" class="checkbox col-md-6"><label><input type="checkbox" autocomplete="off" name="themes|'+autre+'" checked="checked">'+autre+'</label></div>').appendTo('#themes');
+  }
+  return false;
+  //$('#autresthemes').addClass('active');
 });
 data = [ { label: "Fait",  data: <?php echo $fait; ?>, color: '#5CB85C'}, { label: "A faire",  data: <?php echo 100 - $fait; ?>, color: '#FFF'} ];
 $.plot("#statpie", data , {series: { pie: { show: true,  label: { radius: 0.33, threshold: 0.1, show: true, formatter: function(data, serie){ return serie.label+'<br/>'+Math.round(10*serie.percent)/10+'%';}}}},legend:{show: false}, grid:{hoverable: true}});

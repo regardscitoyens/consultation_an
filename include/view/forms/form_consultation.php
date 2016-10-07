@@ -1,14 +1,4 @@
 <div class="form-group">
-  <label>Parmi les thèmes suivants, quels sont ceux qui sont abordés dans la contribution&nbsp;:</label>
-  <p class="text-muted">Pour mieux traiter les constributions, nous avons besoin de les classer par thèmes.</p>
-  <div id="themes" class="row">
-    <?php foreach (get_document_categories() as $c ) : ?>
-        <div style="margin-top: 2px; margin-bottom: 2px;" class="checkbox col-md-4"><label><input type="checkbox" autocomplete="off" name="themes|<?php echo $c; ?>"><?php echo $c; ?></label></div>
-    <?php endforeach; ?>
-    </div>
-    <p class="text-right"><a id=autresthemes href="">Ajouter un theme</a></p>
-</div>
-<div class="form-group">
   <label>La contribution contient&nbsp;:</label>
   <p class="text-muted">Les contributions peuvent contenir des éléments très différents. Adiez nous à les identifier.</p>
   <div class="row">
@@ -20,6 +10,16 @@
     <div style="margin-top: 2px; margin-bottom: 2px;" class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une proposition de nouvelles mesures" value="des propositions de nouvelles mesures">Des propositions de nouvelles mesures</label></div>
     <div style="margin-top: 2px; margin-bottom: 2px;" class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une question ou demande d'information" value="des questions ou demandes d'information">Des questions ou demandes d'information</label></div>
   </div>
+</div>
+<div class="form-group">
+  <label>Parmi les thèmes suivants, quels sont ceux qui sont abordés dans la contribution&nbsp;:</label>
+  <p class="text-muted">Pour mieux traiter les constributions, nous avons besoin de les classer par thèmes.</p>
+  <div id="themes" class="row">
+    <?php foreach (get_document_categories() as $c ) : ?>
+        <div style="margin-top: 2px; margin-bottom: 2px;" class="checkbox col-md-4"><label><input type="checkbox" autocomplete="off" name="themes|<?php echo $c; ?>"><?php echo $c; ?></label></div>
+    <?php endforeach; ?>
+    </div>
+    <p class="text-right"><a id=autresthemes href="">Ajouter un theme</a></p>
 </div>
 <div class="form-group">
   <p class="text-muted">Aidez nous à faire émerger les propos les plus intéressants. D'un usage statistiques à l'organisation d'une audition à l'Assemblée Nationale, toutes les contributions peuvent être utiles. Si vous pensez que la contribtion n'a pas d'intérêt, indiquez le nous via le bouton « Signaler un problème »</p>

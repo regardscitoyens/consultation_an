@@ -7,10 +7,10 @@
         <div id="stats" class="col-md-4 well well-lg">
           <h3 class="text-center page-header">Statistiques</h3>
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-sm-6 col-xs-12 text-center">
                <div id="statpie" style="height: 200px;"></div>
             </div>
-            <div class="col-xs-6">
+            <div class="col-sm-6 col-xs-12">
 	<?php require_once(__DIR__.'/../model/user.php');?>
                <h4>Top des contributeurs</h4>
                <ol>
@@ -28,7 +28,7 @@
                <span><a href="contributeurs.php">Consulter le top 50</a></span>
               </div>
 	        <div class="col-xs-12 text-center">
-              <span class="text-muted text-center">Un total de <?php echo preg_replace('/([0-9][0-9][0-9])$/', '&nbsp;\1', get_nb_documents()); ?> constributions sont à évaluer et il reste <?php echo get_nb_jours_restant(); ?> jours de consultation. 
+              <span class="text-muted text-center">Un total de <?php echo preg_replace('/([0-9][0-9][0-9])$/', '&nbsp;\1', get_nb_documents()); ?> constributions sont à évaluer et il reste <?php echo get_nb_jours_restant(); ?> jours de consultation.
               <?php echo get_nb_users(); ?> citoyens ont déjà contribué au total <?php echo preg_replace('/([0-9][0-9][0-9])$/', '&nbsp;\1', get_nb_contribs()); ?> fois</span>
             </div>
           </div>

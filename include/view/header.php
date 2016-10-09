@@ -50,7 +50,7 @@ body: {padding-left: 10px; padding-right: 10px;}
 h1 {margin-bottom: 20px}
 .consigne { font-size: 15px }
 .page-header {margin: 8px!important}
-.container-fluid {overflow: scroll;}
+.container-fluid {overflow: auto;}
 
 </style>
 </head>

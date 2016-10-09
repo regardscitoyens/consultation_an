@@ -1,11 +1,11 @@
-      <div id="faq" class="col-md-12">
+      <div id="faq" class="row">
         <h2 class="text-center page-header">Questions fréquentes</h2>
         <div class="col-md-3"></div>
         <div class="col-md-6">
         </div>
         <div class="col-md-3"></div>
       </div>
-      <div id="a-propos" class="col-md-12">
+      <div id="a-propos" class="row">
         <h2 class="text-center page-header">À propos</h2>
         <div class="col-md-3"></div>
         <div class="col-md-6">

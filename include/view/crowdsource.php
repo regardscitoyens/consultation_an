@@ -40,7 +40,7 @@
            <div class="col-xs-12">
              <p class="text-muted" style="margin-top: 20px;">Si vous avez le sentiment que la contribution ne devrait pas être étudiée par d'autres internautes, merci de nous l'indiquer en cliquant sur « Signaler un problème », nous vous proposerons un autre extrait de déclaration à saisir.</p>
            </div>
-             <div class="col-xs-4">
+             <div class="col-sm-4 col-xs-6">
              <div class="btn-group control">
                <button type="button" class="form-control btn btn-danger dropdown-toggle" data-toggle="dropdown">Signaler un problème <span class="caret"></span></button>
                <ul class="dropdown-menu" role="menu">
@@ -52,7 +52,7 @@
              </div>
            <?php endif; ?>
            </div>
-           <div class="col-xs-8"><div class="pull-right"><button id="validate" type="submit" class="btn btn-success"><span class="libelle">Valider</span>&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></button></div></div>
+           <div class="col-sm-8 col-xs-6"><div class="pull-right"><button id="validate" type="submit" class="btn btn-success"><span class="libelle">Valider</span>&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></button></div></div>
            <p><a  class="pull-right btn-link" href="./next.php" style="margin: 10px 25px 0">Changer de déclaration</a></p>
            <div class="col-xs-12">
              <p class="text-muted"><a href="#faq">Un doute ou une question ? cliquez ici pour lire les Questions Fréquentes.</a></p>

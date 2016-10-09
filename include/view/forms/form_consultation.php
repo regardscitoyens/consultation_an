@@ -14,7 +14,7 @@
 </div>
 <div class="form-group">
   <label>Avez-vous déjà entendu un tel propos dans le débat public&nbsp;?</label>
-  <div class="text-mutted">Aidez nous à faire émerger les contributions les plus originales.</div>
+  <div class="text-muted">Aidez nous à faire émerger les contributions les plus originales.</div>
   <div class="row">
     <div style="margin-top: 2px; margin-bottom: 2px;" class="radio col-md-1"><label><input type="radio" name="original|non">Oui</label></div>
     <div style="margin-top: 2px; margin-bottom: 2px;" class="radio col-md-1"><label><input type="radio" name="original|oui">Non</label></div>

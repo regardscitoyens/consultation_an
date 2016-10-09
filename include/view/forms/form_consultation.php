@@ -13,6 +13,14 @@
   </div>
 </div>
 <div class="form-group">
+  <label>Avez-vous déjà entendu un tel propos dans le débat public&nbsp;?</label>
+  <div class="text-mutted">Aidez nous à faire émerger les contributions les plus atypiques</div>
+  <div class="row">
+    <div style="margin-top: 2px; margin-bottom: 2px;" class="radio col-md-1"><label><input type="radio" name="original|non">Oui</label></div>
+    <div style="margin-top: 2px; margin-bottom: 2px;" class="radio col-md-1"><label><input type="radio" name="original|oui">Non</label></div>
+  </div>
+</div>
+<div class="form-group">
   <label>Si vous étiez députés, que feriez vous de cette contribution&nbsp;?</label>
   <p class="text-muted">Aidez nous à faire émerger les propos les plus intéressants en vous mettant dans la peau d'un député.</p>
     <div style="margin-top: 2px; margin-bottom: 2px;" class="radio"><label><input type="radio" name="realisation|en faire un usage statistique" id="option2">Je reçois personnellement son auteur</label></div>

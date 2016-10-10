@@ -38,12 +38,13 @@
          <div class="row">
            <?php if (!$is_synthese): ?>
            <div class="col-xs-12">
-             <p class="text-muted" style="margin-top: 20px;">Si vous avez le sentiment que la contribution ne devrait pas être étudiée par d'autres internautes, merci de nous l'indiquer en cliquant sur « Signaler un problème », nous vous proposerons un autre extrait de déclaration à saisir.</p>
+             <p class="text-muted" style="margin-top: 20px;">Si vous avez le sentiment que cette contribution présente un problème (contenu vide, atteinte à la vie privée, lisibilité, légalité...), merci de nous l'indiquer en cliquant sur « Signaler un problème », nous vous proposerons un autre extrait de déclaration à saisir.</p>
            </div>
              <div class="col-sm-4 col-xs-6">
              <div class="btn-group control">
                <button type="button" class="form-control btn btn-danger dropdown-toggle" data-toggle="dropdown">Signaler un problème <span class="caret"></span></button>
                <ul class="dropdown-menu" role="menu">
+                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=0">La contribution est vide (RAS par exemple)</a></li>
                  <li><a href="./save.php?token=<?php echo $token; ?>&pb=1">Je ne comprends pas les propos</a></li>
                  <li><a href="./save.php?token=<?php echo $token; ?>&pb=2">Le propos me semble illégal</a></li>
                  <li><a href="./save.php?token=<?php echo $token; ?>&pb=3">J'aurais aimé ne pas avoir à lire ce propos (trop violent, trop personnel…)</a></li>

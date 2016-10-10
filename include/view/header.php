@@ -15,12 +15,10 @@ $cururl = "http://" . $_SERVER['HTTP_HOST']  . $_SERVER['REQUEST_URI'];
 $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
 ?>
 <!-- Twitter metas -->
-<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@RegardsCitoyens">
 <meta name="twitter:url" content="<?php echo $cururl;?>">
 <meta name="twitter:title" content="Aidons l'Assemblée à écouter les Citoyens - Regards Citoyens" />
 <meta name="twitter:description" content="Pour les consultations ne restent pas lettres mortes" />
-<meta name="twitter:image" content="<?php echo $baseurl.$img; ?>">
 
 <!-- Facebook metas -->
 <meta property="og:type" content="website" />
@@ -29,8 +27,6 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
 <meta property="og:description" content="Pour les consultations ne restent pas lettres mortes" />
 <meta property="og:url" content="<?php echo $cururl;?>" />
 <meta property="og:locale" content="fr_FR">
-<meta property="og:image" content="<?php echo $baseurl.$img; ?>" />
-<meta property="og:image:type" content="image/jpeg">
 
 <style>
 .logo{float:right;height:50px;margin-right:6px;margin-top:2px;}

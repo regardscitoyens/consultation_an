@@ -14,7 +14,6 @@ body: {padding-left: 10px; padding-right: 10px;}
 #crowdsource {padding-top: 50px;}
 #a-propos, #faq {padding-top: 50px}
 #a-propos p, #faq p {margin: 28px 0px}
-#presentation-consultation {padding-top: 50px}
 .numerise .well {background-color: #fBfBdb}
 .numerise .text-muted {font-size: 85%}
 .jumbotron p {font-size: 14px; margin: 16px;}
@@ -23,3 +22,4 @@ h1 {margin-bottom: 20px}
 .consigne { font-size: 15px }
 .page-header {margin: 8px!important}
 .container-fluid {overflow: auto;}
+.call-button { padding: 25px}

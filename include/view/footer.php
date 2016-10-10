@@ -1,27 +1,4 @@
-  <div id="presentation-consultation" class="row">
-    <h2 class="text-center page-header">Aider l'Assemblée à évaluer la consultation sur l'égalité homme/femme</h2>
-    <br>
-    <div class="col-md-offset-2 col-md-6">
-      <p>L'Assemblée nationale a <a href="http://www2.assemblee-nationale.fr/consultations-citoyennes/evaluation-de-la-loi-du-4-aout-2014-sur-l-egalite-reelle-entre-les-femmes-et-les-hommes">mis en ligne une consultation afin d'évaluer l'efficacité de la loi sur l'égalité homme/femme</a>. Dans ce questionnaire essentiellement à choix multiples, 5 questions qualitatives proposent aux citoyens de présenter par écrit des remarques, analyses, exemples ou ressentis personnels.</p>
-
-      <p>Les précédentes expériences de consultations citoyennes  (<a href="http://www2.assemblee-nationale.fr/consultations-citoyennes/droits-des-malades-et-fin-de-vie">«&nbsp;Droits des malades et fin de vie&nbsp;»</a> organisée par l'Assemblée, <a href="https://www.republique-numerique.fr/project/projet-de-loi-numerique/consultation/consultation">«&nbsp;Republique numérique&nbsp;»</a>, organisée par le Gouvernement...) ont montré qu'il était encore difficile pour les parlementaires, le gouvernement et leurs services respectifs de lire et d'analyser un grand nombre de contributions textuelles dans un temps très court. Cela représente de très longues heures de travail.</p>
-
-      <p>En partenariat avec <a href="http://democracyos.eu/">Democracy OS France</a> et <a href="http://pbsolving.fr">PbSolving Lab</a>, <a href="http://regardscitoyens.org/">Regards Citoyens</a> propose à tout citoyen de participer au processus d'analyse et d'exploitation de ces contributions qualitatives afin de s'assurer que tous les propos seront lus et évalués. En incluant les citoyens aux coeur du processus consultatif, cette première expérimentation de crowdsourcing au service du Parlement vise à venir en aide aux députés et aux administrateurs de l'Assemblée en leur facilitant la tâche de catégorisation et d'identification des différents types de contenus.</p>
-
-      <p>Le résultat de ce travail collectif sera remis aux <a href="http://www2.assemblee-nationale.fr/14/les-delegations-comite-et-office-parlementaire/comite-d-evaluation-et-de-controle-des-politiques-publiques/secretariat/evaluations-en-cours/mission-d-evaluation-de-la-politique-publique-en-faveur-de-l-egalite-entre-les-femmes-et-les-hommes">députés de la mission d'évaluation en charge de la consultation</a>, ses rapporteurs (Sébastien Denaja et Guy Geoffroy) et au président de la commission des lois (Dominique Raimbourg), le 25 octobre, lors d'une audition organisée à l'Assemblée.</p>
-    </div>
-    <div class="logo-asso col-md-2">
-      <div class="text-center">
-        <img src="img/logo/democracy-os-logo.jpg">
-      </div>
-      <div class="text-center">
-        <img src="img/logo/fais-ta-loi-logo.png">
-      </div>
-      <div class="text-center">
-        <img src="img/logo/regardscitoyens-logo.svg">
-      </div>
-    </div>
-  </div>
+<div class="container">
       <div id="faq" class="row">
         <h2 class="text-center page-header">Questions fréquentes</h2>
         <div class="col-md-offset-2 col-md-8">

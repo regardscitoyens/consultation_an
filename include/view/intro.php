@@ -1,8 +1,26 @@
     <div class="container-fluid" role="main">
       <div class="jumbotron"><div class="row">
-        <div class="col-md-12"><h1 class="text-center">Aidons l'Assemblée à écouter les Citoyens</h1> </div>
+        <div class="col-md-12"><h1 class="text-center">Aidons l'Assemblée à écouter les expressions citoyennes</h1> </div>
         <div class="col-md-8 ">
-          <h3 style="color:red">!!! INTRO TODO !!!</h3>
+          <style>
+            #introcitation blockquote { margin-bottom: 0px;  }
+            #introcitation p { margin-top: 0px;  }
+          </style>
+          <div class="text-center row" id="introcitation">
+          <blockquote class="col-xs-12"> «&nbsp;Merci de m'avoir lue, même si je doute que mon commentaire ne soit lu jusqu'au bout, voire lu tout court&nbsp;!&nbsp;» </blockquote>
+          <p class="text-right col-xs-11">extrait d'une contribution à la consultation Égalité Femmes / Hommes</p>
+          </div>
+
+          <p>L'Assemblée nationale a <a href="http://www2.assemblee-nationale.fr/consultations-citoyennes/evaluation-de-la-loi-du-4-aout-2014-sur-l-egalite-reelle-entre-les-femmes-et-les-hommes">mis en ligne une consultation afin d'évaluer l'efficacité de la loi sur l'égalité homme/femme</a>. Dans ce questionnaire essentiellement à choix multiples, 4 questions qualitatives proposent aux citoyens de présenter par écrit des remarques, analyses, exemples ou ressentis personnels.</p>
+
+          <p>Les précédentes expériences de consultations citoyennes  (<a href="http://www2.assemblee-nationale.fr/consultations-citoyennes/droits-des-malades-et-fin-de-vie">«&nbsp;Droits des malades et fin de vie&nbsp;»</a> organisée par l'Assemblée, <a href="https://www.republique-numerique.fr/project/projet-de-loi-numerique/consultation/consultation">«&nbsp;Republique numérique&nbsp;»</a> organisée par le Gouvernement...) ont montré qu'il était encore difficile pour les parlementaires, le gouvernement et leurs services respectifs de lire et d'analyser un grand nombre de contributions textuelles dans un temps très court. Cela représente de très longues heures de travail.</p>
+
+          <p>En partenariat avec <a href="http://democracyos.eu/">Democracy OS France</a> et <a href="http://pbsolving.fr">PbSolving Lab</a>, <a href="http://regardscitoyens.org/">Regards Citoyen</a> propose à tout citoyen de participer au processus d'analyse et d'exploitation de ces contributions qualitatives afin de s'assurer que tous les propos seront lues et évaluées. En incluant les citoyens aux coeur du processus consultatif, cette première expérimentation de crowdsourcing au service du Parlement vise à venir en aide aux députés et aux administrateurs de l'Assemblée en leur facilitant la tâche de catégorisation et d'identification des différents types de contenus.</p>
+
+          <p>Le résultat de ce travail collectif sera remis aux députés de la mission d'évaluation en charge de la consultation, leurs rapporteurs (Sébastien Denaja et Guy Geoffroy) et au président de la commission des lois (Dominique Raimbourg), le 25 octobre, lors d'une audition organisée à l'Assemblée.</p>
+
+          <h3 class="text-center">Aidons les députés à tenir compte des contributions citoyennes !</h3>
+
         <p id="start-num" class="text-right" style="margin-right: 50px"><a href="#crowdsource" class="btn btn-primary btn-lg" role="button">Participer à la numérisation &raquo;</a></p>
         </div>
         <div id="stats" class="col-md-4 well well-lg">

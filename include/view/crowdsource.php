@@ -51,8 +51,10 @@
                </ul>
              </div>
            </div>
-           <?php endif; ?>
-           <div class="col-sm-8 col-xs-6"><div class="pull-right"><button id="validate" type="submit" class="btn btn-success"><span class="libelle">Valider</span>&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></button></div></div>
+           <div class="col-sm-8 col-xs-6">
+           <?php else: ?>
+           <div class="col-sm-12 col-xs-12">
+           <?php endif; ?><div class="pull-right"><button id="validate" type="submit" class="btn btn-success"><span class="libelle">Valider</span>&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></button></div></div>
            <p><a  class="pull-right btn-link" href="./next.php" style="margin: 10px 25px 0">Changer de déclaration</a></p>
            <div class="col-xs-12">
              <p class="text-muted"><a href="#faq">Un doute ou une question ? cliquez ici pour lire les Questions Fréquentes.</a></p>

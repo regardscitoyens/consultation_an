@@ -2,6 +2,7 @@
         <h2 class="text-center page-header">Questions fréquentes</h2>
         <div class="col-md-3"></div>
         <div class="col-md-6">
+          <h3 style="color:red">!!! TODO !!!</h3>
         </div>
         <div class="col-md-3"></div>
       </div>
@@ -9,9 +10,11 @@
         <h2 class="text-center page-header">À propos</h2>
         <div class="col-md-3"></div>
         <div class="col-md-6">
-          <p>Ce site est une création de <a href="http://regardscitoyens.org" target="_blank">Regards Citoyens</a>. Il vise à assurer de manière collaborative et transparente l'accès en Open Data pour l'ensemble des citoyens aux déclarations d'intérêts des élus publiées par la Haute Autorité pour la Transparence de la Vie Publique comme le prévoit le IV à l'<a href="http://legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070239&idArticle=LEGIARTI000028059568&dateTexte=">article LO135-2 du Code électoral</a> tel que modifié par la <a href="http://www.lafabriquedelaloi.fr/articles.html?loi=pjl12-688">loi organique n° 2013-906 du 11 octobre 2013 relative à la transparence de la vie publique</a>.</p>
-          <p>Les déclarations remplies par les 577 députés et 348 sénateurs comportent chacune 12 parties, soit un total de plus de 11&nbsp;000 extraits de formulaires renseignés à la main à numériser. Pour éviter d'intégrer toute erreur de saisie ou tentative de vandalisme, chaque extrait de formulaire est présenté au hasard aux utilisateurs et n'est considéré comme valablement numérisé que lorsque 3 utilisateurs différents auront saisi les mêmes informations.</p>
-          <p>Le logiciel permettant de réaliser et publier cette interface est un logiciel libre diffusé sous <a href="http://www.gnu.org/licenses/agpl-3.0.html">licence Affero GPL v3</a> et dont le code source est disponible en ligne sur <a href="https://github.com/regardscitoyens/crowdsource_dpi/" target="_blank">GitHub</a>.</p>
+          <h3 style="color:red">!!! TODO !!!</h3>
+          <p>Ce site est une création de <a href="http://regardscitoyens.org" target="_blank">Regards Citoyens</a>. Il vise à ...</p>
+          <p>Les contributions textuelles des citoyens à la consultation de l'Assemblée portent sur 5 questions.</p>
+          <p>Pour éviter d'intégrer toute erreur de saisie ou tentative de vandalisme, chaque extrait de formulaire est présenté au hasard aux utilisateurs et n'est considéré comme valablement numérisé que lorsque <span class="color:red">3 A CONFIRMER!!</span> utilisateurs différents auront saisi les mêmes informations.</p>
+          <p>Le logiciel permettant de réaliser et publier cette interface est un logiciel libre diffusé sous <a href="http://www.gnu.org/licenses/agpl-3.0.html">licence Affero GPL v3</a> et dont le code source est disponible en ligne sur <a href="https://github.com/regardscitoyens/consultation_an/" target="_blank">GitHub</a>.</p>
           <p>Toutes les données collaborativement reconstruites grâce à cette interface seront publiées en Open Data sous <a href="http://wiki.data.gouv.fr/wiki/Licence_Ouverte_/_Open_Licence">Licence Ouverte</a> sur <a href="http://nosdonnees.fr">NosDonnées.fr</a> et <a href="http://data.gouv.fr">data.gouv.fr</a>.</p>
           <p>Les <a href="http://regardscitoyens.org/mentions-legales/">mentions légales</a> usuelles des sites de Regards Citoyens s'appliquent.</p>
         </div>

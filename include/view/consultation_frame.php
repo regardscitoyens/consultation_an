@@ -1,7 +1,7 @@
           <div class="well">
             <div class="media text-center">
               <div class="media-body">
-               <h3 class="page-header text-muted">Voci une réponse au questionnaire Égalité Femme / Homme</h3>
+               <h3 class="page-header text-muted">Voici une réponse au questionnaire Égalité Femmes / Hommes</h3>
                <h4 style="margin-top: 18px; margin-bottom: 2px; font-size: 20px;">Partie «&nbsp;<?php echo $theme_titre; ?>&nbsp;»</h4>
               </div>
              </div>

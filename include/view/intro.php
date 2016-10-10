@@ -2,6 +2,7 @@
       <div class="jumbotron"><div class="row">
         <div class="col-md-12"><h1 class="text-center">Aidons l'Assemblée à écouter les Citoyens</h1> </div>
         <div class="col-md-8 ">
+          <h3 style="color:red">!!! INTRO TODO !!!</h3>
         <p id="start-num" class="text-right" style="margin-right: 50px"><a href="#crowdsource" class="btn btn-primary btn-lg" role="button">Participer à la numérisation &raquo;</a></p>
         </div>
         <div id="stats" class="col-md-4 well well-lg">

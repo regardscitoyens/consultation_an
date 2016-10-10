@@ -23,8 +23,8 @@
 <div class="form-group">
   <label>Si vous étiez députés, que feriez vous de cette contribution&nbsp;?</label>
   <p class="text-muted">Aidez nous à faire émerger les propos les plus intéressants en vous mettant dans la peau d'un député.</p>
-    <div style="margin-top: 2px; margin-bottom: 2px;" class="radio"><label><input type="radio" name="realisation|en faire un usage statistique" id="option2">Je reçois personnellement son auteur</label></div>
-    <div style="margin-top: 2px; margin-bottom: 2px;" class="radio"><label><input type="radio" name="realisation|la synthétiser" id="option3">Je cite les propos dans mon rapport</label></div>
-    <div style="margin-top: 2px; margin-bottom: 2px;" class="radio"><label><input type="radio" name="realisation|la publier" id="option4">Je prend en compte les propos dans mon travail</label></div>
-    <div style="margin-top: 2px; margin-bottom: 2px;" class="radio"><label><input type="radio" name="realisation|mérite une audition" id="option5">Rien (Je demande à mes équipes de remercier son auteur pour sa contribution)</label></div>
+    <div style="margin-top: 2px; margin-bottom: 2px;" class="radio"><label><input type="radio" name="realisation|recois" id="option1">Je reçois personnellement son auteur</label></div>
+    <div style="margin-top: 2px; margin-bottom: 2px;" class="radio"><label><input type="radio" name="realisation|cite" id="option2">Je cite les propos dans mon rapport</label></div>
+    <div style="margin-top: 2px; margin-bottom: 2px;" class="radio"><label><input type="radio" name="realisation|prend en compte" id="option3">Je prend en compte les propos dans mon travail</label></div>
+    <div style="margin-top: 2px; margin-bottom: 2px;" class="radio"><label><input type="radio" name="realisation|rien" id="option4">Rien (Je demande à mes équipes de remercier son auteur pour sa contribution)</label></div>
 </div>

@@ -29,7 +29,7 @@ if ($token != $_SESSION['token'] || !$bdd) {
 if (isset($_POST['synthese']) && isset($_SESSION['task_id'])) {
   if ($_POST["synthese"]) {
     $req = $bdd->prepare("UPDATE tasks SET synthese = :synthese WHERE id = :task_id");
-    $req->execute(array('synthese' => $_POST['synthese'], 'task_id' => $_SESSION['task_id']));
+    $req->execute(array('synthese' => $_SESSION['affirmation_save']." : ".$_POST['synthese'], 'task_id' => $_SESSION['task_id']));
     $_SESSION['synthese'] = $_POST['synthese'];
   }
   $_SESSION['task_id'] = null;
@@ -50,6 +50,7 @@ if (isset($_GET['pb'])) {
   $data = 'NEANT';
 }else {
   $vars = $_POST;
+  unset($vars['token']);
   $data = array();
   $affirmations = array();
   foreach($vars as $name => $value) {

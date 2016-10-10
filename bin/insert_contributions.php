@@ -9,7 +9,7 @@ while ($json = json_decode(fgets($fh))) {
   foreach($json->questions as $q) {
     if (isset($q->Reponse)) foreach($q->Reponse as $r) {
       if (isset($r->critere->precision) && $r->critere->texte != "Autre") {
-        $req = $bdd->prepare("INSERT INTO documents (source, theme, question, text) VALUES (:source, :theme, :question, :texte)");
+        $req = $bdd->prepare("INSERT INTO documents (source, theme, question, text, ips, tries, inserted_at) VALUES (:source, :theme, :question, :texte, '', 0, NOW())");
         $data = array("source" => $json->id."/".$q->id, "theme" => $argv[2], "question" => $q->texte, "texte" => $r->critere->precision);
         $req->execute($data);
       }

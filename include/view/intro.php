@@ -17,7 +17,7 @@
 
           <p>En partenariat avec <a href="http://democracyos.eu/">Democracy OS France</a> et <a href="http://pbsolving.fr">PbSolving Lab</a>, <a href="http://regardscitoyens.org/">Regards Citoyen</a> propose à tout citoyen de participer au processus d'analyse et d'exploitation de ces contributions qualitatives afin de s'assurer que tous les propos seront lues et évaluées. En incluant les citoyens aux coeur du processus consultatif, cette première expérimentation de crowdsourcing au service du Parlement vise à venir en aide aux députés et aux administrateurs de l'Assemblée en leur facilitant la tâche de catégorisation et d'identification des différents types de contenus.</p>
 
-          <p>Le résultat de ce travail collectif sera remis aux députés de la mission d'évaluation en charge de la consultation, leurs rapporteurs (Sébastien Denaja et Guy Geoffroy) et au président de la commission des lois (Dominique Raimbourg), le 25 octobre, lors d'une audition organisée à l'Assemblée.</p>
+          <p>Le résultat de ce travail collectif sera remis aux <a href="http://www2.assemblee-nationale.fr/14/les-delegations-comite-et-office-parlementaire/comite-d-evaluation-et-de-controle-des-politiques-publiques/secretariat/evaluations-en-cours/mission-d-evaluation-de-la-politique-publique-en-faveur-de-l-egalite-entre-les-femmes-et-les-hommes">députés de la mission d'évaluation en charge de la consultation</a>, leurs rapporteurs (Sébastien Denaja et Guy Geoffroy) et au président de la commission des lois (Dominique Raimbourg), le 25 octobre, lors d'une audition organisée à l'Assemblée.</p>
 
           <h3 class="text-center">Aidons les députés à tenir compte des contributions citoyennes !</h3>
 

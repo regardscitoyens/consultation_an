@@ -1,4 +1,5 @@
-<div class="jumbotron"><div class="row">
+<div class="jumbotron">
+  <div class="row">
   <div class="col-md-12"><h1 class="text-center">Aidons l'Assemblée à écouter les expressions citoyennes</h1> </div>
   <div class="col-md-8 ">
     <div class="text-center row" id="introcitation">
@@ -48,3 +49,4 @@
     </div>
    </div>
   </div>
+</div>

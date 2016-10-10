@@ -52,7 +52,6 @@ if (isset($_GET['pb'])) {
   $vars = $_POST;
   $data = array();
   $affirmations = array();
-  var_dump($vars);
   foreach($vars as $name => $value) {
     $keyval = explode('|', str_replace('_', ' ', $name));
     if (!isset($data[$keyval[0]])) {
@@ -77,7 +76,7 @@ $req->execute(array('ips' => $doc['ips'].','.$_SERVER['REMOTE_ADDR'].',', 'tries
 
 $req = $bdd->prepare('SELECT id FROM tasks WHERE userid = :user_id AND document_id = :document_id');
 $req->execute(array('user_id' => $_SESSION['user_id'], 'document_id' => $_SESSION['document_id']));
-if ($req->rowCount() && count($affirmations)) {
+if ($req->rowCount() && count($affirmations) && strlen($doc['text']) > 200 && rand() > 0.66 ) {
   $data = $req->fetch();
   $_SESSION['task_id'] = $data['id'];
   $_SESSION['affirmation'] = $affirmations[array_rand($affirmations)];

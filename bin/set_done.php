@@ -29,7 +29,6 @@ while($doc = $req->fetch()) {
         $uniq[$md5]['synthese'] = 1;
       }
     }
-    var_dump($uniq);
     if ($uniq[$md5]['nb'] >= 3) {
         $selected = $uniq[$md5]['id_selected'];
         $done = 1;

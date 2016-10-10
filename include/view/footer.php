@@ -2,7 +2,45 @@
         <h2 class="text-center page-header">Questions fréquentes</h2>
         <div class="col-md-3"></div>
         <div class="col-md-6">
-          <h3 style="color:red">!!! TODO !!!</h3>
+
+          <p><b>Comment ça fonctionne&nbsp;?</b></p>
+
+          <p>À chaque fois qu'une page est chargée, une réponse à la consultation Égalité Femmes / Hommes vous est présentée dans le cadre de gauche « Voici une réponse à la consultation ». Le cadre de droite vous propose d'analyser cette réponse en répondant à trois questions. Un quatrième question facultative peut vous être proposée, celle ci vise à résumer un élément de la contribution.</p>
+
+          <p><b>Comment validez-vous les évaluations&nbsp;?</b></p>
+
+          <p>Chaque réponse à la consultation est considérée évaluée et cesse d'être proposée à d'autres internautes uniquement lorsqu'elle a été décrite de manière identique par trois utilisateurs différents.</p>
+
+          <p></b>Oups, je me suis trompé et j'ai validé un formulaire contenant une erreur...</b></p>
+
+          <p>Ce n'est pas grave, la multiple validation rend très improbable que vous soyiez 3 utilisateurs différents à avoir commis exactement la même erreur, elle ne sera donc pas prise en compte.</p>
+
+          <p><b>Quelle garantie a-t-on que les députés vont tenir compte de tout ce travail&nbsp;?</b></p>
+
+          <p>Cette initiative a été mise en place en lien avec la mission d'évaluation sur la loi Égalité Femmes / Hommes et les services de l'Assemblée nationale en charge de la consultation. Regards Citoyens fait partie, avec d'autres acteurs de la société civile, du comité de vigilance et de suivi de cette consultation. Regards Citoyens aura par ailleurs la possibilité d'intégrer ses remarques et analyses au rapport de la mission.</p>
+
+          <p><b>Pourquoi les services de l'Assemblée ne font-ils pas eux-mêmes ce travail : ils sont payés pour ça non&nbsp;?</b></p>
+
+          <p>Les services de l'Assemblée nationale ne sont pas encore organisés ni outillés en interne pour traiter un grand nombre de contributions textuelles. En attendant qu'ils le soient, il semble intéressant que les citoyens leur apportent leur aide. De plus, en analysant  collectivement le résultat des consultation, il est probable qu'il en ressorte des informations de meilleure qualité.</p>
+
+          <p><b>Pourquoi ne pas avoir lancé cette initiative dès le début de la consultation&nbsp;?</b></p>
+
+          <p>Nous avons évalué qu'au delà de 500 réponses, une expérience de <i>crowdsoucing</i> de l'analyse des contributions devenait intéressant. Nous avons donc choisi d'attendre que cette étape soit franchie.</p>
+
+          <p><b>Pourquoi ne pas attendre la fin de la consultation pour évaluer les contributions&nbsp;?</b></p>
+
+          <p>La mission d'évaluation sur la loi Égalité Femmes / Hommes a organisé une audition de restitution des résultats de la consultation mardi 25 septembre. Vu que la consultation se terminera le 17 septembre, il nous a semblé peu probable de pouvoir animer l'expérience de <i>crowdsourcing</i> et en synthétiser les apprentissages en une semaine.</p>
+
+          <p>De plus, il nous semble que les évaluateurs pourraient se forger une opinion ou avoir des idées intéressantes sur les problématiques traitées par la consultation. Réaliser cette expérience de co-construction de l'analyse des contribution pendant la consultation pourrait donc permettre de recueillir des points de vue intéressant.</p>
+
+          <p><b>Comme avez vous obtenu les données sur les réponses à la consultation&nbsp;?</b></p>
+
+          <p>Les données sont publiées sur le <a href="http://data.assemblee-nationale.fr/autres/consultations-citoyennes/egalite-femmes-hommes">site Open Data de l'Assemblée Nationale</a>. Elles sont mises à jour tous les matins par les services de l'Assemblée.</p>
+
+          <p><b>Comment puis-je faire une remarque ou une suggestion&nbsp;?</b></p>
+
+          <p>N'hésitez pas à nous faire un petit mail à contact@regardscitoyens.org ou a poster un commentaire sur les réseaux sociaux avec le hashtag <a href="https://twitter.com/search?f=tweets&q=ConsultEgalit%C3%A9">#ConsultEgalité</a>.</p>
+
         </div>
         <div class="col-md-3"></div>
       </div>
@@ -10,13 +48,25 @@
         <h2 class="text-center page-header">À propos</h2>
         <div class="col-md-3"></div>
         <div class="col-md-6">
-          <h3 style="color:red">!!! TODO !!!</h3>
-          <p>Ce site est une création de <a href="http://regardscitoyens.org" target="_blank">Regards Citoyens</a>. Il vise à ...</p>
-          <p>Les contributions textuelles des citoyens à la consultation de l'Assemblée portent sur 5 questions.</p>
-          <p>Pour éviter d'intégrer toute erreur de saisie ou tentative de vandalisme, chaque extrait de formulaire est présenté au hasard aux utilisateurs et n'est considéré comme valablement numérisé que lorsque <span class="color:red">3 A CONFIRMER!!</span> utilisateurs différents auront saisi les mêmes informations.</p>
-          <p>Le logiciel permettant de réaliser et publier cette interface est un logiciel libre diffusé sous <a href="http://www.gnu.org/licenses/agpl-3.0.html">licence Affero GPL v3</a> et dont le code source est disponible en ligne sur <a href="https://github.com/regardscitoyens/consultation_an/" target="_blank">GitHub</a>.</p>
-          <p>Toutes les données collaborativement reconstruites grâce à cette interface seront publiées en Open Data sous <a href="http://wiki.data.gouv.fr/wiki/Licence_Ouverte_/_Open_Licence">Licence Ouverte</a> sur <a href="http://nosdonnees.fr">NosDonnées.fr</a> et <a href="http://data.gouv.fr">data.gouv.fr</a>.</p>
-          <p>Les <a href="http://regardscitoyens.org/mentions-legales/">mentions légales</a> usuelles des sites de Regards Citoyens s'appliquent.</p>
+          <p>Ce site est une création de <a href="http://regardscitoyens.org/">Regards Citoyens</a> en collaboration avec <a href="http://pbsolving.fr">PbSolving Lab</a> et <a href="">Democracy OS France</a>. Il vise à aider les parlementaires et les services de l'Assemblée à mieux prendre en compte les contributions issues de la consultation Égalité Femmes/Hommes en incluant les citoyens dans le travail de catégorisation et d'identification des différents types de contenus.</p>
+
+          <p>Les contributions textuelles des citoyens à la consultation de l'Assemblée portent sur 5 questions :
+          <ul>
+          <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE2#question_15">la place des femmes dans les media et sur le web (question n°10)</a></li>
+          <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE3#question_25">le partage des responsabilités parentales (question n°20)</a></li>
+          <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE4#question_30">les pensions alimentaires (question n°25)</a></li>
+          <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE5#question_39">les violences conjugales (question n°34)</a></li>
+          <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE6#question_43">retour concernant la consultation (question n°38)</a></li>
+          </ul></p>
+
+          <p>Pour éviter d'intégrer toute erreur de saisie ou tentative de vandalisme, chaque extrait de formulaire est présenté au hasard aux utilisateurs et n'est considéré comme valablement numérisé que lorsque 3 utilisateurs différents auront saisi les mêmes informations.</p>
+
+          <p>Le logiciel permettant de réaliser et publier cette interface est un logiciel libre <a href="https://github.com/regardscitoyens/consultation_an">diffusé sous licence Affero GPL v3 et dont le code source est disponible en ligne sur GitHub</a>.</p>
+
+          <p>Les données collaborativement reconstruites grâce à cette interface seront publiées en Open Data sous Licence Ouverte sur NosDonnées.fr et data.gouv.fr.</p>
+
+          <p>Les mentions légales usuelles des sites de Regards Citoyens s'appliquent.</p>
+
         </div>
         <div class="col-md-3"></div>
       </div>

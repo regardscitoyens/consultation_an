@@ -50,10 +50,26 @@
             <div class="form-group">
               <div class="col-sm-12">
                 <div class="checkbox">
-  	          <small>En fournissant ces informations, vous acceptez qu'elles soient publiées dans la liste des contributeurs</small>
+  	               <small>En fournissant ces informations, vous acceptez qu'elles soient publiées dans la liste des contributeurs</small>
                 </div>
               </div>
             </div>
+            <hr/>
+            <p><b>Pour être tenu informé de la suite donnée à cette initiative</b>, n'hésitez pas à nous laissez nous votre email :</p>
+            <div class="form-group">
+              <label for="email" class="col-sm-5 control-label">Email</label>
+              <div class="col-sm-7">
+                 <input type="text" class="form-control" name="email" value="<?php if (isset($email)) echo $email; ?>" placeholder="citoyens@example.org">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <div class="checkbox">
+  	               <small>Votre email ne sera utilisé que pour vous tenir informé de la suite donnée au projet «&nbsp;Aidons l'Assemblée à écouter les expressions citoyennes&nbsp;». Les trois organisations participantes ne les utiliseront pas à d'autres fins.</small>
+                </div>
+              </div>
+            </div>
+
           </div>
           <div class="modal-footer">
            <button type="button" class="btn btn-default" data-dismiss="modal">Abandonner</button>

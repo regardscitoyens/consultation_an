@@ -17,7 +17,7 @@ function get_pc_done() {
   $total = get_nb_documents();
   $contribs = get_nb_contribs();
   $done = get_nb_done();
-  return ($contribs / $total * 4) * (get_nb_jours_total() - get_nb_jours_restant()) / get_nb_jours_total();
+  return ($done / $total) * (get_nb_jours_total() - get_nb_jours_restant()) / get_nb_jours_total();
 }
 
 function get_rand_document() {

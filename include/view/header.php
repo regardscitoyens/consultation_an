@@ -71,7 +71,7 @@ h1 {margin-bottom: 20px}
           <ul class="nav navbar-nav">
             <li<?php if(isset($menu_home) && $menu_home) echo ' class="active" '; ?>><a href="./#crowdsource">Participer</a></li>
             <li<?php if(!isset($menu_home) && !isset($menu_declaration)) echo ' class="active" '; ?>><a href="./contributeurs.php">Les contributeurs</a></li>
-            <li><a href="http://www2.assemblee-nationale.fr/14/les-delegations-comite-et-office-parlementaire/comite-d-evaluation-et-de-controle-des-politiques-publiques/secretariat/a-la-une/consultation-citoyenne-sur-la-politique-publique-en-faveur-de-l-egalite-entre-les-femmes-et-les-hommes">La consultation</a></li>
+            <li><a href="http://www2.assemblee-nationale.fr/consultations-citoyennes/evaluation-de-la-loi-du-4-aout-2014-sur-l-egalite-reelle-entre-les-femmes-et-les-hommes">La consultation</a></li>
             <li><a href="./#faq">FAQ</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">

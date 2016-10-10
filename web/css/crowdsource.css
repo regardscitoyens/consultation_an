@@ -1,15 +1,19 @@
-#introcitation blockquote { margin-bottom: 0px;  }
-#introcitation p { margin-top: 0px;  }
+#introcitation blockquote { margin-bottom: 0px; margin-left: 0px; padding-left: 0px}
+#introcitation p { margin-top: 0px; margin-left: 0px}
 .logo{float:right;height:50px;margin-right:6px}
 .declaration{background: gray; padding: 10px;}
 .msg {padding: 15px; text-align: center;}
 .media {margin-top: 0px;}
 .media img {margin-top: 5px;}
 body: {padding-left: 10px; padding-right: 10px;}
+#intro {margin-top: 30px}
+#intro.jumbotron { padding-bottom: 0px}
 #stats h3 {margin-top: 0px;}
+#stats {margin-top: 20px;}
 #crowdsource {padding-top: 50px;}
 #a-propos, #faq {padding-top: 50px}
-#a-propos p, #faq p {margin: 28px}
+#a-propos p, #faq p {margin: 28px 0px}
+#presentation-consultation {padding-top: 50px}
 .numerise .well {background-color: #fBfBdb}
 .numerise .text-muted {font-size: 85%}
 .jumbotron p {font-size: 14px; margin: 16px;}

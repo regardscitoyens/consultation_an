@@ -9,6 +9,9 @@ if (preg_match('/^@/', $_POST['twitter'])) {
 if (preg_match('/^http:\/\//', $_POST['website'])) {
   $_SESSION['website'] = str_replace(';', '', preg_replace('/".*/', '', strip_tags($_POST['website'])));
 }
+if (preg_match('/^[^ ]+@[^ ]+\.[^ ]+$/', $_POST['email'])) {
+  $_SESSION['email'] = str_replace(';', '', preg_replace('/".*/', '', strip_tags($_POST['email'])));
+}
 
 save_usersession();
 

@@ -109,7 +109,7 @@
             <div class="form-group">
               <label for="email" class="col-sm-5 control-label">Email</label>
               <div class="col-sm-7">
-                 <input type="text" class="form-control" name="email" value="<?php if (isset($email)) echo $email; ?>" placeholder="citoyens@example.org">
+                 <input type="text" class="form-control" name="email" value="<?php if (isset($email)) echo $email; ?>" placeholder="citoyens@exemple.fr">
               </div>
             </div>
             <div class="form-group">

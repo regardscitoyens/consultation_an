@@ -3,18 +3,14 @@
 require_once(__DIR__.'/../db.php');
 
 function get_nb_jours_total() {
-  return 14;
+  return 15;
 }
 function get_nb_jours_restant() {
-  return 13;
-}
-
-function get_document_categories() {
-  $mots = array( "Violences faites aux femmes", "Prostitution", "Préjugés sexistes", "Maîtrise de la sexualité",
-  "Précarité des femmes", "Egalité professionnelle et salariale", "Articulation des temps de vie", "Accès aux responsabilités", "Construction sociale des rôles sexués",
-  "Pension alimentaire", "RSA", "Représentations médiatiques", "Aides sociales", "Internet", "Expérimentation départementale");
-  sort($mots);
-  return $mots;
+  global $bdd;
+  $req = $bdd->prepare("SELECT DATEDIFF('2016-10-18', inserted_at) as nb FROM documents ORDER BY inserted_at DESC LIMIT 1");
+  $req->execute();
+  $data = $req->fetch();
+  return $data['nb'];
 }
 
 function get_pc_done() {

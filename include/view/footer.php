@@ -10,15 +10,15 @@
 
       <p>Le résultat de ce travail collectif sera remis aux <a href="http://www2.assemblee-nationale.fr/14/les-delegations-comite-et-office-parlementaire/comite-d-evaluation-et-de-controle-des-politiques-publiques/secretariat/evaluations-en-cours/mission-d-evaluation-de-la-politique-publique-en-faveur-de-l-egalite-entre-les-femmes-et-les-hommes">députés de la mission d'évaluation en charge de la consultation</a>, ses rapporteurs (Sébastien Denaja et Guy Geoffroy) et au président de la commission des lois (Dominique Raimbourg), le 25 octobre, lors d'une audition organisée à l'Assemblée.</p>
     </div>
-    <div class="col-md-2">
+    <div class="logo-asso col-md-2">
       <div class="text-center">
-        <img src="img/logo/democracy-os-logo.jpg" height="100px">
+        <img src="img/logo/democracy-os-logo.jpg">
       </div>
       <div class="text-center">
-        <img src="img/logo/problem-solving-logo.png" height="100px">
+        <img src="img/logo/fais-ta-loi-logo.png">
       </div>
       <div class="text-center">
-        <img src="img/logo/regardscitoyens-logo.svg" height="100px">
+        <img src="img/logo/regardscitoyens-logo.svg">
       </div>
     </div>
   </div>

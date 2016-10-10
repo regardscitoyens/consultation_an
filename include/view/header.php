@@ -8,6 +8,7 @@
 <link href="css/jquery.fs.zoomer.css" rel="stylesheet">
 <link href="css/datepicker.css" rel="stylesheet">
 <link href="data:text/css;charset=utf-8," data-href="css/bootstrap-theme.min.css" rel="stylesheet" id="bs-theme-stylesheet">
+<link href="css/crowdsource.css" rel="stylesheet">
 <link rel="shortcut icon" href="img/favicon.png">
 
 <?php
@@ -28,27 +29,6 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
 <meta property="og:url" content="<?php echo $cururl;?>" />
 <meta property="og:locale" content="fr_FR">
 
-<style>
-.logo{float:right;height:50px;margin-right:6px;margin-top:2px;}
-.declaration{background: gray; padding: 10px;}
-.msg {padding: 15px; text-align: center;}
-.media {margin-top: 0px;}
-.media img {margin-top: 5px;}
-body: {padding-left: 10px; padding-right: 10px;}
-#stats h3 {margin-top: 0px;}
-#crowdsource {padding-top: 50px;}
-#a-propos, #faq {padding-top: 50px}
-#a-propos p, #faq p {margin: 28px}
-.numerise .well {background-color: #fBfBdb}
-.numerise .text-muted {font-size: 85%}
-.jumbotron p {font-size: 14px; margin: 16px;}
-.jumbotron h1 {font-size: 44px}
-h1 {margin-bottom: 20px}
-.consigne { font-size: 15px }
-.page-header {margin: 8px!important}
-.container-fluid {overflow: auto;}
-
-</style>
 </head>
 <body>
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">

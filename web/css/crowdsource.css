@@ -1,0 +1,20 @@
+#introcitation blockquote { margin-bottom: 0px;  }
+#introcitation p { margin-top: 0px;  }
+.logo{float:right;height:50px;margin-right:6px;margin-top:2px;}
+.declaration{background: gray; padding: 10px;}
+.msg {padding: 15px; text-align: center;}
+.media {margin-top: 0px;}
+.media img {margin-top: 5px;}
+body: {padding-left: 10px; padding-right: 10px;}
+#stats h3 {margin-top: 0px;}
+#crowdsource {padding-top: 50px;}
+#a-propos, #faq {padding-top: 50px}
+#a-propos p, #faq p {margin: 28px}
+.numerise .well {background-color: #fBfBdb}
+.numerise .text-muted {font-size: 85%}
+.jumbotron p {font-size: 14px; margin: 16px;}
+.jumbotron h1 {font-size: 44px}
+h1 {margin-bottom: 20px}
+.consigne { font-size: 15px }
+.page-header {margin: 8px!important}
+.container-fluid {overflow: auto;}

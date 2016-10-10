@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
       <div id="crowdsource">
       <?php if ($sent_ok) : ?>
         <div class="alert alert-info text-center" role="alert">
@@ -67,6 +67,7 @@
      <p class="text-center">Nous n'avons plus de réponse à vous faire numériser&nbsp;!!</p>
    <?php endif; ?>
  </div>
+</div>
 </div>
 </div>
 </div>

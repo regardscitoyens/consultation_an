@@ -54,7 +54,7 @@
 </div>
 <div class="container">
 <div id="presentation-consultation" class="row">
-  <h2 class="text-center">Aidons l'Assemblée à analyser la consultation sur l'égalité femmmes&nbsp;/&nbsp;hommes</h2>
+  <h2 class="text-center">Aidons l'Assemblée à analyser la consultation sur l'égalité femmes&nbsp;/&nbsp;hommes</h2>
   <br>
   <div class="col-md-offset-2 col-md-6">
     <p>L'Assemblée nationale a mis en ligne <a target="_blank" href="http://www2.assemblee-nationale.fr/consultations-citoyennes/evaluation-de-la-loi-du-4-aout-2014-sur-l-egalite-reelle-entre-les-femmes-et-les-hommes">une consultation afin d'évaluer l'efficacité de la loi sur l'égalité femmes&nbsp;/&nbsp;hommes</a>. Dans ce questionnaire essentiellement à choix multiples, 5 questions qualitatives proposent aux citoyens de présenter par écrit des remarques, analyses, exemples ou ressentis personnels.</p>

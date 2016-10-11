@@ -48,7 +48,7 @@
         <div class="col-md-offset-2 col-md-8">
           <p>Ce site est une création de <a href="http://regardscitoyens.org/">Regards Citoyens</a> en collaboration avec <a href="http://pbsolving.fr">PbSolving Lab</a> et <a href="">Democracy OS France</a>. Il vise à aider les parlementaires et les services de l'Assemblée à mieux prendre en compte les contributions issues de la consultation Égalité Femmes/Hommes en incluant les citoyens dans le travail de catégorisation et d'identification des différents types de contenus.</p>
 
-          <p>Les contributions textuelles des citoyens à la consultation de l'Assemblée portent sur 5 questions :
+          <p>Les contributions textuelles des citoyens à la consultation de l'Assemblée portent sur 5 questions&nbsp;:
           <ul>
           <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE2#question_15">la place des femmes dans les media et sur le web (question n°10)</a></li>
           <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE3#question_25">le partage des responsabilités parentales (question n°20)</a></li>
@@ -76,13 +76,13 @@
           <form class="form-horizontal" role="form" action="login.php" method="POST">
           <div class="modal-body">
             <div class="form-group">
-              <label for="nickname" class="col-sm-5 control-label">Nom/Pseudo</label>
+              <label for="nickname" class="col-sm-5 control-label">Nom / Pseudo</label>
               <div class="col-sm-7">
                 <input class="form-control" name="nickname" required='true' value="<?php if (isset($nickname))echo $nickname; ?>" placeholder="Mon pseudo">
               </div>
             </div>
             <div class="form-group">
-              <label for="twitter" class="col-sm-5 control-label">Utilisateur Twitter/Identica</label>
+              <label for="twitter" class="col-sm-5 control-label">Compte Twitter/Identica</label>
               <div class="col-sm-7">
                  <input type="text" class="form-control" name="twitter" value="<?php if (isset($twitter)) echo $twitter; ?>" placeholder="@utilisateur">
               </div>
@@ -101,7 +101,7 @@
               </div>
             </div>
             <hr/>
-            <p><b>Pour être tenu informé de la suite donnée à cette initiative</b>, n'hésitez pas à nous laissez nous votre email :</p>
+            <p><b>Pour être tenu informé de la suite donnée à cette initiative</b>, n'hésitez pas à nous laisser votre email&nbsp;:</p>
             <div class="form-group">
               <label for="email" class="col-sm-5 control-label">Email</label>
               <div class="col-sm-7">

@@ -28,7 +28,7 @@ h1 {margin-bottom: 20px}
 .container-fluid {overflow: auto;}
 .call-button { padding: 25px}
 .intro-container {
-  background-image: url(/img/parlement-nuit-background-1.jpg);
+  background-image: url(../img/parlement-nuit-background-1.jpg);
   background-size: cover;
   -o-background-size: cover;
   background-position: center;

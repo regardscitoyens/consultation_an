@@ -6,7 +6,7 @@
 
         <div id="introcitation">
           <blockquote> «&nbsp;Merci de m'avoir lue, même si je doute que mon commentaire ne soit lu jusqu'au bout, voire lu tout court&nbsp;!&nbsp;» </blockquote>
-          <p class="quotelegend"><small>Extrait d'une contribution à la consultation Égalité Femmes / Hommes</small></p>
+          <p><small class="quotelegend">Extrait d'une contribution à la consultation Égalité Femmes / Hommes</small></p>
         </div>
 
         <div class="row">

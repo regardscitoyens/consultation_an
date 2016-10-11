@@ -63,7 +63,7 @@
 
           <p>Les données collaborativement reconstruites grâce à cette interface seront publiées en Open Data sous <a target="_blank" href="https://www.etalab.gouv.fr/licence-ouverte-open-licence">Licence Ouverte</a> sur <a target="_blank" href="http://www.nosdonnees.fr/">NosDonnées.fr</a> et <a target="_blank" href="https://www.data.gouv.fr/fr/">data.gouv.fr.</a></p>
 
-          <p>Merci à <a href="https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_Nationale_%C3%A0_l%27heure_bleue,_Paris,_France.jpg?uselang=fr" target="_blank">Getfunky Paris</a> pour sa photo de <a href="/img/parlement-nuit-background-1.jpg" target="_blank">l'Assemblée Nationnale</a>.</p>
+          <p>Merci à <a href="https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_Nationale_%C3%A0_l%27heure_bleue,_Paris,_France.jpg?uselang=fr" target="_blank">Getfunky Paris</a> pour sa photo de <a href="./img/parlement-nuit-background-1.jpg" target="_blank">l'Assemblée nationale</a>.</p>
           <p>Les <a target="_blank" href="https://www.regardscitoyens.org/mentions-legales/">mentions légales usuelles</a> des sites de Regards Citoyens s'appliquent.</p>
         </div>
       </div>

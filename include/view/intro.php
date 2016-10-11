@@ -1,7 +1,7 @@
 <div id="intro" class="jumbotron">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 text-center">
+      <div class="col-md-8">
         <h1>Aidons l'Assemblée à écouter les expressions citoyennes</h1>
 
         <div id="introcitation">

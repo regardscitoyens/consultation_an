@@ -63,7 +63,7 @@
 
           <p>Les données collaborativement reconstruites grâce à cette interface seront publiées en Open Data sous <a target="_blank" href="https://www.etalab.gouv.fr/licence-ouverte-open-licence">Licence Ouverte</a> sur <a target="_blank" href="http://www.nosdonnees.fr/">NosDonnées.fr</a> et <a target="_blank" href="https://www.data.gouv.fr/fr/">data.gouv.fr.</a></p>
 
-          <p>Merci à <a href="https://www.flickr.com/people/39731845@N03" target="_blank">Getfunky Paris</a> pour sa photo de <a href="/img/parlement-nuit-background-1.jpg" target="_blank">l'Assemblée Nationnale</a>.</p>
+          <p>Merci à <a href="https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_Nationale_%C3%A0_l%27heure_bleue,_Paris,_France.jpg?uselang=fr" target="_blank">Getfunky Paris</a> pour sa photo de <a href="/img/parlement-nuit-background-1.jpg" target="_blank">l'Assemblée Nationnale</a>.</p>
           <p>Les <a target="_blank" href="https://www.regardscitoyens.org/mentions-legales/">mentions légales usuelles</a> des sites de Regards Citoyens s'appliquent.</p>
         </div>
       </div>
@@ -158,8 +158,8 @@ $("#autresthemes").click(function() {
   return false;
   //$('#autresthemes').addClass('active');
 });
-data = [ { label: "Fait",  data: <?php echo $fait; ?>, color: '#5CB85C'}, { label: "À faire",  data: <?php echo 100 - $fait; ?>, color: '#FFF'} ];
-$.plot("#statpie", data , {series: { pie: { show: true,  label: { radius: 0.33, threshold: 0.1, show: true, formatter: function(data, serie){ return serie.label+'<br/>'+Math.round(10*serie.percent)/10+'%';}}}},legend:{show: false}, grid:{hoverable: true}});
+data = [ { label: "Fait",  data: <?php echo $fait; ?>, color: '#5CB85C'}, { label: "À faire",  data: <?php echo 100 - $fait; ?>, color: '#f5f5f5'} ];
+$.plot("#statpie", data , {series: { pie: { show: true, label: { radius: 0.33, threshold: 0.1, show: true, formatter: function(data, serie){ return serie.label+'<br/>'+Math.round(10*serie.percent)/10+'%';}}}},legend:{show: false}, grid:{hoverable: true}});
     </script>
       <p></p>
   </body>

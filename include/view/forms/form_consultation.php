@@ -1,6 +1,6 @@
 <div class="form-group">
   <label>La contribution contient&nbsp;:</label>
-  <p class="text-muted">Les contributions peuvent contenir des éléments très différents. Adiez nous à les identifier.</p>
+  <p class="text-muted">Les contributions peuvent contenir des éléments très différents. Aidez-nous à les identifier.</p>
   <div class="row">
     <div style="margin-top: 2px; margin-bottom: 2px;" class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|l'évocation d'expérience(s) personnelle(s)" value="l'évocation d'expérience(s) personnelle(s)">L'évocation d'expérience(s) personnelle(s)</label></div>
     <div style="margin-top: 2px; margin-bottom: 2px;" class="checkbox col-md-6"><label><input type="checkbox" name="affirmations|une analyse des causes du problème" value="une analyse des causes du problème">Une analyse des causes du problème</label></div>

@@ -47,7 +47,7 @@
              <div class="btn-group control">
                <button type="button" class="form-control btn btn-danger dropdown-toggle" data-toggle="dropdown">Signaler un problème <span class="caret"></span></button>
                <ul class="dropdown-menu" role="menu">
-                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=0">La contribution est vide (RAS par exemple)</a></li>
+                 <li><a href="./save.php?token=<?php echo $token; ?>&pb=0">La contribution est hors-sujet/vide (RAS par exemple)</a></li>
                  <li><a href="./save.php?token=<?php echo $token; ?>&pb=1">Je ne comprends pas les propos</a></li>
                  <li><a href="./save.php?token=<?php echo $token; ?>&pb=2">Le propos me semble illégal</a></li>
                  <li><a href="./save.php?token=<?php echo $token; ?>&pb=3">J'aurais aimé ne pas avoir à lire ce propos (trop violent, trop personnel…)</a></li>

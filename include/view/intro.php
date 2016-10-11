@@ -1,4 +1,4 @@
-<div id="intro" class="jumbotron intro-container">
+<div id="intro" class="jumbotron intro-container-wrapper-background intro-container">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
@@ -56,7 +56,6 @@
 <div id="presentation-consultation" class="row">
   <h2 class="text-center">Aidons l'Assemblée à analyser la consultation sur l'égalité femmmes&nbsp;/&nbsp;hommes</h2>
   <br>
-  <div class="col-md-offset-2 col-md-6 col-xs-12">
   <div class="col-md-offset-2 col-md-6">
     <p>L'Assemblée nationale a mis en ligne <a target="_blank" href="http://www2.assemblee-nationale.fr/consultations-citoyennes/evaluation-de-la-loi-du-4-aout-2014-sur-l-egalite-reelle-entre-les-femmes-et-les-hommes">une consultation afin d'évaluer l'efficacité de la loi sur l'égalité femmes&nbsp;/&nbsp;hommes</a>. Dans ce questionnaire essentiellement à choix multiples, 5 questions qualitatives proposent aux citoyens de présenter par écrit des remarques, analyses, exemples ou ressentis personnels.</p>
 
@@ -66,7 +65,7 @@
 
     <p>Le résultat de ce travail collectif sera remis aux députés de la <a target="_blank" href="http://www2.assemblee-nationale.fr/14/les-delegations-comite-et-office-parlementaire/comite-d-evaluation-et-de-controle-des-politiques-publiques/secretariat/evaluations-en-cours/mission-d-evaluation-de-la-politique-publique-en-faveur-de-l-egalite-entre-les-femmes-et-les-hommes">mission d'évaluation en charge de la consultation</a>, à ses rapporteurs (Sébastien Denaja et Guy Geoffroy) et au président de la commission des lois (Dominique Raimbourg), le 25 octobre, lors d'une audition organisée à l'Assemblée.</p>
   </div>
-  <div class="logo-asso col-md-2 col-xs-12 text-center" alt="Democracy OS France">
+  <div class="logo-asso col-md-2 text-center" alt="Democracy OS France">
     <a href="http://democracyos.eu/"><img alt="Democracy OS France" src="img/logo/democracy-os-logo.jpg"></a>
     <a href="http://faistaloi.pbsolving.fr/"><img alt="Fais ta loi, une initiative de Pb Solving" src="img/logo/fais-ta-loi-logo.png"></a>
     <a href="http://regardscitoyens.org/"><img alt="Regards Citoyens" src="img/logo/regardscitoyens-large-logo.png"></a>

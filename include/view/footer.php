@@ -158,8 +158,8 @@ $("#autresthemes").click(function() {
   return false;
   //$('#autresthemes').addClass('active');
 });
-data = [ { label: "Fait",  data: <?php echo $fait; ?>, color: '#5CB85C'}, { label: "À faire",  data: <?php echo 100 - $fait; ?>, color: '#FFF'} ];
-$.plot("#statpie", data , {series: { pie: { show: true,  label: { radius: 0.33, threshold: 0.1, show: true, formatter: function(data, serie){ return serie.label+'<br/>'+Math.round(10*serie.percent)/10+'%';}}}},legend:{show: false}, grid:{hoverable: true}});
+data = [ { label: "Fait",  data: <?php echo $fait; ?>, color: '#5CB85C'}, { label: "À faire",  data: <?php echo 100 - $fait; ?>, color: '#f5f5f5'} ];
+$.plot("#statpie", data , {series: { pie: { show: true, label: { radius: 0.33, threshold: 0.1, show: true, formatter: function(data, serie){ return serie.label+'<br/>'+Math.round(10*serie.percent)/10+'%';}}}},legend:{show: false}, grid:{hoverable: true}});
     </script>
       <p></p>
   </body>

@@ -53,10 +53,10 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li<?php if(isset($menu_home) && $menu_home) echo ' class="active" '; ?>><a href="#crowdsource">Participer</a></li>
+            <li<?php if(isset($menu_home) && $menu_home) echo ' class="active" '; ?>><a href="./#crowdsource">Participer</a><a href="#crowdsource" class="hidden">hack for scrollspy</a></li>
             <li class="hidden-sm"><a href="#faq">FAQ</a></li>
             <li class="hidden-sm"><a href="#a-propos">À propos</a></li>
-            <li<?php if(!isset($menu_home) && !isset($menu_declaration)) echo ' class="active" '; ?>><a href="./contributeurs.php">Les contributeurs</a></li>
+            <li<?php if(!isset($menu_home) && !isset($menu_declaration)) echo ' class="active" '; ?>><a href="./contributeurs.php">Les contributeurs</a><a href="#contributeurs" class="hidden">hack for scrollspy</a></li>
             <li class="hidden-sm"><a target="_blank" href="http://www2.assemblee-nationale.fr/consultations-citoyennes/evaluation-de-la-loi-du-4-aout-2014-sur-l-egalite-reelle-entre-les-femmes-et-les-hommes">La consultation</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">

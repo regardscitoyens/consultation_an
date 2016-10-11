@@ -46,10 +46,10 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li<?php if(isset($menu_home) && $menu_home) echo ' class="active" '; ?>><a href="./#crowdsource">Participer</a></li>
-            <li<?php if(!isset($menu_home) && !isset($menu_declaration)) echo ' class="active" '; ?>><a href="./contributeurs.php">Les contributeurs</a></li>
-            <li><a href="http://www2.assemblee-nationale.fr/consultations-citoyennes/evaluation-de-la-loi-du-4-aout-2014-sur-l-egalite-reelle-entre-les-femmes-et-les-hommes">La consultation</a></li>
             <li><a href="./#faq">FAQ</a></li>
             <li><a href="./#a-propos">À propos</a></li>
+            <li<?php if(!isset($menu_home) && !isset($menu_declaration)) echo ' class="active" '; ?>><a href="./contributeurs.php">Les contributeurs</a></li>
+            <li><a target="_blank" href="http://www2.assemblee-nationale.fr/consultations-citoyennes/evaluation-de-la-loi-du-4-aout-2014-sur-l-egalite-reelle-entre-les-femmes-et-les-hommes">La consultation</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
    <li><a href="#signin" data-toggle="modal" data-target="#signin"><span class="glyphicon glyphicon-user"></span> <?php if (isset($_SESSION['nickname']) && $_SESSION['nickname']) {echo $_SESSION['nickname']; } else {echo "S'enregistrer"; }?></a></li>

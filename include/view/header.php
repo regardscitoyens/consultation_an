@@ -18,16 +18,20 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
 <!-- Twitter metas -->
 <meta name="twitter:site" content="@RegardsCitoyens">
 <meta name="twitter:url" content="<?php echo $cururl;?>">
-<meta name="twitter:title" content="Aidons l'Assemblée à écouter les Citoyens - Regards Citoyens" />
+<meta name="twitter:title" content="Aidons l'Assemblée à écouter les Citoyen-nes - Regards Citoyens" />
 <meta name="twitter:description" content="Pour les consultations ne restent pas lettres mortes" />
+<meta name="twitter:image:src" content="http://www.regardscitoyens.org/wp-content/uploads/2016/10/aidonslan.jpg">
 
 <!-- Facebook metas -->
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Aidons l'Assemblée à écouter les Citoyens - Regards Citoyens" />
-<meta property="og:site_name" content="Aidons l'Assemblée à écouter les Citoyens - Regards Citoyens" />
+<meta property="og:title" content="Aidons l'Assemblée à écouter les Citoyen-nes - Regards Citoyens" />
+<meta property="og:site_name" content="Aidons l'Assemblée à écouter les Citoyen-nes - Regards Citoyens" />
 <meta property="og:description" content="Pour les consultations ne restent pas lettres mortes" />
 <meta property="og:url" content="<?php echo $cururl;?>" />
 <meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="http://www.regardscitoyens.org/wp-content/uploads/2016/10/aidonslan.jpg" />
+<meta property="og:image:type" content="image/jpeg">
+
 
 </head>
 <body>
@@ -45,7 +49,7 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="./#">Assemblée & Citoyens</a>
+          <a class="navbar-brand" href="./#">Rapporteurs Citoyens</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">

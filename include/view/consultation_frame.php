@@ -13,6 +13,6 @@
                   <blockquote style="font-size: 17px"><?php echo nl2br($text); ?>
                   </blockquote>
              <div>
-               <p class="text-right"><a href="<?php echo $theme_url; ?>">Voir cette partie du questionnaire de la consultation</a></p>
+               <p class="text-right"><a target="_blank" href="<?php echo $theme_url; ?>">Voir cette partie du questionnaire de la consultation</a></p>
              </div>
           </div>

@@ -11,7 +11,7 @@
 
           <p>Chaque réponse à la consultation est considérée évaluée et cesse d'être proposée à d'autres internautes uniquement lorsqu'elle a été décrite de manière identique par trois utilisateurs différents.</p>
 
-          <p></b>Oups, je me suis trompé et j'ai validé un formulaire contenant une erreur...</b></p>
+          <p><b>Oups, je me suis trompé et j'ai validé un formulaire contenant une erreur...</b></p>
 
           <p>Ce n'est pas grave, la multiple validation rend très improbable que vous soyiez 3 utilisateurs différents à avoir commis exactement la même erreur, elle ne sera donc pas prise en compte.</p>
 
@@ -35,35 +35,35 @@
 
           <p><b>Comme avez vous obtenu les données sur les réponses à la consultation&nbsp;?</b></p>
 
-          <p>Les données sont publiées sur le <a href="http://data.assemblee-nationale.fr/autres/consultations-citoyennes/egalite-femmes-hommes">site Open Data de l'Assemblée Nationale</a>. Elles sont mises à jour tous les matins par les services de l'Assemblée.</p>
+          <p>Les données sont publiées sur le <a target="_blank" href="http://data.assemblee-nationale.fr/autres/consultations-citoyennes/egalite-femmes-hommes">site Open Data de l'Assemblée nationale</a>. Elles sont mises à jour tous les matins par les services de l'Assemblée.</p>
 
           <p><b>Comment puis-je faire une remarque ou une suggestion&nbsp;?</b></p>
 
-          <p>N'hésitez pas à nous faire un petit mail à contact@regardscitoyens.org ou a poster un commentaire sur les réseaux sociaux avec le hashtag <a href="https://twitter.com/search?f=tweets&q=ConsultEgalit%C3%A9">#ConsultEgalité</a>.</p>
+          <p>N'hésitez pas à nous faire un petit mail à contact@regardscitoyens.org ou a poster un commentaire sur les réseaux sociaux avec le hashtag <a target="_blank" href="https://twitter.com/search?f=tweets&q=ConsultEgalit%C3%A9">#ConsultEgalité</a>.</p>
 
         </div>
       </div>
       <div id="a-propos" class="row">
         <h2 class="text-center page-header">À propos</h2>
         <div class="col-md-offset-2 col-md-8">
-          <p>Ce site est une création de <a href="http://regardscitoyens.org/">Regards Citoyens</a> en collaboration avec <a href="http://pbsolving.fr">PbSolving Lab</a> et <a href="">Democracy OS France</a>. Il vise à aider les parlementaires et les services de l'Assemblée à mieux prendre en compte les contributions issues de la consultation Égalité Femmes/Hommes en incluant les citoyens dans le travail de catégorisation et d'identification des différents types de contenus.</p>
+          <p>Ce site est une création de <a target="_blank" href="http://regardscitoyens.org/">Regards Citoyens</a> en collaboration avec <a target="_blank" href="http://faistaloi.pbsolving.fr">FaisTaLoi</a> et <a target="_blank" href="http://democracyos.eu/">Democracy OS France</a>. Il vise à aider les parlementaires et les services de l'Assemblée à mieux prendre en compte les contributions issues de la consultation Égalité Femmes / Hommes en incluant les citoyens dans le travail de catégorisation et d'identification des différents types de contenus.</p>
 
           <p>Les contributions textuelles des citoyens à la consultation de l'Assemblée portent sur 5 questions&nbsp;:
           <ul>
-          <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE2#question_15">la place des femmes dans les media et sur le web (question n°10)</a></li>
-          <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE3#question_25">le partage des responsabilités parentales (question n°20)</a></li>
-          <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE4#question_30">les pensions alimentaires (question n°25)</a></li>
-          <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE5#question_39">les violences conjugales (question n°34)</a></li>
-          <li><a href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE6#question_43">retour concernant la consultation (question n°38)</a></li>
+          <li><a target="_blank" href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE2#question_15">la place des femmes dans les media et sur le web (question n°10)</a></li>
+          <li><a target="_blank" href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE3#question_25">le partage des responsabilités parentales (question n°20)</a></li>
+          <li><a target="_blank" href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE4#question_30">les pensions alimentaires (question n°25)</a></li>
+          <li><a target="_blank" href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE5#question_39">les violences conjugales (question n°34)</a></li>
+          <li><a target="_blank" href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE6#question_43">retour concernant la consultation (question n°38)</a></li>
           </ul></p>
 
           <p>Pour éviter d'intégrer toute erreur de saisie ou tentative de vandalisme, chaque extrait de formulaire est présenté au hasard aux utilisateurs et n'est considéré comme valablement numérisé que lorsque 3 utilisateurs différents auront saisi les mêmes informations.</p>
 
-          <p>Le logiciel permettant de réaliser et publier cette interface est un logiciel libre <a href="https://github.com/regardscitoyens/consultation_an">diffusé sous licence Affero GPL v3 et dont le code source est disponible en ligne sur GitHub</a>.</p>
+          <p>Le logiciel permettant de réaliser et publier cette interface est un logiciel libre diffusé sous licence <a target="_blank" href="https://www.gnu.org/licenses/agpl-3.0.html">Affero GPL v3</a> et dont le code source est disponible <a href="https://github.com/regardscitoyens/consultation_an">en ligne sur GitHub</a>.</p>
 
-          <p>Les données collaborativement reconstruites grâce à cette interface seront publiées en Open Data sous Licence Ouverte sur NosDonnées.fr et data.gouv.fr.</p>
+          <p>Les données collaborativement reconstruites grâce à cette interface seront publiées en Open Data sous <a target="_blank" href="https://www.etalab.gouv.fr/licence-ouverte-open-licence">Licence Ouverte</a> sur <a target="_blank" href="http://www.nosdonnees.fr/">NosDonnées.fr</a> et <a target="_blank" href="https://www.data.gouv.fr/fr/">data.gouv.fr.</a></p>
 
-          <p>Les mentions légales usuelles des sites de Regards Citoyens s'appliquent.</p>
+          <p>Les <a target="_blank" href="https://www.regardscitoyens.org/mentions-legales/">mentions légales usuelles</a> des sites de Regards Citoyens s'appliquent.</p>
         </div>
       </div>
       <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="signinLabel" aria-hidden="true">
@@ -157,7 +157,7 @@ $("#autresthemes").click(function() {
   return false;
   //$('#autresthemes').addClass('active');
 });
-data = [ { label: "Fait",  data: <?php echo $fait; ?>, color: '#5CB85C'}, { label: "A faire",  data: <?php echo 100 - $fait; ?>, color: '#FFF'} ];
+data = [ { label: "Fait",  data: <?php echo $fait; ?>, color: '#5CB85C'}, { label: "À faire",  data: <?php echo 100 - $fait; ?>, color: '#FFF'} ];
 $.plot("#statpie", data , {series: { pie: { show: true,  label: { radius: 0.33, threshold: 0.1, show: true, formatter: function(data, serie){ return serie.label+'<br/>'+Math.round(10*serie.percent)/10+'%';}}}},legend:{show: false}, grid:{hoverable: true}});
     </script>
       <p></p>

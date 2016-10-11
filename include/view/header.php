@@ -32,7 +32,11 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
 </head>
 <body>
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="logo"><a target="_blank" href="https://RegardsCitoyens.org" title="Une initiative de Regards Citoyens"><img alt="Regards Citoyens" src="img/logo_regardscitoyens.png" height="50" /></a></div>
+      <div class="logo">
+        <a target="_blank" href="http://democracyos.eu/" title="Une initiative de Democracy OS"><img alt="Democracy OS" src="img/logo/democracy-os-logo.jpg" height="35" /></a>
+        <a target="_blank" href="http://faistaloi.pbsolving.fr" title="Une initiative de Fais ta loi"><img alt="Fais ta loi" src="img/logo/fais-ta-loi-logo.png" height="35" /></a>
+        <a target="_blank" href="https://RegardsCitoyens.org" title="Une initiative de Regards Citoyens"><img alt="Regards Citoyens" src="img/logo/regardscitoyens-logo.png" height="35" /></a>
+      </div>
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -46,10 +50,10 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li<?php if(isset($menu_home) && $menu_home) echo ' class="active" '; ?>><a href="./#crowdsource">Participer</a></li>
-            <li><a href="./#faq">FAQ</a></li>
-            <li><a href="./#a-propos">À propos</a></li>
+            <li class="hidden-sm"><a href="./#faq">FAQ</a></li>
+            <li class="hidden-sm"><a href="./#a-propos">À propos</a></li>
             <li<?php if(!isset($menu_home) && !isset($menu_declaration)) echo ' class="active" '; ?>><a href="./contributeurs.php">Les contributeurs</a></li>
-            <li><a target="_blank" href="http://www2.assemblee-nationale.fr/consultations-citoyennes/evaluation-de-la-loi-du-4-aout-2014-sur-l-egalite-reelle-entre-les-femmes-et-les-hommes">La consultation</a></li>
+            <li class="hidden-sm"><a target="_blank" href="http://www2.assemblee-nationale.fr/consultations-citoyennes/evaluation-de-la-loi-du-4-aout-2014-sur-l-egalite-reelle-entre-les-femmes-et-les-hommes">La consultation</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
    <li><a href="#signin" data-toggle="modal" data-target="#signin"><span class="glyphicon glyphicon-user"></span> <?php if (isset($_SESSION['nickname']) && $_SESSION['nickname']) {echo $_SESSION['nickname']; } else {echo "S'enregistrer"; }?></a></li>

@@ -59,9 +59,9 @@
 
           <p>Pour éviter d'intégrer toute erreur de saisie ou tentative de vandalisme, chaque extrait de formulaire est présenté au hasard aux utilisateurs et n'est considéré comme valablement numérisé que lorsque 3 utilisateurs différents auront saisi les mêmes informations.</p>
 
-          <p>Le logiciel permettant de réaliser et publier cette interface est un logiciel libre <a target="_blank" href="https://github.com/regardscitoyens/consultation_an">diffusé sous licence Affero GPL v3 et dont le code source est disponible en ligne sur GitHub</a>.</p>
+          <p>Le logiciel permettant de réaliser et publier cette interface est un logiciel libre diffusé sous licence <a target="_blank" href="https://www.gnu.org/licenses/agpl-3.0.html">Affero GPL v3</a> et dont le code source est disponible <a href="https://github.com/regardscitoyens/consultation_an">en ligne sur GitHub</a>.</p>
 
-          <p>Les données collaborativement reconstruites grâce à cette interface seront publiées en Open Data sous Licence Ouverte sur NosDonnées.fr et data.gouv.fr.</p>
+          <p>Les données collaborativement reconstruites grâce à cette interface seront publiées en Open Data sous <a target="_blank" href="https://www.etalab.gouv.fr/licence-ouverte-open-licence">Licence Ouverte</a> sur <a target="_blank" href="http://www.nosdonnees.fr/">NosDonnées.fr</a> et <a target="_blank" href="https://www.data.gouv.fr/fr/">data.gouv.fr.</a></p>
 
           <p>Les <a target="_blank" href="https://www.regardscitoyens.org/mentions-legales/">mentions légales usuelles</a> des sites de Regards Citoyens s'appliquent.</p>
         </div>

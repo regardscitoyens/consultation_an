@@ -1,12 +1,12 @@
 <div id="intro" class="jumbotron">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 text-center">
+      <div class="col-md-8">
         <h1>Aidons l'Assemblée à écouter les expressions citoyennes</h1>
 
         <div id="introcitation">
           <blockquote> «&nbsp;Merci de m'avoir lue, même si je doute que mon commentaire ne soit lu jusqu'au bout, voire lu tout court&nbsp;!&nbsp;»
-            <small style="display: inline;">Extrait d'une contribution à la consultation Égalité Femmes / Hommes</small></blockquote>
+            <small class="quotelegend">Extrait d'une contribution à la consultation Égalité Femmes / Hommes</small></blockquote>
         </div>
 
         <div class="row">

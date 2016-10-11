@@ -11,7 +11,7 @@
 
           <p>Chaque réponse à la consultation est considérée évaluée et cesse d'être proposée à d'autres internautes uniquement lorsqu'elle a été décrite de manière identique par trois utilisateurs différents.</p>
 
-          <p></b>Oups, je me suis trompé et j'ai validé un formulaire contenant une erreur...</b></p>
+          <p><b>Oups, je me suis trompé et j'ai validé un formulaire contenant une erreur...</b></p>
 
           <p>Ce n'est pas grave, la multiple validation rend très improbable que vous soyiez 3 utilisateurs différents à avoir commis exactement la même erreur, elle ne sera donc pas prise en compte.</p>
 

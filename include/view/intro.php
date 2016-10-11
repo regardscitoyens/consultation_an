@@ -5,8 +5,8 @@
         <h1>Aidons l'Assemblée à écouter les expressions citoyennes</h1>
 
         <div id="introcitation">
-          <blockquote> «&nbsp;Merci de m'avoir lue, même si je doute que mon commentaire ne soit lu jusqu'au bout, voire lu tout court&nbsp;!&nbsp;» </blockquote>
-          <p><small class="quotelegend">Extrait d'une contribution à la consultation Égalité Femmes / Hommes</small></p>
+          <blockquote> «&nbsp;Merci de m'avoir lue, même si je doute que mon commentaire ne soit lu jusqu'au bout, voire lu tout court&nbsp;!&nbsp;»
+          <small>Extrait d'une contribution à la consultation Égalité Femmes / Hommes</small> </blockquote>
         </div>
 
         <div class="row">

@@ -45,7 +45,7 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="./">Assemblée & Citoyens</a>
+          <a class="navbar-brand" href="./#">Assemblée & Citoyens</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">

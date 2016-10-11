@@ -34,7 +34,7 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="logo">
         <a target="_blank" href="http://faistaloi.org" title="Une initiative de Fais ta loi"><img alt="Fais ta loi" src="img/logo/fais-ta-loi-logo.png" height="35" /></a>
-        <a target="_blank" href="http://democracyos.eu/" title="Une initiative de Democracy OS"><img alt="Democracy OS" src="img/logo/democracy-os-logo.jpg" height="35" /></a>
+        <a target="_blank" href="http://democracyos.eu/" title="Une initiative de Democracy OS"><img alt="Democracy OS" src="img/logo/democracy-os-logo.png" height="35" /></a>
         <a target="_blank" href="https://RegardsCitoyens.org" title="Une initiative de Regards Citoyens"><img alt="Regards Citoyens" src="img/logo/regardscitoyens-logo.png" height="35" /></a>
       </div>
       <div class="container">

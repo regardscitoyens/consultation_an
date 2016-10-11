@@ -66,7 +66,7 @@
     <p>Les conclusions de ce travail collectif seront remises aux députés de la <a href="http://www2.assemblee-nationale.fr/14/les-delegations-comite-et-office-parlementaire/comite-d-evaluation-et-de-controle-des-politiques-publiques/secretariat/evaluations-en-cours/mission-d-evaluation-de-la-politique-publique-en-faveur-de-l-egalite-entre-les-femmes-et-les-hommes">mission d'évaluation en charge de la consultation</a>, ses rapporteurs (Sébastien Denaja et Guy Geoffroy) et au président de la commission des lois (Dominique Raimbourg), le 25 octobre, lors d'une audition organisée à l'Assemblée.</p>
   </div>
   <div class="logo-asso col-md-2 text-center" alt="Democracy OS France">
-    <a target="_blank" href="http://democracyos.eu/"><img alt="Democracy OS France" src="img/logo/democracy-os-logo.jpg"></a>
+    <a target="_blank" href="http://democracyos.eu/"><img alt="Democracy OS France" src="img/logo/democracy-os-logo.png"></a>
     <a target="_blank" href="http://faistaloi.org/"><img alt="Fais ta loi, une initiative de Pb Solving" src="img/logo/fais-ta-loi-logo.png"></a>
     <a target="_blank" href="http://regardscitoyens.org/"><img alt="Regards Citoyens" src="img/logo/regardscitoyens-large-logo.png"></a>
   </div>

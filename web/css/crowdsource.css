@@ -12,7 +12,7 @@ body: {padding-left: 10px; padding-right: 10px;}
 #intro {margin-top: 30px; margin-bottom: 0px;}
 #intro.jumbotron { padding-bottom: 0px}
 #stats h3 {margin-top: 0px;}
-#stats {margin-top: 20px;}
+#stats {margin-top: 20px; color:#333;}
 #crowdsource {padding-top: 60px;}
 #presentation-consultation {padding-top: 40px;}
 #a-propos, #faq {padding-top: 50px}
@@ -26,3 +26,28 @@ h1 {margin-bottom: 20px}
 .page-header {margin: 8px!important}
 .container-fluid {overflow: auto;}
 .call-button { padding: 25px}
+.intro-container {
+  background-image: url(/img/parlement-nuit-background-1.jpg);
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative;
+width: 100%;
+text-align: center;
+}
+.intro-container:after {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.25) 100%);
+  z-index: 2;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.jumbotron .container {
+  position: relative;
+  z-index: 11;
+}

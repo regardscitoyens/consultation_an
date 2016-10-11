@@ -61,14 +61,14 @@
 
     <p>Les précédentes expériences de consultations citoyennes  (<a target="_blank" href="http://www2.assemblee-nationale.fr/consultations-citoyennes/droits-des-malades-et-fin-de-vie">«&nbsp;Droits des malades et fin de vie&nbsp;»</a> organisée par l'Assemblée, <a target="_blank" href="https://www.republique-numerique.fr/project/projet-de-loi-numerique/consultation/consultation">«&nbsp;Republique numérique&nbsp;»</a>, organisée par le Gouvernement...) ont montré qu'il était encore difficile pour les parlementaires, le gouvernement et leurs services respectifs de lire et d'analyser un grand nombre de contributions textuelles dans un temps très court. Cela représente de très longues heures de travail.</p>
 
-    <p>En partenariat avec <a target="_blank" href="http://democracyos.eu/">Democracy OS France</a> et <a target="_blank" href="http://pbsolving.fr">PbSolving Lab</a>, <a target="_blank" href="http://regardscitoyens.org/">Regards Citoyens</a> propose à tout citoyen de participer au processus d'analyse et d'exploitation de ces contributions qualitatives afin de s'assurer que tous les propos seront lus et évalués. En incluant les citoyens au cœur du processus consultatif, cette première expérimentation de crowdsourcing au service du Parlement vise à venir en aide aux députés et aux administrateurs de l'Assemblée en leur facilitant la tâche de catégorisation et d'identification des différents types de contenus.</p>
+    <p>En partenariat avec <a target="_blank" href="http://democracyos.eu/">Democracy OS France</a> et <a target="_blank" href="http://faistaloi.org">FaisTaLoi</a>, <a target="_blank" href="http://regardscitoyens.org/">Regards Citoyens</a> propose à tout citoyen de participer au processus d'analyse et d'exploitation de ces contributions qualitatives afin de s'assurer que tous les propos seront lus et évalués. En incluant les citoyens au cœur du processus consultatif, cette première expérimentation de crowdsourcing au service du Parlement vise à venir en aide aux députés et aux administrateurs de l'Assemblée en leur facilitant la tâche de catégorisation et d'identification des différents types de contenus.</p>
 
     <p>Le résultat de ce travail collectif sera remis aux députés de la <a target="_blank" href="http://www2.assemblee-nationale.fr/14/les-delegations-comite-et-office-parlementaire/comite-d-evaluation-et-de-controle-des-politiques-publiques/secretariat/evaluations-en-cours/mission-d-evaluation-de-la-politique-publique-en-faveur-de-l-egalite-entre-les-femmes-et-les-hommes">mission d'évaluation en charge de la consultation</a>, à ses rapporteurs (Sébastien Denaja et Guy Geoffroy) et au président de la commission des lois (Dominique Raimbourg), le 25 octobre, lors d'une audition organisée à l'Assemblée.</p>
   </div>
   <div class="logo-asso col-md-2 text-center" alt="Democracy OS France">
-    <a href="http://democracyos.eu/"><img alt="Democracy OS France" src="img/logo/democracy-os-logo.jpg"></a>
-    <a href="http://faistaloi.pbsolving.fr/"><img alt="Fais ta loi, une initiative de Pb Solving" src="img/logo/fais-ta-loi-logo.png"></a>
-    <a href="http://regardscitoyens.org/"><img alt="Regards Citoyens" src="img/logo/regardscitoyens-large-logo.png"></a>
+    <a target="_blank" href="http://democracyos.eu/"><img alt="Democracy OS France" src="img/logo/democracy-os-logo.jpg"></a>
+    <a target="_blank" href="http://faistaloi.org/"><img alt="Fais ta loi, une initiative de Pb Solving" src="img/logo/fais-ta-loi-logo.png"></a>
+    <a target="_blank" href="http://regardscitoyens.org/"><img alt="Regards Citoyens" src="img/logo/regardscitoyens-large-logo.png"></a>
   </div>
 </div>
 <div class="row">

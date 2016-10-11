@@ -18,15 +18,15 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div id="stats" class="well well-lg">
+        <div id="stats" class="well">
           <h3 class="text-center page-header">Statistiques</h3>
           <div class="row">
-            <div class="col-sm-6 col-xs-12 text-center">
+            <div class="col-sm-5 col-xs-12 text-center">
                <div id="statpie" style="height: 200px;"></div>
             </div>
-            <div class="col-sm-6 col-xs-12">
+            <div class="col-sm-7 col-xs-12">
       <?php require_once(__DIR__.'/../model/user.php');?>
-               <h4>Top des contributeurs</h4>
+               <h4 class="text-center">Top des contributeurs</h4>
                <ol>
       <?php foreach (users_top() as $user ) {
                     echo '<li title="'.$user['nickname'].' - '.$user['nb'].' contributions">';

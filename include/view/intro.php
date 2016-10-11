@@ -13,7 +13,7 @@
           <p id="start-num">
             <a href="#presentation-consultation" class="btn btn-default btn-lg" role="button">En savoir plus...</a>
             &nbsp;
-            <a href="#crowdsource" class="btn btn-primary btn-lg" role="button">Participer à la numérisation &raquo;</a>
+            <a href="#crowdsource" class="btn btn-primary btn-lg" role="button">Participer à l'évaluation &raquo;</a>
           </p>
         </div>
       </div>
@@ -74,7 +74,7 @@
 <div class="row">
   <div class="col-md-12">
     <div class="call-button text-center">
-      <a href="#crowdsource" class="btn btn-primary btn-lg" role="button">Participer à la numérisation &raquo;</a>
+      <a href="#crowdsource" class="btn btn-primary btn-lg" role="button">Participer à l'évaluation &raquo;</a>
     </div>
   </div>
 </div>

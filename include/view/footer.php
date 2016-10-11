@@ -46,7 +46,7 @@
       <div id="a-propos" class="row">
         <h2 class="text-center page-header">À propos</h2>
         <div class="col-md-offset-2 col-md-8">
-          <p>Ce site est une création de <a target="_blank" href="http://regardscitoyens.org/">Regards Citoyens</a> en collaboration avec <a target="_blank" href="http://faistaloi.pbsolving.fr">FaisTaLoi</a> et <a target="_blank" href="http://democracyos.eu/">Democracy OS France</a>. Il vise à aider les parlementaires et les services de l'Assemblée à mieux prendre en compte les contributions issues de la consultation Égalité Femmes / Hommes en incluant les citoyens dans le travail de catégorisation et d'identification des différents types de contenus.</p>
+          <p>Ce site est une création de <a target="_blank" href="http://regardscitoyens.org/">Regards Citoyens</a> en collaboration avec <a target="_blank" href="http://faistaloi.org">FaisTaLoi</a> et <a target="_blank" href="http://democracyos.eu/">Democracy OS France</a>. Il vise à aider les parlementaires et les services de l'Assemblée à mieux prendre en compte les contributions issues de la consultation Égalité Femmes / Hommes en incluant les citoyens dans le travail de catégorisation et d'identification des différents types de contenus.</p>
 
           <p>Les contributions textuelles des citoyens à la consultation de l'Assemblée portent sur 5 questions&nbsp;:
           <ul>

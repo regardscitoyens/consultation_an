@@ -41,7 +41,7 @@
          <div class="row">
            <?php if (!$is_synthese): ?>
            <div class="col-xs-12">
-             <p class="text-muted" style="margin-top: 20px;">Si vous avez le sentiment que cette contribution présente un problème (contenu vide, atteinte à la vie privée, lisibilité, légalité...), merci de nous l'indiquer en cliquant sur « Signaler un problème », nous vous proposerons un autre extrait de déclaration à saisir.</p>
+             <p class="text-muted" style="margin-top: 20px;">Si vous avez le sentiment que cette contribution présente un problème (contenu vide, atteinte à la vie privée, lisibilité, légalité...), merci de nous l'indiquer en cliquant sur « Signaler un problème », nous vous proposerons un autre extrait de contribution à évaluer.</p>
            </div>
              <div class="col-sm-4 col-xs-6">
              <div class="btn-group control">
@@ -59,7 +59,7 @@
            <?php else: ?>
            <div class="col-sm-12 col-xs-12">
            <?php endif; ?><div class="pull-right"><button id="validate" type="submit" class="btn btn-success"><span class="libelle">Valider</span>&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></button></div></div>
-           <p><a  class="pull-right btn-link" href="./next.php" style="margin: 10px 25px 0">Changer de déclaration</a></p>
+           <p><a  class="pull-right btn-link" href="./next.php" style="margin: 10px 25px 0">Changer de contribution</a></p>
            <div class="col-xs-12">
              <p class="text-muted"><a href="#faq">Un doute ou une question&nbsp;? cliquez ici pour lire les Questions Fréquentes.</a></p>
            </div>

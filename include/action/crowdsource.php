@@ -29,6 +29,7 @@ if (isset($_SESSION['nickname'])) {
   $nickname = $_SESSION['nickname'];
   $twitter = $_SESSION['twitter'];
   $website = $_SESSION['website'];
+  $email = $_SESSION['email'];
 }
 
 $_SESSION['token'] = md5(rand());

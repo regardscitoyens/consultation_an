@@ -25,7 +25,7 @@ function set_usersession_from_auth($auth) {
   if (!$bdd) {
     return 0;
   }
-  $req = $bdd->prepare("SELECT id, nickname, twitter, website, auth FROM users WHERE auth LIKE :auth");
+  $req = $bdd->prepare("SELECT id, nickname, twitter, website, email, auth FROM users WHERE auth LIKE :auth");
   $req->execute(array('auth' => '%'.$auth.'%'));
   return set_usersession_from_req($req);
 }

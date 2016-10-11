@@ -1,8 +1,10 @@
 <div class="container-fluid">
       <div id="crowdsource">
       <?php if ($sent_ok) : ?>
-        <div class="alert alert-info text-center" role="alert">
+        <div class="alert alert-success text-center" role="alert">
 <?php
+
+   echo "<p>Merci pour votre contribution !</p><br>";
 	 if (0 && !isset($_SESSION['nickname'])) {
 	 echo "N'hésitez pas à <a href=\"#signin\" data-toggle=\"modal\" data-target=\"#signin\">vous enregistrer</a> pour apparaitre parmi les contributeurs de ce projet. ";
 	 }

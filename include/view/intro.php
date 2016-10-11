@@ -67,13 +67,13 @@
   </div>
   <div class="logo-asso col-md-2">
     <div class="text-center">
-      <img src="img/logo/democracy-os-logo.jpg">
+      <a href="http://democracyos.eu/"><img alt="Democracy OS France" src="img/logo/democracy-os-logo.jpg"></a>
     </div>
     <div class="text-center">
-      <img src="img/logo/fais-ta-loi-logo.png">
+      <a href="http://faistaloi.pbsolving.fr/"><img alt="Fais ta loi, une initiative de Pb Solving" src="img/logo/fais-ta-loi-logo.png"></a>
     </div>
     <div class="text-center">
-      <img src="img/logo/regardscitoyens-logo.svg">
+      <a href="http://regardscitoyens.org/"><img alt="Regards Citoyens" src="img/logo/regardscitoyens-logo.svg"></a>
     </div>
   </div>
 </div>

@@ -41,7 +41,7 @@
          <div class="row">
            <?php if (!$is_synthese): ?>
            <div class="col-xs-12">
-             <p class="text-muted" style="margin-top: 20px;">Si vous avez le sentiment que cette contribution présente un problème (contenu vide, atteinte à la vie privée, lisibilité, légalité...), merci de nous l'indiquer en cliquant sur « Signaler un problème », nous vous proposerons un autre extrait de contribution à évaluer.</p>
+             <p class="text-muted" style="margin-top: 20px;">Si vous avez le sentiment que cette contribution présente un problème (contenu vide, atteinte à la vie privée, lisibilité, légalité...), merci de nous l'indiquer en cliquant sur « Signaler un problème », nous vous proposerons un autre extrait de contribution à analyser.</p>
            </div>
              <div class="col-sm-4 col-xs-6">
              <div class="btn-group control">

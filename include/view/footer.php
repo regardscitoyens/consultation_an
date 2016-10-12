@@ -4,8 +4,8 @@
         <div class="col-md-offset-2 col-md-8">
           <p><b>Comment ça fonctionne&nbsp;?</b></p>
           <p>À chaque fois qu'une page est chargée, une réponse à la consultation Égalité Femmes / Hommes vous est présentée dans le cadre de gauche « Voici une réponse à la consultation ». Le cadre de droite vous propose d'analyser cette réponse en répondant à trois questions. Un quatrième question facultative peut vous être proposée, celle-ci vise à résumer un élément de la contribution.</p>
-          <p><b>Comment validez-vous les évaluations&nbsp;?</b></p>
-          <p>Chaque réponse à la consultation est considérée évaluée et cesse d'être proposée à d'autres internautes uniquement lorsqu'elle a été décrite de manière identique par trois utilisateurs différents.</p>
+          <p><b>Comment validez-vous les analyses&nbsp;?</b></p>
+          <p>Chaque réponse à la consultation est considérée analysée et cesse d'être proposée à d'autres internautes uniquement lorsqu'elle a été décrite de manière identique par trois utilisateurs différents.</p>
           <p><b>Oups, je me suis trompé et j'ai validé un formulaire contenant une erreur...</b></p>
           <p>Ce n'est pas grave, la multiple validation rend très improbable que vous soyiez 3 utilisateurs différents à avoir commis exactement la même erreur, elle ne sera donc pas prise en compte.</p>
           <p><b>Quelle garantie a-t-on que les députés vont tenir compte de tout ce travail&nbsp;?</b></p>
@@ -14,9 +14,9 @@
           <p>Les services de l'Assemblée nationale ne sont pas encore organisés ni outillés en interne pour traiter un grand nombre de contributions textuelles. En attendant qu'ils le soient, il semble intéressant que les citoyens leur apportent leur aide. De plus, en analysant  collectivement le résultat des consultations, il est probable qu'il en ressorte des informations de meilleure qualité.</p>
           <p><b>Pourquoi ne pas avoir lancé cette initiative dès le début de la consultation&nbsp;?</b></p>
           <p>Nous avons évalué qu'au delà de 500 réponses, une expérience de <i>crowdsoucing</i> de l'analyse des contributions devenait intéressante. Nous avons donc choisi d'attendre que cette étape soit franchie.</p>
-          <p><b>Pourquoi ne pas attendre la fin de la consultation pour évaluer les contributions&nbsp;?</b></p>
+          <p><b>Pourquoi ne pas attendre la fin de la consultation pour analyser les contributions&nbsp;?</b></p>
           <p>La mission d'évaluation sur la loi Égalité Femmes / Hommes a organisé une audition de restitution des résultats de la consultation mardi 25 octobre. Vu que la consultation se terminera le 17 octobre, il nous a semblé peu probable de pouvoir animer l'expérience de <i>crowdsourcing</i> et en synthétiser les apprentissages en une semaine.</p>
-          <p>De plus, il nous semble que les évaluateurs pourraient se forger une opinion ou avoir des idées intéressantes sur les problématiques traitées par la consultation. Réaliser cette expérience de co-construction de l'analyse des contributions pendant la consultation pourrait donc permettre de recueillir des points de vue intéressants.</p>
+          <p>De plus, il nous semble que les participants pourraient se forger une opinion ou avoir des idées intéressantes sur les problématiques traitées par la consultation. Réaliser cette expérience de co-construction de l'analyse des contributions pendant la consultation pourrait donc permettre de recueillir des points de vue intéressants.</p>
           <p><b>Comment avez-vous obtenu les données sur les réponses à la consultation&nbsp;?</b></p>
           <p>Les données sont publiées sur le <a target="_blank" href="http://data.assemblee-nationale.fr/autres/consultations-citoyennes/egalite-femmes-hommes">site Open Data de l'Assemblée nationale</a>. Elles sont mises à jour tous les matins par les services de l'Assemblée.</p>
           <p><b>Comment puis-je faire une remarque ou une suggestion&nbsp;?</b></p>
@@ -37,7 +37,7 @@
           <li><a target="_blank" href="http://www2.assemblee-nationale.fr/questionnaire/form/EGALITE6#question_43">retour concernant la consultation (question n°38)</a></li>
           </ul></p>
 
-          <p>Pour éviter d'intégrer toute erreur de saisie ou tentative de vandalisme, chaque extrait de formulaire est présenté au hasard aux utilisateurs et n'est considéré comme correctement évalué que lorsque 3 utilisateurs différents auront saisi les mêmes informations.</p>
+          <p>Pour éviter d'intégrer toute erreur de saisie ou tentative de vandalisme, chaque extrait de formulaire est présenté au hasard aux utilisateurs et n'est considéré comme correctement analysé que lorsque 3 utilisateurs différents auront saisi les mêmes informations.</p>
 
           <p>Le logiciel permettant de réaliser et publier cette interface est un logiciel libre diffusé sous licence <a target="_blank" href="https://www.gnu.org/licenses/agpl-3.0.html">Affero GPL v3</a> et dont le code source est disponible <a href="https://github.com/regardscitoyens/consultation_an">en ligne sur GitHub</a>.</p>
 

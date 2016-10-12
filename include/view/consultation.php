@@ -12,7 +12,7 @@
   <div id="numerisations"></div>
   <div class="well numerisations">
     <div class="media text-center">
-      <h3 class="page-header text-muted">Évaluation<?php echo ($numdone ? " réalisée !" : " en cours"); ?></h3>
+      <h3 class="page-header text-muted">Analyse <?php echo ($numdone ? "réalisée !" : "en cours"); ?></h3>
     </div>
   </div>
   <?php endif ?>

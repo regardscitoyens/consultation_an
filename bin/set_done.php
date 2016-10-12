@@ -24,9 +24,9 @@ while($doc = $req->fetch()) {
         $struniq .= implode(',',$data->original);
       }
     }else{
-      $struniq = $task['data']);
+      $struniq = $task['data'];
     }
-    $md5 = md5($struniq)
+    $md5 = md5($struniq);
     if (!isset($uniq[$md5])) {
       $uniq[$md5] = array('nb' => 1, 'id_selected' => $task['id'], 'synthese' => ($task['synthese']));
     }else{

@@ -17,7 +17,12 @@ function get_pc_done() {
   $total = get_nb_documents();
   $contribs = get_nb_contribs();
   $done = get_nb_done();
-  return ceil(($done / $total) * (get_nb_jours_total() - get_nb_jours_restant()) / get_nb_jours_total());
+  // not sure why the number of days should matter here
+  //return ceil(($done / $total) * (get_nb_jours_total() - get_nb_jours_restant()) / get_nb_jours_total());
+  // in any case result has to be multiplied by 100 since we're returning percents
+  return ceil($done / $total * 100);
+  // in case we want to cheat a bit and push things at the beginning we could assume 5 evaluations per contribution count as a done
+  //return ceil($contribs / ( 5 * $total ) * 100);
 }
 
 function get_rand_document() {

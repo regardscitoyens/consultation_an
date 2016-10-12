@@ -15,11 +15,18 @@ while($doc = $req->fetch()) {
   $done = 0;
   while($task = $req2->fetch()) {
     $data = json_decode($task['data']);
+    $struniq = " ";
     if (count($data)) {
-      $md5 = md5(implode(',', $data->affirmations).implode(',',$data->original));
+      if (isset($data->affirmations)) {
+        $struniq .= implode(',', $data->affirmations);
+      }
+      if (isset($data->original)) {
+        $struniq .= implode(',',$data->original);
+      }
     }else{
-      $md5 = md5($task['data']);
+      $struniq = $task['data']);
     }
+    $md5 = md5($struniq)
     if (!isset($uniq[$md5])) {
       $uniq[$md5] = array('nb' => 1, 'id_selected' => $task['id'], 'synthese' => ($task['synthese']));
     }else{

@@ -17,12 +17,13 @@ function get_pc_done() {
   $total = get_nb_documents();
   $contribs = get_nb_contribs();
   $done = get_nb_done();
+  // returning percents so multiplying by 100
+  $pc = $done / $total * 100;
   // not sure why the number of days should matter here
-  //return round(($done / $total) * 100 * (get_nb_jours_total() - get_nb_jours_restant()) / get_nb_jours_total());
-  // in any case result has to be multiplied by 100 since we're returning percents
-  return round($done / $total * 100);
+  //$pc = $pc * (get_nb_jours_total() - get_nb_jours_restant()) / get_nb_jours_total();
   // in case we want to cheat a bit and push things at the beginning we could assume 5 evaluations per contribution count as a done
-  //return round($contribs / ( 5 * $total ) * 100);
+  //$pc = $contribs / ( 5 * $total ) * 100;
+  return floor($pc * 10) / 10;
 }
 
 function get_rand_document() {

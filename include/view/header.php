@@ -34,7 +34,7 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
 
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar">
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="logo hidden-xs">
         <a target="_blank" href="http://faistaloi.org" title="Une initiative de Fais ta loi"><img alt="Fais ta loi" src="img/logo/fais-ta-loi-logo.png" height="35" /></a>
@@ -51,12 +51,12 @@ $baseurl = preg_replace("#/[^/]*$#", "/", $cururl);
           </button>
           <a class="navbar-brand" href="./#">Rapporteurs Citoyens</a>
         </div>
-        <div class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li<?php if(isset($menu_home) && $menu_home) echo ' class="active" '; ?>><a href="./#crowdsource">Participer</a></li>
-            <li class="hidden-sm"><a href="./#faq">FAQ</a></li>
-            <li class="hidden-sm"><a href="./#a-propos">À propos</a></li>
-            <li<?php if(!isset($menu_home) && !isset($menu_declaration)) echo ' class="active" '; ?>><a href="./contributeurs.php">Les contributeurs</a></li>
+            <li<?php if(isset($menu_home) && $menu_home) echo ' class="active" '; ?>><a href="./#crowdsource">Participer</a><a href="#crowdsource" class="hidden">hack for scrollspy</a></li>
+            <li class="hidden-sm"><a href="#faq">FAQ</a></li>
+            <li class="hidden-sm"><a href="#a-propos">À propos</a></li>
+            <li<?php if(!isset($menu_home) && !isset($menu_declaration)) echo ' class="active" '; ?>><a href="./contributeurs.php">Les contributeurs</a><a href="#contributeurs" class="hidden">hack for scrollspy</a></li>
             <li class="hidden-sm"><a target="_blank" href="http://www2.assemblee-nationale.fr/consultations-citoyennes/evaluation-de-la-loi-du-4-aout-2014-sur-l-egalite-reelle-entre-les-femmes-et-les-hommes">La consultation</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">

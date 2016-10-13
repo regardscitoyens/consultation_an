@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Aidons l'Assemblée à écouter les Citoyens</title>
+<title>Aidons l'Assemblée à écouter les Citoyen-ne-s</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/jquery.fs.zoomer.css" rel="stylesheet">
 <link href="css/datepicker.css" rel="stylesheet">

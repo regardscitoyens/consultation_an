@@ -42,8 +42,8 @@
                <span><a href="contributeurs.php">Consulter le top 50</a></span>
               </div>
           <div class="col-xs-12 text-center">
-              <span class="text-muted text-center">Un total de<?php echo preg_replace('/([0-9][0-9][0-9])$/', '&nbsp;\1', get_nb_documents()); ?> contributions sont à analyser et il reste <?php echo get_nb_jours_restant(); ?> jours de consultation.
-              <?php echo get_nb_users(); ?> citoyens ont déjà contribué au total<?php echo preg_replace('/([0-9][0-9][0-9])$/', '&nbsp;\1', get_nb_contribs()); ?> fois</span>
+              <span class="text-muted text-center">Un total de <?php echo preg_replace('/([0-9])([0-9][0-9][0-9])$/', '\1&nbsp;\2', get_nb_documents()); ?> contributions sont à analyser et il reste <?php echo get_nb_jours_restant(); ?> jours de consultation.
+              <?php echo preg_replace('/([0-9])([0-9][0-9][0-9])$/', '\1&nbsp;\2', get_nb_users()); ?> citoyens ont déjà contribué au total <?php echo preg_replace('/([0-9])([0-9][0-9][0-9])$/', '\1&nbsp;\2', get_nb_contribs()); ?> fois</span>
             </div>
           </div>
          </div>

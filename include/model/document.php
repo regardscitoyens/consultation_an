@@ -153,3 +153,14 @@ function get_nb_documents() {
   $data = $req->fetch();
   return $data['total'];
 }
+
+function get_nb_new_documents() {
+  global $bdd;
+  if (!$bdd) {
+    return 0;
+  }
+  $req = $bdd->prepare("SELECT count(*) as total FROM documents WHERE inserted_at = DATE(NOW())");
+  $req->execute();
+  $data = $req->fetch();
+  return $data['total'];
+}

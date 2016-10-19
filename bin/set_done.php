@@ -22,11 +22,9 @@ while($doc = $req->fetch()) {
     $struniq = " ";
     if (count($data)) {
       if (isset($data->affirmations)) {
-        if (in_array("des propositions de nouvelles mesures", $data->affirmations) ||
-            in_array("une description d'un problème", $data->affirmations)) {
-              $data->affirmations[] = "des propositions de nouvelles mesures";
-          $data->affirmations[] = "une description d'un problème";
-          $data->affirmations = array_unique($data->affirmations);
+        if (($index = array_search("des propositions de nouvelles mesures", $data->affirmations)) != FALSE) {
+          unset($data->affirmations[$index]);
+#          $data->affirmations = array_unique($data->affirmations);
         }
         sort($data->affirmations);
         $struniq .= implode(',', $data->affirmations);

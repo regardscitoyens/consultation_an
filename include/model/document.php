@@ -32,11 +32,11 @@ function get_rand_document() {
     $id = rand(0, 22);
     return get_document_from_id($id);
   }
-  if (isset($_GET['goto'])) {
+  if (isset($_GET['goto']) && 0) {
     $req = $bdd->prepare("SELECT text, theme, source, question, id, ips, tries, source FROM documents WHERE id = :id ");
     $req->execute(array('id' => $_GET['goto']));
   }else{
-    $req = $bdd->prepare("SELECT text, theme, source, question, id, ips, tries, source FROM documents WHERE enabled = 1 AND done = 0 AND ips NOT LIKE :ip ORDER BY rand() LIMIT 1 ");
+    $req = $bdd->prepare("SELECT text, theme, source, question, id, ips, tries, source FROM documents WHERE enabled = 1 AND done = 0 AND ips NOT LIKE :ip ORDER BY tries ASC, rand() LIMIT 1 ");
     $req->execute(array('ip' => '%,'.$_SERVER['REMOTE_ADDR'].',%'));
     if (!$req->rowCount()) {
       $req = $bdd->prepare("SELECT text, theme, source, question, id, ips, tries, source FROM documents WHERE enabled = 1 AND ips NOT LIKE :ip ORDER BY rand() LIMIT 1 ");

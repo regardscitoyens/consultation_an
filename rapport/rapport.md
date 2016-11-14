@@ -1511,7 +1511,7 @@ Ce questionnaire sera-t-il diffusé à l'ensemble des députés... ?
 
 #### Contribution lpyelmc=
 
-[...]
+ [...]
 
 Demander une commission d'enquête parlementaire pour évaluer comment la justice condamne les faits de violences conjugales, si elle applique les circonstances aggravantes ou pas.
 

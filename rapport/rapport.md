@@ -40,6 +40,8 @@ Les initatives prises par le CEC de rendre accessibles quotidiennement en Open D
 
 S'étant efforcé, à travers le présent rapport, d'exercer un rôle de tiers garant, désintéressé, critique, vigilant mais toujours constructif, Regards Citoyens espère inciter les parlementaires désireux d'améliorer la qualité et la légitimité de la loi à effectuer un changement fécond de paradigme dans leur conception et usage des consultations citoyennes.
 
+\newpage
+
 ## Contributions de Regards Citoyens
 
 Regards Citoyens et ses partenaires ont apporté leur expertise au comité de suivi de la consultation en contribuant à trois étapes clefs du processus :
@@ -91,9 +93,9 @@ Chaque réponse a été analysée par au moins 3 personnes différentes (jusqu'�
 
 Regards citoyens a produit quatre analyses dont les résultats sont exposés dans le présent rapport. Ces analyses ont été produites bénévolement et collectivement par les membres de Regards Citoyens en partenariat avec les membres de FaisTaloi et de DemocracyOS.
 
- - Une analyse statistique des réponses aux questions fermées du questionnaire de l’AN
- - Une analyse quantitative des réponses aux questions ouvertes du questionnaire de l'AN
- - Une analyse sémantique des réponses aux questions ouvertes
+ - Une analyse statistique des réponses aux questions fermées du questionnaire
+ - Une analyse quantitative des réponses aux questions ouvertes du questionnaire
+ - Une analyse sémantique des réponses aux questions ouvertes du questionnaire
  - Une analyse des résultats de l'initiative de crowdsourcing
 
 La première analyse vise principalement à déterminer le degré de diversité des profils de réponse des contributeurs et à détecter d'éventuels biais d'uniformité dans les publics invités à contribuer. 
@@ -130,8 +132,8 @@ Dans le cas de la présente consultation, le CEC a affirmé avoir communiqué au
 
 Pour le savoir, l'analyse statistitique s'est efforcée de répondre aux deux questions suivantes :
 
-- Les réponses à chaque question sont-elles assez bien réparties entre l'ensemble des options proposées par le questionnaire ? 
-- Est-il possible de dégager des "populations" spécifiques, aux profils de réponse homogènes et bien distincts ? 
+- Les réponses à chaque question sont-elles assez bien réparties entre l'ensemble des options proposées par le questionnaire ?
+- Est-il possible de dégager des "populations" spécifiques, aux profils de réponse homogènes et bien distincts ?
 
 ## Méthodologie suivie
 
@@ -139,62 +141,62 @@ La méthode statistique utilisée pour l'analyse des "populations" est la ["clus
 
 Toutes les contributions ont été représentées sous la forme d'une matrice où chaque ligne correspondait à un utilisateur de la consultation et chaque colonne une réponse possible (codée en 0 pour la non sélection de cette réponse par l'utilisateur ou 1 pour réponse sélectionnée). Une colonne par question a été ajoutée indiquant par 1 si l'utilisateur y a répondu ou 0 si non. Cette matrice a permis de faire émerger des similarités de comportement entre contributeurs de la consultation. La clusterisation permet de faire émerger des groupes de personnes ayant un comportement similaire dans leurs manière de répondre aux questions. Nous appelons ces groupes "population".
 
-Une recherche de population/profil k-mean a été réalisé pour chaque thème.
+Une recherche de population/profil k-mean a été réalisée pour chaque thème.
 
 ## Principaux résultats de l'analyse
 
-L'analyse statistique montre de manière assez susprenante que le sexe déclaré des répondants n'est pas un critère réellement impactant sur la manière dont les gens ont répondu à la consultation. Le sexe n'est pour aucun thème un élément constitutif d'une population trouvée, c'est à dire qu'il n'a pas été possible de retrouver une population très majoritairement constituée de femmes dont les réponses s'opposaient à une population très majoritairement constituée d'hommes. Seuls pour deux questions liées aux améliorations possibles des impayés de pensions et au niveau d'informations donné aux femmes victimes de violence à propos des dispositions sur les ordonnances, il a été possible de noter une plus grande présence de répondant masculins (10 à 20% de femmes en moins par rapport aux autres populations).
+L'analyse statistique montre de manière assez surprenante que le sexe déclaré des répondants n'est pas un critère réellement impactant sur la manière dont les gens ont répondu à la consultation. Le sexe n'est pour aucun thème un élément constitutif d'une population trouvée, c'est à dire qu'il n'a pas été possible de retrouver une population très majoritairement constituée de femmes dont les réponses s'opposaient à une population très majoritairement constituée d'hommes. Seules deux questions (liées aux améliorations possibles des impayés de pensions, et au niveau d'information donné aux femmes victimes de violence à propos des dispositions sur les ordonnances) révèlent une plus grande présence de répondants masculins (10 à 20% de femmes en moins par rapport aux autres populations).
 
 Le préjugé que cette consultation aurait été instrumentalisée par des "lobbies masculinistes" semble donc totalement infondé.
 
-Les questions liées à la connaissance des dispositifs présentés sont à première vue (sauf pour le thème n° 4 sur les pensions alimentaires) les questions qui impactent le plus la manière dont les gens répondent à la consultation, et notamment car il y a une forte corrélation entre le fait de connaître deux dispositions d'un même thème (lorsqu'on connaît les dispositions de signalement Internet, on a plus de chance de connaitre les dispositions liées aux médias). En revanche, étonnemment, les réponses liées aux connaissances n'ont que très peu d'impact sur les réponses liées aux opinions des répondants sur ces dispositifs. Lorsqu'il y a une variation notable, le groupes des personnes connaissant les dispositifs ne sont constitués que très légèrement de plus d'individus favorables aux dispositions (variation d'environ 10% par rapport à l'autre groupe), l'opinion majoritaire du groupe restant proche de celle des personnes annoncant ne pas connaître les dispositions.
+Les questions liées à la connaissance des dispositifs présentés sont à première vue (sauf pour le thème n° 4 sur les pensions alimentaires) les questions qui impactent le plus la manière dont les gens répondent à la consultation, et notamment car il y a une forte corrélation entre le fait de connaître deux dispositions d'un même thème (lorsqu'on connaît les dispositions de signalement Internet, on a plus de chance de connaitre les dispositions liées aux médias). En revanche, étonnemment, les réponses liées aux connaissances n'ont que très peu d'impact sur les réponses liées aux opinions des répondants sur ces dispositifs. Lorsqu'il y a une variation notable, le groupe des personnes connaissant les dispositifs n'est constitué que très légèrement de plus d'individus favorables aux dispositions (variation d'environ 10% par rapport à l'autre groupe), l'opinion majoritaire du groupe restant proche de celle des personnes annoncant ne pas connaître les dispositions.
 
-Par leurs liens entre elles, les questions relatives à la connaissance des dispositifs n'apportent donc peu de connaissance sur les communautés interrogées.
+Par leurs liens entre elles, les questions relatives à la connaissance des dispositifs n'apportent donc que peu de connaissance sur les communautés interrogées.
 
 ## Analyse statistique de la répartition des réponses à chaque question
 
 ### Thématique 2 : image des femmes, médias audiovisuels et internet
 
-La connaissance des dispositions liées au signalement internet crée deux populations : les personnes qui connaissent le dispositif et celles qui ne le connaissent pas. Élément surprenant de cette dichotomie est que la connaissance ou non des dispositions n'a que peu d'impact sur les autres réponses : les personnes qui connaissent les dispositions de signalement internet sont plus nombreuses à connaitre les dispositions liées à la télévision (45% au lieu de 20%) et elles sont légèrement plus nombreuses à avoir le sentiment que les dispositions de signalement internet sont mieux respectées (à la question n° 7, elles ont répondu "Assez bien respectée" à 20% contre 6% pour les personnes ne connaissant pas le dispositif et "Pas du tout respectée" à 23% contre 40%) et sont légèrement plus indulgentes sur son efficacité pour lutter contre des contenus sexistes sur Internet (17% ont répondu qu'il n'était "pas du tout adapté" contre 27%). Pour les autres questions, il n'y a pas de différences statistiques notables.
+La connaissance des dispositions liées au signalement internet crée deux populations : les personnes qui connaissent le dispositif et celles qui ne le connaissent pas. L'élément surprenant de cette dichotomie est que la connaissance ou non des dispositions n'a que peu d'impact sur les autres réponses : les personnes qui connaissent les dispositions de signalement internet sont plus nombreuses à connaitre les dispositions liées à la télévision (45% au lieu de 20%) et elles sont légèrement plus nombreuses à avoir le sentiment que les dispositions de signalement internet sont mieux respectées (à la question n° 7, elles ont répondu "Assez bien respectée" à 20% contre 6% pour les personnes ne connaissant pas le dispositif et "Pas du tout respectée" à 23% contre 40%) et sont légèrement plus indulgentes sur son efficacité pour lutter contre des contenus sexistes sur Internet (17% ont répondu qu'il n'était "pas du tout adapté" contre 27%). Pour les autres questions, il n'y a pas de différence statistique notable.
 
-En ignorant les questions liées à la connaissance du dispositif, les deux populations qui émergent sont celles qui déclarent que les dispositions de signalement ne sont pas du tout respectées, et d'autres qui disent qu'elles sont peu respectées. Cela peut signifier que cette thématique a fortement mobilisé les acteurs peu satisfaits des dispositions de signalement internet.
+En ignorant les questions liées à la connaissance du dispositif, les deux populations qui émergent sont celle qui déclare que les dispositions de signalement ne sont pas du tout respectées, et celle qui dit qu'elles sont peu respectées. Cela peut signifier que cette thématique a fortement mobilisé les acteurs peu satisfaits des dispositions de signalement internet.
 
 ### Thématique 3 : partage des responsabilités parentales
 
-Une première population peut être dégagée sur le critère de l'information relative à l'autorisation d'absence des conjoints de femmes enceintes. Comme pour la thématique précédente, les gens qui connaissent ce disposition sont plus nombreux à être informés des autres dispositions. Ils sont très légèrement plus nombreux à trouver le niveau d'information de ce dispositif suffisant (ils ont répondu Oui à la question n° 17 à hauteur de 18% contre 2% pour les non informés), sont légèrement plus nombreux à le trouver "assez bien appliqué" (23% contre 9%) et moins nombreux à trouver que la réticence des employeurs est un facteur dissuasif (56% ont indiqué cette réponse à la question question n° 19 contre 65%).
+Une première population peut être dégagée sur le critère de l'information relative à l'autorisation d'absence des conjoints de femmes enceintes. Comme pour la thématique précédente, les gens qui connaissent cette disposition sont plus nombreux à être informés des autres dispositions. Ils sont très légèrement plus nombreux à trouver le niveau d'information de ce dispositif suffisant (ils ont répondu Oui à la question n° 17 à hauteur de 18% contre 2% pour les non informés), sont légèrement plus nombreux à le trouver "assez bien appliqué" (23% contre 9%) et moins nombreux à trouver que la réticence des employeurs est un facteur dissuasif (56% ont indiqué cette réponse à la question n° 19 contre 65%).
 
-En ignorant les questions liées à la connaissace des dispositifs de ce thème, 8 populations apparaissent, et notamment :
+En ignorant les questions liées à la connaissance des dispositifs de ce thème, 8 populations apparaissent, et notamment :
 
- * une population "employeur" (50 personnes) qui pense que le niveau d'information sur les absences des conjoints est bon et citent moins l'employeur comme cause de réticence et plus les visions stéréotypées au sein du couple ;
- * trois populations favorables à la prestation partagée (146, 134 et 92 personnes) mais qui se divisent sur les causes : la premiere pointe la perte de revenu au sein des couples,  la seconde pointe les visions stéréotypées, la troisième pense que cela ne facilite pas un retour rapide à la vie professionnelle ;
- * une autre (79) pense que la prestation partagée n'est pas du tout adaptée.
+ - une population "employeur" (50 personnes) qui pense que le niveau d'information sur les absences des conjoints est bon et citent moins l'employeur comme cause de réticence et plus les visions stéréotypées au sein du couple ;
+ - trois populations favorables à la prestation partagée (146, 134 et 92 personnes) mais qui se divisent sur les causes : la premiere pointe la perte de revenu au sein des couples, la seconde pointe les visions stéréotypées, la troisième pense que cela ne facilite pas un retour rapide à la vie professionnelle ;
+ - une autre (79) qui pense la prestation partagée pas du tout adaptée.
 
-Les trois autres populations sont des personnes qui soit ne se différencient pas réellement de la moyenne des réponses (constituées de 218 personnes), soit répondu à la question ouverte (constituées de 109 personnes, ces personnes ont des avis proches de la moyenne), soit ont moins répondu aux question de ce thème que les autres participants (47 personnes).
+Les trois autres populations sont des personnes qui, soit ne se différencient pas réellement de la moyenne des réponses (218 personnes), soit ont répondu à la question ouverte (109 personnes, avec des avis proches de la moyenne), soit ont moins répondu aux questions de ce thème que les autres participants (47 personnes).
 
 ### Thématique 4 : impayés de pensions alimentaires
 
-C'est sur ce thème que les populations sont les plus variées car 8  populations émergent directement :
+C'est sur ce thème que les populations sont les plus variées car 8 populations émergent directement :
 
- - deux populations n'ayant pas entendu parler de la GIPA mais se divisent sur l'utilité de la mesure : adaptée (169 personnes) ou peu adaptée (120 personnes)
- - deux populations qui connaissent les deux volets et trouvent le système adapté. Elles se divisent sur les améliorations : besoin d'augmenter le montant de l'ASF pour le premier groupe (130 personnes plus constitué que les autres des femmes) ou simplifier les procédures (groupe de 73 personnes constitué de plus hommes que les autres groupes)
- - une population qui ne connaît que le recouvrement des pensions (100 personnes)
+ - deux populations n'ayant pas entendu parler de la GIPA mais se divisant sur l'utilité de la mesure : adaptée (169 personnes) ou peu adaptée (120 personnes) ;
+ - deux populations qui connaissent les deux volets et trouvent le système adapté. Elles se divisent sur les améliorations : besoin d'augmenter le montant de l'ASF pour le premier groupe (130 personnes, constitué de plus de femmes que les autres populations) ou simplifier les procédures (groupe de 73 personnes constitué de plus d'hommes que les autres groupes) ;
+ - une population qui ne connaît que le recouvrement des pensions (100 personnes).
 
-Les autres populations ont soit peu répondu à cette partie du questionnaire (55 personnes), répondu à la question ouverte sans que leur opinion change fondamentalement à la moyenne (122 personnes) et un groupe (73 personnes) qui n'a pas répondu à la question n° 24 sur les mesures à mettre en œuvre pour garantir le paiement des pensions alimentaires.
+Les autres populations ont soit peu répondu à cette partie du questionnaire (55 personnes), soit répondu à la question ouverte sans que leur opinion change fondamentalement à la moyenne (122 personnes), soit n'ont pas répondu à la question n° 24 sur les mesures à mettre en œuvre pour garantir le paiement des pensions alimentaires (73 personnes).
 
-Au vu de la diversité des profils de réponses trouvées, on peut estimer que la question des pensions alimentaires est soit une question particulièrement bien connue et clivée, soit que c'est pour ce thème les utilisateurs de la consultation ont répondu au questionnaire.
+Au vu de la diversité des profils de réponses trouvées, on peut estimer que la question des pensions alimentaires est soit une question particulièrement bien connue et clivée, soit que c'est pour ce thème que les utilisateurs de la consultation ont répondu au questionnaire.
 
 ### Thématique 5 : protection contre les violences conjugales
 
-Deux populations différentes liées à la connaissance du téléphone "grand danger". Comme pour les autres thèmes où la connaissance des dispositifs était un élément différenciant, les personnes qui connaissent ce dispositif sont plus nombreuses à connaître le dispositif d'ordonnance. Elles sont très légèrement plus nombreuses à être favorables aux dispositifs liées aux violences conjugales et moins nombreuses à porter de l'importance aux violences psychologiques. Pour les autres réponses, il n'y a pas de différences notables entre les gens qui connaissent le téléphone "grand danger" et les personnes qui ne le connaissent pas.
+Deux populations différentes liées à la connaissance du téléphone "grand danger". Comme pour les autres thèmes où la connaissance des dispositifs était un élément différenciant, les personnes qui connaissent ce dispositif sont plus nombreuses à connaître le dispositif d'ordonnance. Elles sont très légèrement plus nombreuses à être favorables aux dispositifs liées aux violences conjugales et moins nombreuses à apporter de l'importance aux violences psychologiques. Pour les autres réponses, il n'y a pas de différences notables entre les gens qui connaissent le téléphone "grand danger" et les personnes qui ne le connaissent pas.
 
 En ignorant cette question, on obtient 4 populations :
 
- - 276 personnes trouvent le système d'ordonnance adaptée mais le niveau d'information est insuffisant
- - 353 personnes trouvent l'ordonnance peu adaptée et le niveau d'information insuffisant
- - 114 personnes trouvent le niveau d'information sur les ordonnances adapté. Cette population est légèrement plus masculine et est constituée à 60% de personnes qui trouvent le système d'ordonnance adapté
+ - 276 personnes trouvent le système d'ordonnance adaptée mais le niveau d'information insuffisant ;
+ - 353 personnes trouvent l'ordonnance peu adaptée et le niveau d'information insuffisant ;
+ - 114 personnes trouvent le niveau d'information sur les ordonnances adapté ; cette population est légèrement plus masculine et constituée à 60% de personnes qui trouvent le système d'ordonnance adapté ;
  - 95 personnes sont peu investies par ce thème.
 
-Sur la question des ordonnances, les répondants ont donc des opinions plutôt clivées. Se rapprocher de représentant des trois communautés investies sur les thèmes des ordonnances, voire de les faire travailler ensemble sur des améliorations de ce dispositif, pourrait permettre de faire émerger des solutions intéressantes à propos de ces dispositions.
+Sur la question des ordonnances, les répondants ont donc des opinions plutôt clivées. Se rapprocher de représentants des trois communautés investies sur les thèmes des ordonnances, voire de les faire travailler ensemble sur des améliorations de ce dispositif, pourrait permettre de faire émerger des solutions intéressantes à propos de ces dispositions.
 
 ## Recommandations pour assurer une bonne diversité des profils de réponse
 
@@ -202,7 +204,7 @@ L'analyse des populations montre qu'il peut être intéressant d'ajouter quelque
 
 En revanche, pour cet usage, il semble peu pertinent d'interroger les personnes sur leur connaissance ou non des dispositifs. Ces questions ont tendance à ne pas créer de connaissance sur les intérets et les préoccupations des différentes communautés ayant répondu à la consultation.
 
-Forts de la connaissance de ces communautés, les députés pourraient tenter d'enrichir le travail en allant chercher des communautés n'ayant pas participé spontanément à la consultation et également s'assurer que lors de leur travail d'audition, les représentants d'un maximum de ces communautés soient interrogés.
+Forts de la connaissance de ces communautés, les députés pourraient tenter d'enrichir leur travail en identifiant des communautés n'ayant pas participé spontanément à la consultation et en s'assurant que lors de leur travail d'audition, les représentants d'un maximum de ces communautés soient interrogés.
 
 \newpage
 
@@ -212,34 +214,34 @@ Forts de la connaissance de ces communautés, les députés pourraient tenter d'
 
 Le questionnaire de l'Assemblée nationale proposait quatre questions ouvertes thématiques (questions n°10, 20, 25 et 34) ainsi qu'une question ouverte incitant les contributeurs à faire des suggestions pour améliorer les consultations citoyennes (question 38). La présente analyse porte exclusivement sur les 742 contributions sustantielles apportées aux quatre questions ouvertes thématiques, à savoir les questions n°10, 20, 25 et 34 du questionnaire de l'Assemblée nationale. Les contributions substantielles sont les contributions présentant un contenu réel et non des expressions du type « RAS », « non », « rien » , « je ne sais pas », « pas d'information »,  « aucune idée », « pas de commentaires », etc. 45 réponses non substantielles ont été ainsi retirées des données d'analyse.
 
-Les quatre questions ouvertes proposées par l'Assemblée nationale étaient toutes initiées par la même consigne-type « Si vous avez d’autres informations ou expériences qui vous semblent intéressantes pour améliorer...., vous pouvez les exprimer ici : »
+Les quatre questions ouvertes proposées par l'Assemblée nationale étaient toutes initiées par la même consigne-type : « Si vous avez d’autres informations ou expériences qui vous semblent intéressantes pour améliorer...., vous pouvez les exprimer ici : ».
 
 Des questions ouvertes permettent, a priori, d'obtenir des réponses plus diverses, originales et qualifiées que des questions fermées à choix multiple dans lesquelles le nombre et la nature des réponses sont prédéfinis par celui qui pose la question. Ce sont évidemment ces questions ouvertes qui doivent donc être privilégiées pour les consultations citoyennes déployées dans le cadre d'une démocratie d'enquête.
 
-Néanmoins, pour donner des résultats intéressants dans le cadre d'une démocratie d'enquête, ces questions ouvertes doivent être adressées à des publics qualifiés pour y répondre. 
+Néanmoins, pour donner des résultats intéressants dans le cadre d'une démocratie d'enquête, ces questions ouvertes doivent être adressées à des publics qualifiés pour y répondre.
 
 Par publics qualifiés, nous n'entendons pas des publics "experts", comme peuvent l'être les personnes habituellement auditionnées par l'Assemblée nationale. Si l'expertise est utile, elle présente aussi d'importants biais qui peuvent empêcher de comprendre et d'analyser un problème public. Comme a pu l'écritre John Dewey dans « Le public et ses problèmes » (p.310 et 311, Folio Essais) : « Une classe d'experts est inévitablement tellement coupée des intérêts communs qu'elle en devient une classe avec des intérêts privés et une connaissance privée, ce qui, dans les affaires sociales, ne représente aucune connaissance du tout. [...] Tout gouvernement par les experts dans lequel les masses n'ont pas la possibilité d'informer les experts sur leurs besoins ne peut être autre chose qu'une oligarchie adminsitrée en vue des intérêts de quelques-uns. ».
 
 Plusieurs autres types de qualification sont nécessaires pour contribuer de manière féconde à l'analyse et l'amélioration d'un problème public donné :
 
- - qualification provenant de l'expérience directe ou indirecte de ce problème (publics affectés par le problème)
- - qualification provenant d'une capacité d'action sur le problème (parties prenantes du problème)
- - qualification provenant de recherches personnelles approfondies effectuées sur ce problème (chercheurs autodidactes)
- - qualification provenant d'une capacité de réflexion et d'analyse générale, permettant en particulier à tout un chacun d'apporter un avis légitime sur les questions de valeur et de norme sous-jacentes à de nombreux problèmes publics 
+ - qualification provenant de l'expérience directe ou indirecte de ce problème (publics affectés par le problème) ;
+ - qualification provenant d'une capacité d'action sur le problème (parties prenantes du problème) ;
+ - qualification provenant de recherches personnelles approfondies effectuées sur ce problème (chercheurs autodidactes) ;
+ - qualification provenant d'une capacité de réflexion et d'analyse générale, permettant en particulier à tout un chacun d'apporter un avis légitime sur les questions de valeur et de norme sous-jacentes à de nombreux problèmes publics.
 
 Ces diverses qualifications sont réparties dans la population : une bonne consultation citoyenne doit s'efforcer de les solliciter toutes, en identifiant et en allant chercher, de manière proactive, les publics susceptibles de les détenir.
 
-Mais tout le monde ne peut pas contribuer de manière qualifiée sur tous les sujets. D'où l'importance d'inciter les contributeurs à ne contribuer que sur les sujets sur lesquels ils disposent d'une ou plusieurs qualifications précises. C'était le sens de la question 35/36 que Regards Cioyens a proposé d'ajouter en début de questionnaire et qui s'est finalement retrouvée, scindée en deux, à la fin. 
+Mais tout le monde ne peut pas contribuer de manière qualifiée sur tous les sujets. D'où l'importance d'inciter les contributeurs à ne contribuer que sur les sujets sur lesquels ils disposent d'une ou plusieurs qualifications précises. C'était le sens de la question 35/36 que Regards Cioyens a proposé d'ajouter en début de questionnaire et qui s'est finalement retrouvée, scindée en deux, à la fin.
 
 L'analyse quantitiative des réponses aux questions ouvertes, croisée avec celle des réponses des contributeurs aux questions 35 et 36 sur leur propre qualification, doit permettre d'obtenir une première mesure du degré de qualification des contributeurs qui ont répondu aux questions ouvertes de cette consultation. Cette analyse sera complétée par l'analyse des résultats du crowdsourcing qui seront étudiés dans la dernière partie de ce rapport et qui permettront de mesurer la qualification des contributeurs de manière plus objective et qualitative.
 
-Cette analyse doit aussi permettre, en lien avec les réponses des contributeurs à la question 37 (« Acceptez-vous d'être recontacté ? ») de mesurer le degré d'engagement et de confiance des contributeurs dans le dispositif de consultation. Ce degré d'engagement et de confiance est important dans la mesure où il impacte le nombre de contributeurs prêts à répondre aux questions ouvertes. 
+Cette analyse doit aussi permettre, en lien avec les réponses des contributeurs à la question 37 (« Acceptez-vous d'être recontacté ? ») de mesurer le degré d'engagement et de confiance des contributeurs dans le dispositif de consultation. Ce degré d'engagement et de confiance est important dans la mesure où il impacte le nombre de contributeurs prêts à répondre aux questions ouvertes.
 
-Pour cette analyse, nous partons de l'hypothèse qu'un contributeur qui a répondu à au moins une question ouverte a un sentiment plus élevé de sa propre qualification à répondre et une volonté d'engagement plus forte dans le dispositif de consultation, qu'un contributeur qui n'a répondu qu'aux questions fermées. 
+Pour cette analyse, nous partons de l'hypothèse qu'un contributeur qui a répondu à au moins une question ouverte a un sentiment plus élevé de sa propre qualification à répondre et une volonté d'engagement plus forte dans le dispositif de consultation, qu'un contributeur qui n'a répondu qu'aux questions fermées.
 
 ## Principaux résultats de l'analyse
 
-Un peu plus d'un tiers des contributeurs ont apporté au moins une réponse à une question ouverte. Cette relativement faible participation aux questions ouvertes ne peut être attribuée à un sentiment de manque de qualification des contributeurs. En effet, l'analyse des réponses aux questions 35 et 36  montre que l'ensemble des contributeurs à la consultation a en effet globalement un sentiment de qualification élevé sur les thématiques de la consultation. Ce sentiment est cependant plus important chez les contributeurs ayant répondu à au moins une question ouverte. On note par contre des disparités importantes dans les thématiques de qualification avec un nombre plus important de contributeurs ayant un sentiment de qualification sur la thématique des préjugés et stéréotypes sexistes.
+Un peu plus d'un tiers des contributeurs ont apporté au moins une réponse à une question ouverte. Cette relativement faible participation aux questions ouvertes ne peut être attribuée à un sentiment de manque de qualification des contributeurs. En effet, l'analyse des réponses aux questions 35 et 36 montre que l'ensemble des contributeurs à la consultation a globalement un sentiment de qualification élevé sur les thématiques de la consultation. Ce sentiment est cependant plus important chez les contributeurs ayant répondu à au moins une question ouverte. On note par contre des disparités importantes dans les thématiques de qualification avec un nombre plus important de contributeurs ayant un sentiment de qualification sur la thématique des préjugés et stéréotypes sexistes.
 
 Le degré d'engagement des contributeurs est lui aussi globalement assez élevé mais avec un écart plus important entre les personnes ayant répondu uniquement à des questions fermées et celles ayant répondu à au moins une question ouverte. Ces dernières font preuve d'un engagement plus important dans la consultation en indiquant plus largement accepter d'être recontactées.
 
@@ -249,40 +251,41 @@ Le degré d'engagement des contributeurs est lui aussi globalement assez élevé
 
 **383 personnes ont apporté une réponse substantielle à au moins une question ouverte**
 
-Ce nombre en valeur absolue peut sembler très faible et certains pourraient regretter que les personnes consultées ne constituent pas un échantillon représentatif de la population française. 
+Ce nombre en valeur absolue peut sembler très faible et certains pourraient regretter que les personnes consultées ne constituent pas un échantillon représentatif de la population française.
+
 Dans une logique de démocratie d'opinion où il s'agit d'identifier une volonté majoritaire, ce faible nombre de contributeurs et l'absence de représentativité statistique peuvent en effet être considérés comme des objections invalidant l'intérêt des réponses. Mais dans une logique de démocratie d'enquête, ce faible nombre de contributeurs n'est pas un critère d'invalidité. En effet, l'objectif principal des consultations citoyennes menées dans ce cadre n’est pas de dégager une opinion majoritaire censée représenter la « volonté générale » des citoyens français mais de faire connaître aux députés des éléments d'information, d'expérience, d'analyse et de proposition qualifiés, originaux et minoritaires habituellement peu audibles dans le débat public ou peu accessibles aux députés dans leur travail d’audition. **Un petit nombre de contributions peut donc déjà constituer une matière très intéressante et utile pour les députés**.
 
 Le critère d’évaluation de l’intérêt de ces réponses aux questions ouvertes doit donc davantage porter sur la nature qualifiée ou non des contributions que sur leur nombre.
 
 **39,6 % des contributeurs ont apporté une réponse substantielle à au moins une des 4 questions ouvertes**
 
-Le pourcentage des contributeurs ayant répondu à au moins une question ouverte apparaît globalement relativement faible pour une consultation citoyenne. 
+Le pourcentage des contributeurs ayant répondu à au moins une question ouverte apparaît globalement relativement faible pour une consultation citoyenne.
 
 Plusieurs hypothèses peuvent expliquer qu'un peu plus d'1/3 des contributeurs seulement ait répondu à au moins une des 4 questions ouvertes :
 
  - Hypothèse 1 : **Manque de temps ou d’énergie des contributeurs** 
 
- Le questionnaire était très long et les 2/3 des contributeurs n’ont pas eu le temps ou l’énergie de répondre à des questions ouvertes plus exigeantes que des cases à cocher
+Le questionnaire était très long et les 2/3 des contributeurs n’ont pas eu le temps ou l’énergie de répondre à des questions ouvertes plus exigeantes que des cases à cocher.
 
-Cette hypothèse conduit à s’interroger sur la pertinence de proposer un questionnaire aussi long lors d’une consultation citoyenne. (Une contribution à une question ouverte illustre bien cette hypothèse : « je suis à deux doigts d'abandonner »)
+Cette hypothèse conduit à s’interroger sur la pertinence de proposer un questionnaire aussi long lors d’une consultation citoyenne. (Une contribution à une question ouverte illustre bien cette hypothèse : « je suis à deux doigts d'abandonner »).
 
  - Hypothèse 2 :  **Sentiment d'un manque de qualification ou de légitimité à contribuer**
 
-Les 2/3 des contributeurs n'avaient pas le sentiment qu'ils avaient des remarques intéressantes à transmettre aux députés. 
+Les 2/3 des contributeurs n'avaient pas le sentiment qu'ils avaient des remarques intéressantes à transmettre aux députés.
 
-La validité de cette hypothèse peut être éprouvée à partir des réponses des contributeurs aux questions 35 et 36. Les réponses à ces questions montrent un sentiment de qualification élevé des contributeurs sur la question générale de l'Egalité Femmes/Hommes. En effet, 798 contributeurs sur 967 soit 82% répondent à la question 36 en précisant quel type d'aide ils peuvent apporter aux députés. Si l'on déduit le nombre de contributeurs (108) ayant indiqué à cette question qu'ils n'avaient qu'une "opinion à exprimer", considérant que ce sont ceux qui ont sans doute le sentiment de qualification le moins élevé, on arrive à 690 contributeurs sur 967 soit 71%, une proportion qui reste élevée.
+La validité de cette hypothèse peut être éprouvée à partir des réponses des contributeurs aux questions 35 et 36. Les réponses à ces questions montrent un sentiment de qualification élevé des contributeurs sur la question générale de l'Egalité Femmes / Hommes. En effet, 798 contributeurs sur 967 soit 82% répondent à la question 36 en précisant quel type d'aide ils peuvent apporter aux députés. Si l'on déduit le nombre de contributeurs (108) ayant indiqué à cette question qu'ils n'avaient qu'une "opinion à exprimer", considérant que ce sont ceux qui ont sans doute le sentiment de qualification le moins élevé, on arrive à 690 contributeurs sur 967 soit 71%, une proportion qui reste élevée.
 
-L'analyse des thèmes sur lesquels les contributeurs se sont déclarés "qualifiés" infirme encore davantage cette hypothèse. La question 35 permettait en effet aux contributeurs de déclarer s'il se sentaient qualifiés sur un thème particulier lié à l'égalité Femmes/Hommes. Trois des thèmes proposés dans la question renvoyaient directement aux thèmes traités dans la consultation. On peut donc analyser le sentiment de qualification des contributeurs sur les thèmes de la consultation. Sur les 410 personnes n'ayant apporté aucune réponse aux questions ouvertes et ayant répondu à la question 35, 362 déclarent être qualifiées sur l’un des thèmes de la consultation soit 88,3 %. Ce pourcentage s'élève à 93% pour les personnes ayant répondu à au moins une question ouverte. Le sentiment global de qualification des contributeurs sur les thèmes de la consultation est donc globalement très élevé, que les personnes aient contribué ou non à des questions ouvertes. 
+L'analyse des thèmes sur lesquels les contributeurs se sont déclarés "qualifiés" infirme encore davantage cette hypothèse. La question 35 permettait en effet aux contributeurs de déclarer s'il se sentaient qualifiés sur un thème particulier lié à l'égalité Femmes/Hommes. Trois des thèmes proposés dans la question renvoyaient directement aux thèmes traités dans la consultation. On peut donc analyser le sentiment de qualification des contributeurs sur les thèmes de la consultation. Sur les 410 personnes n'ayant apporté aucune réponse aux questions ouvertes et ayant répondu à la question 35, 362 déclarent être qualifiées sur l’un des thèmes de la consultation soit 88,3 %. Ce pourcentage s'élève à 93% pour les personnes ayant répondu à au moins une question ouverte. Le sentiment global de qualification des contributeurs sur les thèmes de la consultation est donc globalement très élevé, que les personnes aient contribué ou non à des questions ouvertes.
 
 **Si les 2/3 des contributeurs n'ont donc contribué à aucune question ouverte, cela ne semble pas dû à un sentiment de manque de qualification.**
 
- - Hypothèse 3  :   **Volonté de ne pas trop s'engager à titre personnel et manque de confiance dans la consultation**
+ - Hypothèse 3  :  **Volonté de ne pas trop s'engager à titre personnel et manque de confiance dans la consultation**
 
 Une adresse email étant exigée pour pouvoir répondre au questionnaire, l'absence d’anonymat des contributions a pu avoir un effet négatif sur le degré d'engagement des contributeurs.
 
-Les réponses écrites étant plus engageantes et personnelles que des questions fermées à choix multiple, cela a pu rebuter certains contributeurs d'y répondre, ne souhaitant pas que l'Assemblée garde trace de leur positions politiques. Il est possible aussi que des contributeurs aient soupçonné le dispositif d'être un simple outil de communication, doutant que leurs remarques écrites seraient lues et prises en compte par les députés, contrairement aux réponses pouvant faire l’objet d’une simple exploitation statistique.
+Les réponses écrites étant plus engageantes et personnelles que des questions fermées à choix multiple, cela a pu rebuter certains contributeurs d'y répondre, ne souhaitant pas que l'Assemblée garde trace de leur positions politiques. Il est possible aussi que des contributeurs aient soupçonné le dispositif d'être un simple outil de communication, doutant que leurs remarques écrites seraient lues et prises en compte par les députés, contrairement aux réponses pouvant faire l’objet d’une simple exploitation statistique. (Une contribution à une question ouverte illustre là encore bien cette hypothèse : « Merci de m'avoir lue, même si je doute que mon commentaire ne soit lu jusqu'au bout, voire lu tout court ! »).
 
-La crédibilité de cette hypothèse peut être évaluée à partir de l'analyse du degré d'engagement des contributeurs réalisé à partir des réponses à la question 37 qui demandait si les contributeurs acceptaient d'être recontactés. 282 contributeurs n'ayant répondu à aucune question ouverte indiquent qu'ils acceptent d'être recontactés (question 37) soit 67,6% des personnes ayant répondu à cette question 37 et n'ayant répondu à aucune question ouverte (417 personnes). Ce pourcentage descend à 52,7% si on inclue les personnes qui n'ont pas répondu à la question 37 (en présupposant qu'elles ne voulaient pas être recontactées). Ce résultat est différent des personnes qui ont répondu à au moins une question ouverte.
+La crédibilité de cette hypothèse peut être évaluée à partir de l'analyse du degré d'engagement des contributeurs réalisée à partir des réponses à la question 37 qui demandait si les contributeurs acceptaient d'être recontactés. 282 contributeurs n'ayant répondu à aucune question ouverte indiquent qu'ils acceptent d'être recontactés (question 37) soit 67,6% des personnes ayant répondu à cette question 37 et n'ayant répondu à aucune question ouverte (417 personnes). Ce pourcentage descend à 52,7% si on inclue les personnes qui n'ont pas répondu à la question 37 (en présupposant qu'elles ne voulaient pas être recontactées). Ce résultat est différent des personnes qui ont répondu à au moins une question ouverte.
 
 En effet, ces contributeurs acceptent davantage, à 86,8% (ou 77,14%, en incluant les personnes qui n'ont pas répondu à la question 37), d'être recontactés par l'Assemblée nationale. Ce résultat indique ainsi une confiance et une volonté d'engagement plus importantes dans le dispositif de consultation de la part des contributeurs ayant répondu à au moins une question ouverte.
 
@@ -290,30 +293,30 @@ En effet, ces contributeurs acceptent davantage, à 86,8% (ou 77,14%, en incluan
 
  - Hypothèse 4 :  **Problème dans la formulation de la consigne des questions ouvertes**
 
-Les questions ouvertes pour les 5 thèmes liées à la consultation était formulée de la manière suivante : « Si vous avez d’autres informations ou expériences qui vous semblent intéressantes pour …, vous pouvez les exprimer ici : »). La consigne était donc à la fois très large dans son objet (ex : améliorer la place des femmes dans les media, améliorer le partage des responsabilités parentales, réduire les violences conjugales)  et restrictive dans sa formulation dans la mesure où seules des « informations » ou « expériences » étaient explicitement sollicitées. Cela a pu brider certains contributeurs scrupuleux, soucieux de répondre exactement à la consigne.
+Les questions ouvertes pour les 5 thèmes de la consultation étaient formulées de la manière suivante : « Si vous avez d’autres informations ou expériences qui vous semblent intéressantes pour …, vous pouvez les exprimer ici : »). La consigne était donc à la fois très large dans son objet (ex : améliorer la place des femmes dans les media, améliorer le partage des responsabilités parentales, réduire les violences conjugales) et restrictive dans sa formulation dans la mesure où seules des « informations » ou « expériences » étaient explicitement sollicitées. Cela a pu brider certains contributeurs scrupuleux, soucieux de répondre exactement à la consigne.
 
-Les questions ouvertes ont par ailleurs pu apparaître aux contributeurs comme des questions accessoires, auxquelles l'Assemblée n'apportait pas grande importance, à travers l'expression "autres informations" alors que les contributeurs n'en avaient pas encore données, ou à travers la grande disproportion entre le nombre de questions fermées et de questions ouvertes. 
+Les questions ouvertes ont par ailleurs pu apparaître aux contributeurs comme des questions accessoires, auxquelles l'Assemblée n'apportait pas grande importance, à travers l'expression "autres informations" alors que les contributeurs n'en avaient pas encore donné, ou à travers la grande disproportion entre le nombre de questions fermées et ouvertes.
 
-**Cette hypothèse est difficile à évaluer faute d'indicateurs suffisants**
+**Cette hypothèse est difficile à évaluer faute d'indicateurs suffisants.**
 
 ### Engagement des contributeurs en fonction du sexe 
 
 Voici la répartition par sexe des personnes ayant répondu à au moins une question ouverte :
 
- - 47 % des 193 hommes ont répondu à au moins une question ouverte.
- - 49 % des 708 femmes ont répondu à au moins une question ouverte.
+ - 47 % des 193 hommes ont répondu à au moins une question ouverte ;
+ - 49 % des 708 femmes ont répondu à au moins une question ouverte ;
  - 68 % des 45 personnes ayant indiqué qu’elles ne souhaitaient pas indiquer leur sexe ont répondu à une question ouverte.
 
-On constate que le pourcentage de réponses aux questions ouvertes est quasiment identique entre les hommes et les femmes. Le pourcentage plus élevé des personnes n’ayant pas souhaité indiquer de sexe peut traduire un militantisme plus actif sur la question de l’égalité femmes/hommes et ainsi une propension plus forte à vouloir transmettre des remarques aux députés. Il sera intéressant de constater si ces profils de contributeurs ont produit des contributions mieux notées par le crowdsourcing ou non.
+On constate que le pourcentage de réponses aux questions ouvertes est quasiment identique entre les hommes et les femmes. Le pourcentage plus élevé des personnes n’ayant pas souhaité indiquer de sexe peut traduire un militantisme plus actif sur la question de l’égalité femmes / hommes et ainsi une propension plus forte à vouloir transmettre des remarques aux députés. Il sera intéressant de constater si ces profils de contributeurs ont produit des contributions mieux évaluées par le crowdsourcing ou non.
 
 ### Engagement des contributeurs en fonction du nombre de questions
 
 Chaque contributeur pouvait contribuer à une ou plusieurs des 4 questions ouvertes. Chaque contributeur ayant répondu à au moins une question ouverte a répondu en moyenne à 2 questions ouvertes :
 
- - 12,7 % des contributeurs aux questions ouvertes ont répondu à l’ensemble des 4 questions ouvertes, soit 26,3% réponses
- - 14,3 % des contributeurs ont répondu à 3 questions ouvertes, soit un total de 22,2% des réponses substantielles
- - 26,5% contributeurs ont répondu à 2 questions ouvertes, soit un total de 27,4% réponses
- - 46,5% des contributeurs ayant apporté une réponse substantielle ont apporté 1 seule réponse substantielle, ce qui représente 24 % des réponses substantielles
+ - 12,7 % des contributeurs aux questions ouvertes ont répondu à l’ensemble des 4 questions ouvertes, soit 26,3% réponses ;
+ - 14,3 % des contributeurs ont répondu à 3 questions ouvertes, soit un total de 22,2% des réponses substantielles ;
+ - 26,5% contributeurs ont répondu à 2 questions ouvertes, soit un total de 27,4% réponses ;
+ - 46,5% des contributeurs ayant apporté une réponse substantielle ont apporté 1 seule réponse substantielle, ce qui représente 24 % des réponses substantielles.
 
 Les figures 1 et 2 illustrent ces chiffres.
 
@@ -321,11 +324,11 @@ Les figures 1 et 2 illustrent ces chiffres.
 
 ![](nbrecontributeursquestionouvertes_valabsol.png "")
 
-Ces données montrent que près de la moitié des contributeurs aux questions ouvertes ont été des "petits contributeurs" (réponse à une seule questions ouverte), un quart des "contributeurs moyens" (réponses à deux questions ouvertes) et un dernier quart plutôt des "gros contributeurs" (se répartissant à peu près à égalité entre 3 et 4 questions ouvertes traitées).
+Ces données montrent que près de la moitié des contributeurs aux questions ouvertes ont été des "petits contributeurs" (réponse à une seule question ouverte), un quart des "contributeurs moyens" (réponses à deux questions ouvertes) et un dernier quart plutôt des "gros contributeurs" (se répartissant à peu près à égalité entre 3 et 4 questions ouvertes traitées).
 
-Les "gros contributeurs" peuvent être considérées comme les personnes les plus engagées dans le dispositif de consultation mais elles ne sont pas nécessairement pour cela les personnes les plus qualifiées.
+Les "gros contributeurs" peuvent être considérés comme les personnes les plus engagées dans le dispositif de consultation mais elles ne sont pas nécessairement pour cela les personnes les plus qualifiées.
 
-Chaque question portant sur un thème bien différent, on peut en effet faire l'hypothèse inverse que les "petits et moyens contributeurs" ont apporté des contributions plus qualifiées que les gros contributeurs, étant mieux conscients des limites de leurs qualifications. 
+Chaque question portant sur un thème bien différent, on peut en effet faire l'hypothèse inverse que les "petits et moyens contributeurs" ont apporté des contributions plus qualifiées que les gros contributeurs, étant mieux conscients des limites de leurs qualifications.
 
 Cette hypothèse pourrait être vérifiée grâce aux données du crowdsourcing.
 
@@ -333,10 +336,10 @@ Cette hypothèse pourrait être vérifiée grâce aux données du crowdsourcing.
 
 Répartition des réponses par questions ouvertes (Figure 3)
 
- - 34% des réponses portent sur le thème 1 relatif aux médias 
- - 25% sur le thème 2 relatif aux responsailités parentales
- - 17% sur le thème 3 relatif aux impayés de pensions alimentaires
- - 23% sur le thème 4 relatif aux violences conjugales
+ - 34% des réponses portent sur le thème 1 relatif aux médias ;
+ - 25% sur le thème 2 relatif aux responsailités parentales ;
+ - 17% sur le thème 3 relatif aux impayés de pensions alimentaires ;
+ - 23% sur le thème 4 relatif aux violences conjugales.
 
 ![](nbrecontributeursparquestion.png "")
 
@@ -344,9 +347,9 @@ Les contributions aux questions ouvertes ne sont pas également réparties entre
 
 Cet écart de traitement indique que le public ayant participé n'était pas composé à égalité de personnes qualifiées pour chacune des quatre thématiques, ce qui peut indiquer un **problème dans la diversité des publics invités à participer** à la consultation.
 
-Cet écart de qualification thématique se retrouve en partie dans les déclarations de qualification réalisées à la question 35 par les contributeurs aux questions ouvertes. Un plus grand nombre de contributeurs aux questions ouvertes se déclare en effet qualifié sur les questions de stéréotypes et de préjugés sexistes (75,7% - 265 personnes sur 350 ayant répondu à la question 35), ce qui correspond davantage à la thématique de l'image des femmes dans les media. 182 contributeurs se déclarent qualifiés sur les questions de violences faites aux femmes (52 %) et 149 sur la question des responsabilités parentales (42,6%). 
+Cet écart de qualification thématique se retrouve en partie dans les déclarations de qualification réalisées à la question 35 par les contributeurs aux questions ouvertes. Un plus grand nombre de contributeurs aux questions ouvertes se déclare en effet qualifié sur les questions de stéréotypes et de préjugés sexistes (75,7% - 265 personnes sur 350 ayant répondu à la question 35), ce qui correspond davantage à la thématique de l'image des femmes dans les media. 182 contributeurs se déclarent qualifiés sur les questions de violences faites aux femmes (52 %) et 149 sur la question des responsabilités parentales (42,6%).
 
-Les questions 35 et 36 n'ayant pas été posées de manière corrélée, il n'est pas possible d'analyser la nature exacte (expérience personnelle du problème, recherches approfondies sur le problème, etc.) des sentiments de qualification des contributeurs sur chaque thématique. Cette analyse n'est possible que pour les contributeurs n'ayant renseigné qu'une seule qualification thématique à la question 35, ou de manière négative, pour les contributeurs ayant répondu à une question thématique sans pour autant avoir déclaré de qualification sur ce thème. Le cadre bénévole de la présente analyse n'a pu permettre de détailler davantage ces données. 
+Les questions 35 et 36 n'ayant pas été posées de manière corrélée, il n'est pas possible d'analyser la nature exacte (expérience personnelle du problème, recherches approfondies sur le problème, etc.) des sentiments de qualification des contributeurs sur chaque thématique. Cette analyse n'est possible que pour les contributeurs n'ayant renseigné qu'une seule qualification thématique à la question 35, ou de manière négative, pour les contributeurs ayant répondu à une question thématique sans pour autant avoir déclaré de qualification sur ce thème. Le cadre bénévole de la présente analyse n'a pu permettre de détailler davantage ces données.
 
 \newpage
 
@@ -354,77 +357,77 @@ Les questions 35 et 36 n'ayant pas été posées de manière corrélée, il n'es
 
 ## Objet et intérêt de l'analyse
 
-Les analyses sémantiques permettent de déterminer de manière automatique les champs lexicaux utilisés dans des textes libres. L'un des objectifs des consultation étant de référencer un maximum des arguments, opinion ou expériences, croiser un travail d'analyse humaine avec une analyse sémantique des réponses aux questions libres permet de réduire les risques d'oublier des préoccupations exprimées par les contributeurs à la consultation.
+Les analyses sémantiques permettent de déterminer de manière automatique les champs lexicaux utilisés dans des textes libres. L'un des objectifs des consultation étant de référencer un maximum des arguments, opinions ou expériences. Croiser un travail d'analyse humaine avec une analyse sémantique des réponses aux questions libres permet de réduire les risques d'oublier des préoccupations exprimées par les contributeurs à la consultation.
 
 ## Méthodologie suivie
 
-L'analyse textuelle des réponses aux questions ouvertes a été réalisée à l'aide de la méthode TFIDF et du logiciel libre CorTex.  Cette méthode s'intéresse aux occurrences statistiques des mots ou groupes de mots utilisés dans un groupes de textes (ici les réponses aux questions libres) en comptant les mots ou groupes de mots (n-grammes) utilisés. Elle ne fait pas ressortir les mots les plus utilisés, étant jugés peu signifiants, mais les mots et groupes de mots les plus originaux pour chaque texte étudié (ceux qui apparaissent après avoir exclu les plus populaires sur l'ensemble des textes).
+L'analyse textuelle des réponses aux questions ouvertes a été réalisée à l'aide de la méthode TF-IDF et du logiciel libre CorTex. Cette méthode s'intéresse aux occurrences statistiques des mots ou groupes de mots utilisés dans un ensemble de textes (ici les réponses aux questions libres) en comptant les mots ou groupes de mots (n-grammes) utilisés. Elle ne fait pas ressortir les mots les plus utilisés, étant jugés peu signifiants, mais les mots et groupes de mots les plus originaux pour chaque texte étudié (ceux qui apparaissent après avoir exclu les plus populaires sur l'ensemble des textes).
 
 ## Analyse sémantique par thème
 
-###Thématique 2 : image des femmes, médias audiovisuels et internet
+### Thématique 2 : image des femmes, médias audiovisuels et internet
 
-Assez logiquement au vu du thème, deux mots clés émergent  "médias audiovisuels" et "Réseaux sociaux".
+Assez logiquement au vu du thème, deux mots clés émergent : "médias audiovisuels" et "réseaux sociaux".
 
 Des champs lexicaux décrivant les problèmes liés à ces thèmes ont été utilisés :
 
- - représentation faite des femmes :  "image de la femme" ,  "corps des femmes", "images sexistes"
- - propos ou actes : "propos haineux" "propos sexistes", "haine contre les femmes", "violences conjugales"
- - place des femmes "rôle des femmes", "égalité homme femme", "place des hommes", "droits des femmes"
+ - représentation faite des femmes : "image de la femme", "corps des femmes", "images sexistes" ;
+ - propos ou actes : "propos haineux", "propos sexistes", "haine contre les femmes", "violences conjugales" ;
+ - place des femmes "rôle des femmes", "égalité homme femme", "place des hommes", "droits des femmes".
 
 Des expressions caractéristiques des argumentaires féministes opposés à la pornographie comme "culture du viol" et "accès libre" ont été identifiés.
 
-Un champ lexical significatif de préoccupation pour les enfants et les jeunes femmes émerge ("jeunes filles", "petites filles")
+Un champ lexical significatif de préoccupation pour les enfants et les jeunes femmes émerge ("jeunes filles", "petites filles").
 
 Enfin l'analyse sémantique fait remonter des suggestions de solutions telles que des "campagnes de sensibilisation" et la plus grande présence de "femmes expertes" dans les médias.
 
-###Thématique 3 :  partage des responsabilités parentales
+### Thématique 3 :  partage des responsabilités parentales
 
 En plus des champs lexicaux liés à la description de la thématique, des problématiques sont soulevées :
 
- - Rôle du père : "rôle du père" "rôle du père au sein"
- - "congés pour enfant malade" 
- - les inégalités dans la vie professionnelle : "poste égal" "temps partiel"  "vie personnelle et professionnelle" "travail égal" "égalité professionnelle"
+ - "rôle du père", "rôle du père au sein" ;
+ - "congés pour enfant malade" ;
+ - les inégalités dans la vie professionnelle : "poste égal", "temps partiel", "vie personnelle et professionnelle", "travail égal", "égalité professionnelle".
 
-Lié à la vie professionnelle, les "crèches d'entreprises" sont évoquées dans cette thématique.
+Liées à la vie professionnelle, les "crèches d'entreprises" sont évoquées dans cette thématique.
 
-L'exemple international suédois est également identifié par cette analyse ("modèle suédois")
+L'exemple international suédois est également identifié par cette analyse ("modèle suédois").
 
-Enfin ce thème est également lié à des sujets connexes puisque des champs lexicaux liés aux couples séparés ("pension alimentaire" "mode de garde" "garde des enfants") ainsi qu'aux "violences conjugales" sont identifiés.
+Enfin, ce thème est lié à des sujets connexes puisque des champs lexicaux liés aux couples séparés ("pension alimentaire", "mode de garde", "garde des enfants") ainsi qu'aux "violences conjugales" sont identifiés.
 
 ### Thématique 4 : Impayés de pensions alimentaires
 
 L'analyse sémantique fait émerger deux types de public ayant des préoccupations opposées :
 
- - les victimes de "pensions impayées" ("paiement d'une pension alimentaire" "pension alimentaire" "mauvais payeurs") ;
- - les parents ayant un "droit de visite" ("présentation d'enfant", "jours par mois", ...)
+ - les victimes de "pensions impayées" ("paiement d'une pension alimentaire", "pension alimentaire", "mauvais payeurs") ;
+ - les parents ayant un "droit de visite" ("présentation d'enfant", "jours par mois"...).
 
 Les problématiques identifiées par cette analyse sont les suivantes :
 
- - la gestion des emplois à "temps partiels"
- - le problème de "parent absent" ("abandon de famille", "parents démissionnaires")
- - l'organisation de la garde des enfants ("garde exclusive", "consentement mutuel", ...)
- - calcul de la pension" (moitié des charges" "fonction des revenus")
+ - la gestion des emplois à "temps partiels" ;
+ - le problème de "parent absent" ("abandon de famille", "parents démissionnaires") ;
+ - l'organisation de la garde des enfants ("garde exclusive", "consentement mutuel"...) ;
+ - calcul de la pension ("moitié des charges", "fonction des revenus").
 
-Enfin deux solutions émergent de cette analyse : 
+Enfin deux solutions émergent de cette analyse :
 
- - la saisie sur le "compte bancaire" du parant ne payant pas la pension ;
- - "médiation familiale" avant l'intervention du juge
+ - la saisie sur le "compte bancaire" du parent ne payant pas la pension ;
+ - la "médiation familiale" avant l'intervention du juge.
 
 ### Thématique 5 : protection contre les violences conjugales
 
-Deux types de problèmes sont  identifiables à travers l'analyse sémantiques des questions ouvertes de ce thème :
+Deux types de problèmes sont identifiables à travers l'analyse sémantique des questions ouvertes de ce thème :
 
- - le "viol conjugal" 
- - la gestion des "violences psychologiques"
+ - le "viol conjugal" ;
+ - la gestion des "violences psychologiques".
 
-L'analyse fait émerger des champs lexicaux liés aux policiers et gendarmes ("forces de l'ordre", "mains courantes", "prise en compte", "services de police", ..) ainsi qu'aux magistrats ("juge aux affaires familiales")
+L'analyse fait émerger des champs lexicaux liés aux policiers et gendarmes ("forces de l'ordre", "mains courantes", "prise en compte", "services de police"..) ainsi qu'aux magistrats ("juge aux affaires familiales").
 
 Enfin, des champs lexicaux liés aux solutions sont identifiés :
 
- - le "bracelet électronique" 
- - "suivi psychologique" "obligation de soins" pour les acteurs de violence
- - "aide aux victimes" "enfants et femmes victimes" "accompagnement psychologique"
+ - le "bracelet électronique" ;
+ - "suivi psychologique", "obligation de soins" pour les acteurs de violence ;
+ - "aide aux victimes", "enfants et femmes victimes", "accompagnement psychologique".
 
 \newpage
 
@@ -432,67 +435,67 @@ Enfin, des champs lexicaux liés aux solutions sont identifiés :
 
 ## Objet et intérêt du crowdsourcing
 
-Les questions ouvertes posent bien sûr des difficultés bien plus grandes de traitement et d'analyse que des questions fermées, ce qui peut constituer un frein pour les services de l'Assemblée qui ne disposent pas encore aujourd'hui des moyens humains et technologiques nécessaires pour traiter un grand nombre de contributions textuelles, comme on l'a vu lors de la consultation sur la fin de vie qui a donné lieu à plus de 10 000 contributions. 
+Les questions ouvertes posent bien sûr des difficultés bien plus grandes de traitement et d'analyse que des questions fermées, ce qui peut constituer un frein pour les services de l'Assemblée qui ne disposent pas encore aujourd'hui des moyens humains et technologiques nécessaires pour traiter un grand nombre de contributions textuelles, comme on l'a vu lors de la consultation sur la fin de vie qui a donné lieu à plus de 10 000 contributions.
 
 Afin d'essayer de faciliter le traitement de grands nombres de contributions par les services de l'Assemblée nationale et les députés, Regards Citoyens a souhaité expérimenter la mise en place d'un dispositif de pré-analyse humaine, collective et bénévole des contributions (appelée "crowdsourcing") par le biais d'une plateforme librement accessible sur le web [regardscitoyens.org/rapporteurs-citoyens/](http://regardscitoyens.org/rapporteurs-citoyens/).
 
 L'objectif d'un tel crowdsourcing est, tout en assurant la lecture exhaustive de l'ensemble des contributions, d'organiser la présélection des contributions les plus originales et qualifiées afin de réduire le nombre de contributions à faire analyser par les services de l'Assemblée et les députés.
 
-Une telle opération de crowdsourcing a évidemment d'autant plus de valeur ajoutée que le nombre de contributions à traiter est élevé et dépasse les ressources humaines de l'Assemblée nationale. Bien que le nombre de contributions aient été, dans le cadre de la présente consultation, relativement faible, il a néanmoins paru intéressant à Regards citoyens et à ses partenaires d'expérimenter un tel crowdsourcing, afin d'en ajuster la méthodologie et d'en mesurer les bénéfices théoriques possibles. 
+Une telle opération de crowdsourcing a évidemment d'autant plus de valeur ajoutée que le nombre de contributions à traiter est élevé et dépasse les ressources humaines de l'Assemblée nationale. Bien que le nombre de contributions aient été, dans le cadre de la présente consultation, relativement faible, il a néanmoins paru intéressant à Regards citoyens et à ses partenaires d'expérimenter un tel crowdsourcing, afin d'en ajuster la méthodologie et d'en mesurer les bénéfices théoriques possibles.
 
-La plateforme de crowdsourcing mise en place présentait aux visiteurs une contribution sélectionnée de manière aléatoire dans la base des contributions collectées sur le site de la consultation. Cette base était mise à la disposition de Regards Citoyens et actualisée chaque jour par l'Assemblée nationale via son portail Open Data, [data.assemblee-nationale.fr](http://data.assemblee-nationale.fr/). Chaque rapporteur citoyen était alors invité à décrire via une grille d'analyse de trois questions fermées la contribution qui lui était présentée.  De manière aléatoire, il pouvait aussi lui être demandé de synthétiser un élément de la contribution. Lorsque trois personnes différentes répondaient de manière identique aux questions fermées, l'analyse était considérée comme valide ; la contribution n'était donc plus présentée aux internautes.
+La plateforme de crowdsourcing mise en place présentait aux visiteurs une contribution sélectionnée de manière aléatoire dans la base des contributions collectées sur le site de la consultation. Cette base était mise à la disposition de tous et actualisée chaque jour par l'Assemblée nationale via son portail Open Data, [data.assemblee-nationale.fr](http://data.assemblee-nationale.fr/). Chaque rapporteur citoyen était alors invité à décrire via une grille d'analyse de trois questions fermées la contribution qui lui était présentée. De manière aléatoire, il pouvait aussi lui être demandé de synthétiser un élément de la contribution. Lorsque trois personnes différentes répondaient de manière identique aux questions fermées, l'analyse était considérée comme valide ; la contribution n'était alors plus présentée aux internautes.
 
-La première question proposée demandait aux rapporteurs citoyens d'identifier et de "codifier" de manière objective les types de contenu présents au sein de la contribution présentée. Il était possible de codifier 8 types de contenus différents\ : 
+La première question proposée demandait aux rapporteurs citoyens d'identifier et de "codifier" de manière objective les types de contenus présents au sein de la contribution présentée. Il était possible de codifier 8 types de contenus différents\ :
 
- - l'évocation d'expériences personnelles 
- - la description d'un problème (exemples, données, etc.) 
- - une analyse des causes du problème 
- - des prises de position en faveur d'une mesure existante 
- - des prises de position contre une mesure existante 
- - des propositions de nouvelles mesures 
- - des analyses ou propositions d'ordre général 
+ - l'évocation d'expériences personnelles ;
+ - la description d'un problème (exemples, données, etc.) ;
+ - une analyse des causes du problème ;
+ - des prises de position en faveur d'une mesure existante ;
+ - des prises de position contre une mesure existante ;
+ - des propositions de nouvelles mesures ;
+ - des analyses ou propositions d'ordre général ;
  - des questions ou demandes d'information.
 
- Cette codification a été conçue avec deux objectifs :
+Cette codification a été conçue avec deux objectifs :
 
- - faciliter l'analyse et la lecture des contributions par les services de l'Assemblée nationale en leur permettant d'analyser les contributions de manière méthodique par type de contenus proposés
+ - faciliter l'analyse et la lecture des contributions par les services de l'Assemblée nationale en leur permettant d'analyser les contributions de manière méthodique par types de contenus proposés ;
  - mesurer le degré de qualification, de précision et de richesse formelle des contributions proposées, en partant de l'hypothèse qu'une contribution est d'autant plus qualifiée, riche et précise qu'il est possible d'identifier clairement plusieurs de ces éléments en son sein. Le code "analyses ou propositions d'ordre général" permettait d'identifier a contrario les contributions s'en tenant à des propos très généraux et peu qualifiés sur le problème traité.
 	
 La deuxième question posée aux rapporteurs citoyens visait à mesurer l'originalité des contributions. Il leur était demandé de dire s'ils avaient déjà entendu ce type de propos dans le débat public ou non.
 
 L'objectif était d'essayer, par cette question, de détecter plus facilement les propos originaux proposés sur chacun des quatre thèmes de la consultation, afin que les députés en charge de la consultation puissent apporter une attention plus importante à ces contributions jugées plus originales que les autres et les lisent en priorité. En effet, l'une des raisons pour lesquelles certains décideurs publics sont peu enclins à reconnaître une valeur ajoutée aux consultations citoyennes est qu'ils ont souvent l'impression que ces consultations ne leur apportent pas suffisamment d'éléments nouveaux dans leur appréhension des problèmes publics. Ils ont l'impression que les contributions citoyennes contiennent dans leur grande majorité des propos très généraux, assez banals ou déjà bien connus dont la lecture et l'analyse sont une perte de temps. Une consultation citoyenne de qualité, menée dans une logique de démocratie d'enquête, doit avoir, pour être utile aux décideurs publics et aux services qui les assistent, un taux élevé de contributions jugées originales et nouvelles par rapport à l'état actuel du débat ou des connaissances sur une question donnée.
 
-La troisième question posée aux rapporteurs citoyens les invitait à se mettre à la place des députés eux-mêmes en précisant ce qu'ils feraient de cette contribution s'ils étaient en charge de la consultation : 
+La troisième question posée aux rapporteurs citoyens les invitait à se mettre à la place des députés eux-mêmes en précisant ce qu'ils feraient de cette contribution s'ils étaient en charge de la consultation\ :
 
- - convier l'auteur à une réunion avec les députés de la mission d'évaluation\ ; 
- - citer la contribution dans le rapport de la consultation ; 
- - prendre en compte la contribution ; 
+ - convier l'auteur à une réunion avec les députés de la mission d'évaluation\ ;
+ - citer la contribution dans le rapport de la consultation ;
+ - prendre en compte la contribution ;
  - ignorer la contribution.
 
 La pertinence d'intégrer cette question au sein du crowdsourcing a été débattue au sein de Regards Citoyens et de ses partenaires. Cette question pouvait en effet paraître difficile pour des personnes n'ayant pas particulièrement de connaissance du processus législtatif et du travail spécifique du député et les réponses paraître quant à elles relativement subjectives dans la mesure où aucun critère explicite n'était demandé au rapporteur citoyen pour justifier le sort qu'il choisissait de réserver à la contribution. Cette opération de crowdsourcing étant d'abord un processus expérimental, il a été finalement décidé d'intégrer cette question afin de voir ce qu'elle pourrait donner. Lors de l'exploitation des données issus du travail d'analyse, la question s'est révélée particulièrement intéressante pour faire émerger des contributions "pertinentes".
 
-La dernière tâche proposée aux rapporteurs citoyens consistait à synthétiser en 100 caractères l'un des éléments de la contribution. Cette tâche était proposée de manière aléatoire à un visiteur sur trois afin de ne pas trop alourdir les tâches demandées aux internautes. L'objectif de ces synthèses était d'obtenir une liste extrêmement rapide à lire de l'ensemble des différents contenus substantiels identifiés dans les contributions à la question 1. La priorité était donc d'avoir au moins une synthèse pour chaque contenu identifié. L'existence de plusieurs synthèses pour un même contenu identifié alourdit évidemment la quantité de texte à lire mais permet de comparer les synthèses réalisées par les différents rapporteurs citoyens et de se rapprocher au mieux du contenu identifié sans pour autant devoir lire l'ensemble de la contribution d'où il est extrait.
+La dernière tâche proposée aux rapporteurs citoyens consistait à synthétiser en 100 caractères l'un des éléments de la contribution. Cette tâche était proposée de manière aléatoire à un visiteur sur trois afin de ne pas trop alourdir les tâches demandées aux internautes. L'objectif de ces synthèses était d'obtenir une liste extrêmement rapide à lire de l'ensemble des différents contenus substantiels identifiés dans les contributions à la question 1. La priorité était donc d'avoir au moins une synthèse pour chaque contenu identifié. L'existence de plusieurs synthèses pour un même contenu identifié alourdit évidemment la quantité de texte à lire mais permet de comparer les synthèses réalisées par les différents rapporteurs citoyens et de se rapprocher au mieux du contenu identifié sans pour autant devoir lire l'ensemble de la contribution dont il est extrait.
 
-Durant les deux semaines qu'a duré cette opération de crowdsourcing, 434 internautes ont participé en analysant au moins une contribution. 
+Durant les deux semaines qu'a duré cette opération de crowdsourcing, 434 internautes ont participé en analysant au moins une contribution.
 
 En plus de cette mobilisation en ligne, une soirée "crowdsourcing party" a été organisée où une vingtaine de personnes se sont retrouvées à Paris pour participer à l'opération de crowdsourcing.
 
-Les 12 jours d'analyse collaborative des contributions à la consultation ont permis à chaque réponse d'être analysée par au moins 3 personnes différentes (jusqu'à 11 par réponse) pour un total de 3751 analyses produites correspondant à 744 contributions substantielles analysées. 
+Les 12 jours d'analyse collaborative des contributions à la consultation ont permis à chaque réponse d'être analysée par au moins 3 personnes différentes (jusqu'à 11 par réponse) pour un total de 3751 analyses produites correspondant à 744 contributions substantielles analysées.
 
-Les personnes mobilisées pour cette opération de crowdsourcing font partie des réseaux de Regards Citoyens et de ses partenaires. Ce sont globalement des personnes sensibilisées aux problématiques de participation et de qualité démocratique mais n'ayant pas d'engagement particulier sur les thématiques de l'égalité Femmes/Hommes. Il est probable qu'on y trouverait une assez grande homogénéité socio-professionnelle voire idéologique.
+Les personnes mobilisées pour cette opération de crowdsourcing font partie des réseaux de Regards Citoyens et de ses partenaires. Ce sont globalement des personnes sensibilisées aux problématiques de participation et de qualité démocratique mais n'ayant pas d'engagement particulier sur les thématiques de l'égalité Femmes / Hommes. Il est probable qu'on y trouverait une assez grande homogénéité socio-professionnelle voire idéologique.
 
 Cette homogénéité pourrait-elle constituer un biais dans l'analyse des contributions ? Cela n'est pas à exclure mais ce biais a paru à Regards Citoyens un obstacle limité dans le cadre de cette expérimentation dans la mesure où :
 
- - au sein de l'Assemblée nationale, les contributions sont habituellement lues et analysées par au maximum trois ou quatre administrateurs différents. Ces administrateurs ont eux aussi de grandes similarités de profil socio-professionnel, susceptibles d'impacter fortement la manière dont ils lisent, analysent et sélectionnent les contributions citoyennes. Le crowdsourcing a permis de multiplier par plus de 100 ce chiffre. En diversifiant ainsi le profil des analystes et en les "déspécialisant", le crowdsourcing est susceptible d'apporter une plus grande diversité de regards sur les contributions, et donc davantage d'objectivité.
- - la question 1 visant à codifier les contenus formels présents dans les contributions et l'exercice de synthèse était des questions assez peu susceptibles de se voir influencer par la subjectivité des rapporteurs citoyens. Il est vrai par contre que la question 2 et surtout la question 3 du crowdsourcing mobilisait davantage la subjectivité des rapporteurs citoyens, leur évaluation ayant plus de risque d'être influencée par un éventuel positionnement idéologique personnel sur les questions de l'égalité Femmes/hommes. Cet élément doit être pris en compte lors de l'analyse des résultats du crowdsourcing.
+ - au sein de l'Assemblée nationale, les contributions sont habituellement lues et analysées par au maximum trois ou quatre administrateurs différents. Ces administrateurs ont eux aussi de grandes similarités de profil socio-professionnel, susceptibles d'impacter fortement la manière dont ils lisent, analysent et sélectionnent les contributions citoyennes. Le crowdsourcing a permis de multiplier par plus de 100 ce chiffre. En diversifiant ainsi le profil des analystes et en les "déspécialisant", le crowdsourcing est susceptible d'apporter une plus grande diversité de regards sur les contributions, et donc davantage d'objectivité\ ;
+ - la question 1 visant à codifier les contenus formels présents dans les contributions et l'exercice de synthèse était des questions assez peu susceptibles de se voir influencer par la subjectivité des rapporteurs citoyens. Il est vrai par contre que la question 2 et surtout la question 3 du crowdsourcing mobilisaient davantage la subjectivité des rapporteurs citoyens, leur évaluation ayant plus de risque d'être influencée par un éventuel positionnement idéologique personnel sur les questions de l'égalité Femmes / Hommes. Cet élément doit être pris en compte lors de l'analyse des résultats du crowdsourcing.
 
 En revanche, le fait que les analystes n'aient pas pu choisir la contribution qu'ils avaient à analyser et que chaque contribution ait été analysée de 3 à 11 fois sont des gardes fous qui limitent grandement le risque qu'une communauté d'intérêts ait consciemment et activement détourné la plateforme de crowdsourcing à leur fin.
 
 Durant cette opération de crowdsourcing quelques difficultés ont été rencontrées\ :
 
- - la méthode de validation retenue montre que malgré les efforts de proposer des questions les plus neutres et factuelles possible, il est très difficile de faire émerger une analyse "objective" quel que soit le mode d'analyse retenu ;
- - le questionnaire a légèrement évolué suite aux retours des premiers utilisateurs notamment pour éclure une formulation de la 3ème question\ ;
- - le choix de validation n'ayant permis de valider qu'un peu plus de 30% des contributions, la méthode de génération des données a été changée pour adopter une moyenne des réponses.
+ - la méthode de validation retenue montre que malgré les efforts de proposer des questions les plus neutres et factuelles possibles, il est très difficile de faire émerger une analyse "objective" quel que soit le mode d'analyse retenu\ ;
+ - le questionnaire a légèrement évolué suite aux retours des premiers utilisateurs notamment pour exclure une formulation de la 3ème question\ ;
+ - le choix de validation n'ayant permis de valider qu'un peu plus de 30% des contributions, la méthode de génération des données a dû être modifiée pour adopter une moyenne des réponses.
 
 ## Résultats de l'analyse collective des réponses à la consultation
 
@@ -500,77 +503,81 @@ Le questionnaire d'analyse permet d'explorer le contenu de la consultation.
 
 **Catégorisation générale des réponses**
 
-La contribution contient : [c'est bizarre dit comme ça ; on aimerait plutôt une formulation du genre X % des contributions contiennent des nouvelles mesures, X% des analyses etc. ; euh, c'est pas les mêmes chiffres, non ?]
+Voici la répartition des réponses de la question n°2 de l'analyse collective.
 
- - des nouvelles mesures à 34 %
- - des analyses ou propositions d'ordre général à 34 %
- - une description d'un problème (exemples, données…) à 23 %
- - l'évocation d'expérience(s) personnelle(s) à 12 %
- - une analyse des causes du problème à  9 %
- - des prises de position contre une mesure existante à 4 %
- - des questions ou demandes d'information à 1 %
- - des prises de position en faveur d'une mesure existante : 0 %
- 
-On constate qu'il est difficile d'obtenir des rapporteurs citoyens une codification uniforme des contenus présents dans les contributions : sur 742 contributions substantielles, seulement 109, soit 14,7% ont eu une codification uniforme d'au moins un de leur contenu par tous les rapporteurs citoyens les ayant analysées. 
- Plusieurs hypothèses permettent d'expliquer ces divergences dans la codification des contenus. 
- Plus les contributions sont générales, floues et manquent de rigueur, plus il est difficile d'en codifier précisément les contenus. La consigne des questions ouvertes était, on l'a dit, très générale, incitant ainsi les contributeurs à proposer des contributions elles-mêmes générales, contenant potentiellement des contenus peu formalisés et assez divers. Cette nature relativement floue des contributions a pu rendre l'exercice de codification des contenus beaucoup plus ardu pour les analystes.
+La contribution contient :
+
+ - des nouvelles mesures à 34 % ;
+ - des analyses ou propositions d'ordre général à 34\ %\ ;
+ - une description d'un problème (exemples, données…) à 23\ %\ ;
+ - l'évocation d'expérience(s) personnelle(s) à 12\ %\ ;
+ - une analyse des causes du problème à  9\ %\ ;
+ - des prises de position contre une mesure existante à 4\ %\ ;
+ - des questions ou demandes d'information à 1\ %\ ;
+ - des prises de position en faveur d'une mesure existante\ : 0\ %.
+
+On constate qu'il est difficile d'obtenir des rapporteurs citoyens une codification uniforme des contenus présents dans les contributions : sur 742 contributions substantielles, seulement 109, soit 14,7% ont eu une codification uniforme d'au moins un de leur contenu par tous les rapporteurs citoyens les ayant analysées.
+Plusieurs hypothèses permettent d'expliquer ces divergences dans la codification des contenus.
+Plus les contributions sont générales, floues et manquent de rigueur, plus il est difficile d'en codifier précisément les contenus. La consigne des questions ouvertes était, on l'a dit, très générale, incitant ainsi les contributeurs à proposer des contributions elles-mêmes générales, contenant potentiellement des contenus peu formalisés et assez divers. Cette nature relativement floue des contributions a pu rendre l'exercice de codification des contenus beaucoup plus ardu pour les analystes.
 Il est à noter par ailleurs que l'exercice de codification demande une agilité intellectuelle qui nécessite un peu d'entraînement et qui a pu poser quelques difficultés à certains rapporteurs citoyens.
- 
-La codification réalisée par les rapporteurs citoyens apporte néanmoins des enseignements intéressants. On constate que très peu d'éléments critiques à l'égard de la loi (cf. prises de position contre une mesure existante) ont été identifiés au sein des contributions par les rapporteurs. Cela peut paraître étonnant dans le cadre d'une consultation d'évaluation de l'impact d'une loi et doit interroger tout à la fois sur la manière dont la consigne a été rédigée et la manière dont les publics invités à participer ont été sélectionnés. 
-Les contributions comportent par railleurs extrêmement peu de questions ou de demandes d'information, ce qui était attendu étant donné la formulation de la consigne. Pour autant, il semblerait fécond que ces deux types d'intervention soient plus clairement sollicitées de la part des contributeurs à l'aide de consignes appropriées.
-Plus généralement, on doit retenir que plus les consignes sont précises et explicitent les types de contenus attendus des contributeurs, plus les contributions seront précises et faciles à codifier et analyser après. Les contributeurs doivent être incités à la rigueur dès la formulation de leur contribution.
 
- Il aurait été intéressant de réaliser une analyse précise des corrélations éventuelles entre les déclarations de qualification réalisées par les contributeurs aux questions 35 et 36 et l'existence dans leurs contributions d'éléments de contenus en lien avec cette qualification. Le cadre bénévole de la rédaction du présent rapport n'a pas pu permettre de réaliser une telle analyse. 
+La codification réalisée par les rapporteurs citoyens apporte néanmoins des enseignements intéressants. On constate que très peu d'éléments critiques à l'égard de la loi (cf. prises de position contre une mesure existante) ont été identifiés au sein des contributions par les rapporteurs. Cela peut paraître étonnant dans le cadre d'une consultation d'évaluation de l'impact d'une loi et doit interroger tout à la fois sur la manière dont la consigne a été rédigée et la manière dont les publics invités à participer ont été sélectionnés.
+Les contributions comportent par railleurs extrêmement peu de questions ou de demandes d'information, ce qui était attendu étant donné la formulation de la consigne. Pour autant, il semblerait fécond que ces deux types d'intervention soient plus clairement sollicitées de la part des contributeurs à l'aide de consignes appropriées.
+Plus généralement, on doit retenir que plus les consignes sont précises et explicitent les types de contenus attendus des contributeurs, plus les contributions seront précises et faciles à codifier et analyser ensuite. Les contributeurs doivent être incités à la rigueur dès la formulation de leur contribution.
+
+Il aurait été intéressant de réaliser une analyse précise des corrélations éventuelles entre les déclarations de qualification réalisées par les contributeurs aux questions 35 et 36 et l'existence dans leurs contributions d'éléments de contenus en lien avec cette qualification. Le cadre bénévole de la rédaction du présent rapport n'a pas pu permettre de réaliser une telle analyse.
 
 **Originalité des propositions**
 
-9,8 % des contributions ont été jugées originales par plus de 75% de ses analystes.
+9,8 % des contributions ont été jugées originales par plus de 75\ % de ses analystes.
 
-Si l'on regarde les moyennes des notes d'originalité accordées par les rapporteurs citoyens aux contributions, on constate que 221 contributions ont été jugées unanimement dénuées d'originalité par l'ensemble des rapporteurs citoyens les ayant analysées (moyenne de la notre d'originalité égale à zéro), soit 29,8 % des contributions. Si l'on s'en tenait à ce seul critère pour sélectionner les contributions à faire analyser par les services de l'Assemblée, cela représenterait donc, pour cette consultation, une économie d'analyse de 30% des contributions.
+Si l'on regarde les moyennes des notes d'originalité accordées par les rapporteurs citoyens aux contributions, on constate que 221 contributions ont été jugées unanimement dénuées d'originalité par l'ensemble des rapporteurs citoyens les ayant analysées (moyenne du score d'originalité égal à zéro), soit 29,8 % des contributions. Si l'on s'en tenait à ce seul critère pour sélectionner les contributions à faire analyser par les services de l'Assemblée, cela représenterait donc, pour cette consultation, une économie d'analyse de 30% des contributions.
 
-A contrario, on constate une très faible proportion de contributions considérées unanimement comme originales par l'ensemble des rapporteurs citoyens les ayant analysé : 24 contributions sur 742 contributions substantielles ont une moyenne à 1, soit seulement 3,2% des contributions. Au vu de ces résultats, il ne paraît pas envisageable d'utiliser le critère d'un jugement d'originalité unanime pour sélectionner les contributions puisque cela reviendrait, pour la présente consultation, à éliminer près de 97% des contributions. 
+A contrario, on constate une très faible proportion de contributions considérées unanimement comme originales par l'ensemble des rapporteurs citoyens les ayant analysé : 24 contributions sur 742 contributions substantielles ont une moyenne à 1, soit seulement 3,2% des contributions. Au vu de ces résultats, il ne paraît pas envisageable d'utiliser le critère d'un jugement d'originalité unanime pour sélectionner les contributions puisque cela reviendrait, pour la présente consultation, à éliminer près de 97% des contributions.
 
-Le total des contributions ayant une note moyenne d'originalité supérieure ou égale à 0,75 est de 73, soit 9,8% ; le total des contributions ayant une note comprise entre 0,5 et 0,75 est égal à 134, soit 18% ; le total des contributions ayant une note comprise entre 0,25 et 0,5 est de 221 soit 29,8% des contributions et le total des contributions ayant une note supérieure à 0 et inférieure à 0,25 est de 95, soit 12,8%
+Le total des contributions ayant un score moyen d'originalité supérieur ou égal à 0,75 est de 73, soit 9,8% ; le total des contributions ayant un score compris entre 0,5 et 0,75 est égal à 134, soit 18% ; le total des contributions entre 0,25 et 0,5 est de 221 soit 29,8% des contributions et le total des contributions ayant un score inférieur à 0,25 est de 95, soit 12,8%.
 
-Ces chiffres indiquent que les contributions, dans leur grande majorité, sont considérées plutôt comme manquant d'originalité. Cette perception des rapporteurs citoyens vient corroborer la perception que de nombreux décideurs publics ont des contributions citoyennes en général : des contributions apportant finalement peu d'éléments nouveaux au débat et des dispositifs participatifs globalement très coûteux en temps d'analyse pour des bénéfices limités.
+Ces chiffres indiquent que les contributions, dans leur grande majorité, sont considérées plutôt comme manquant d'originalité. Cette perception des rapporteurs citoyens vient corroborer la perception que de nombreux décideurs publics ont des contributions citoyennes en général\ : des contributions apportant finalement peu d'éléments nouveaux au débat et des dispositifs participatifs globalement très coûteux en temps d'analyse pour des bénéfices limités.
 
 Une consultation citoyenne devrait se donner pour objectif d'obtenir au moins 50% des contributions jugées originales par 75% de leurs analystes. Cette augmentation du taux d'originalité des contributions devrait pouvoir être obtenue par un meilleur ciblage des questions en fonction de la qualification des publics invités à contribuer.
 
 **Usage conseillé aux députés**
 
-A la question « Si vous étiez député, que feriez-vous de cette contribution ? », les rapporteurs citoyens ont jugé que //[quelle est la moyenne utilisée pour fixer ces pourcentages ?]:
+À la question « Si vous étiez député, que feriez-vous de cette contribution ? », les rapporteurs citoyens ont jugé que\ :
 
-- 4 % des contributions analysées méritaient de « convie[r] l'auteur à une réunion avec [les] députés de la mission d'évaluation »
-- 11 % des contributions méritaient d'être citées dans le rapport
-- 55 % d'être prises en compte
-- 23 % d'être ignorées
+- 4 % des contributions analysées méritaient de «\ convie[r] l'auteur à une réunion avec [les] députés de la mission d'évaluation\ »\ ;
+- 11 % des contributions méritaient d'être citées dans le rapport\ ;
+- 55 % d'être prises en compte\ ;
+- 23 % d'être ignorées.
 
-Afin de faciliter l'exploitation de ces données, ce critère a été résumé sous la forme d'une note pouvant aller de 0 à 5 (5 pour les contributions méritant une audition avec les membres de la commission, 4 pour les contributions méritant d'être citées, 2 pour celles qui doivent être prises en compte et 0 pour celles qui doivent être ignorées).
+Afin de faciliter l'exploitation de ces données, ce critère a été résumé sous la forme d'un score pouvant aller de 0 à 5 (5 pour les contributions méritant une audition avec les membres de la commission, 4 pour les contributions méritant d'être citées, 2 pour celles qui doivent être prises en compte et 0 pour celles qui doivent être ignorées).
 
-On constate que peu de contributions sont jugées très qualifiées par les rapporteurs citoyens au point qu'elles devraient être citées dans le rapport final ou que leur auteur devrait être invité à être auditionné. 
-Un quart des contributions sont jugées, par la majorité des analystes, comme devant purement et simplement être ignorées. 
+On constate que peu de contributions sont jugées très qualifiées par les rapporteurs citoyens au point qu'elles devraient être citées dans le rapport final ou que leur auteur devrait être invité à être auditionné.
+Un quart des contributions sont jugées, par la majorité des analystes, comme devant purement et simplement être ignorées.
 
 **Analyse des contenus des contributions sélectionnées**
 
-L'exploitation de l'originalité des propositions et de l'usage conseillé au député a permis de faire ressortir une vingtaine de contribution par thème. Toutes les contributions ayant obtenu une moyenne des notes supérieure ou égale à 3/5 ou une originalité moyenne supérieure à 80% ont été sélectionnées.
+L'exploitation de l'originalité des propositions et de l'usage conseillé au député a permis de faire ressortir une vingtaine de contributions par thème. Toutes les contributions ayant obtenu une moyenne de score supérieur ou égal à 3/5 ou une originalité moyenne supérieure à 80% ont été sélectionnées.
 
-Ce processus a permis de sélectionner 82 contributions provenant de 73 personnes différentes. La répartition du sexe déclaré des personnes dont les contributions ont été sélectionnées est globalement fidèle à celle de l'ensemble des répondants aux questions ouvertes de la consultation même si un nombre de personnes ayant répondu "Inconnu" ou "Homme" est légèrement plus important (6% des personnes sélectionnées par le crowdsourcing ont déclaré un sexe "inconnu" contre 4% pour l'ensemble des répondants aux questions ouvertes, 28% contre 20% pour "Homme", 64% contre 74% pour "Femme").
+Ce processus a permis de sélectionner 82 contributions provenant de 73 personnes différentes, permettant de réduire de près de 90 % le nombre de contributions à synthétiser. La répartition du sexe déclaré des personnes dont les contributions ont été sélectionnées est globalement fidèle à celle de l'ensemble des répondants aux questions ouvertes de la consultation même si un nombre de personnes ayant répondu "Inconnu" ou "Homme" est légèrement plus important (6% des personnes sélectionnées par le crowdsourcing ont déclaré un sexe "inconnu" contre 4% pour l'ensemble des répondants aux questions ouvertes, 28% contre 20% pour "Homme", 64% contre 74% pour "Femme").
+
+Ce processus de sélection permet de réaliser des synthèses des contributions sensiblement différentes des synthèses réalisées par les services de l'Assemblée. Les synthèses des contributions présélectionnées semblent contenir moins de généralités et davantage d'éléments précis susceptibles d'intéresser les députés. Une analyse comparative approfondie des synthèses produites de part et d'autre permettrait de le vérifier. Elle n'a malheureusement pas pu être produite dans le cadre de ce rapport.
 
 ### Thématique 2 : image des femmes, médias audiovisuels et internet
 
-Les contributions sélectionnées font remonter une préoccupation liée au contrôle de l'antenne des médias audiovisuels. Des exemples d'invités ou de commentateurs tenant des propos sexistes notamment lors des Jeux Olympiques, d'émissions de télé-réalité ou de commentaires sur des affaires politico-sexuelles (DSK, Baupin) sont particulièrement cités. Une attention particulière sur la parole des représentants politiques se faisant l'écho de paroles « anti-victimaire » notamment lorsqu'ils sont invités à commenter des faits d'actualités a été remonté.
+Les contributions sélectionnées font remonter une préoccupation liée au contrôle de l'antenne des médias audiovisuels. Des exemples d'invités ou de commentateurs tenant des propos sexistes notamment lors des Jeux Olympiques, d'émissions de télé-réalité ou de commentaires sur des affaires politico-sexuelles (DSK, Baupin) sont particulièrement cités. Une attention particulière sur la parole des représentants politiques se faisant l'écho de paroles « anti-victimaires » notamment lorsqu'ils sont invités à commenter des faits d'actualités a été remonté.
 
-A propos du signalement Internet, les réseaux sociaux sont jugés pas assez réactifs. Facebook est principalement évoqué.
+À propos du signalement Internet, les réseaux sociaux sont jugés pas assez réactifs. Facebook est principalement évoqué.
 
-Des inquiétudes sur l'accès à la pornographie pour les mineurs ont été sélectionnées par l'analyse communautaire.
+Des inquiétudes sur l'accès à la pornographie pour les mineurs ont été sélectionnées par les rapporteurs citoyens.
 
-A propos de la plateforme Pharos, une contribution indique qu'elle est efficace pour des actes qualifiés de "lourd" mais en revanche beaucoup moins pour contenus publiés sur les réseaux sociaux. La contribution pointe le fait de faire attention à ne pas alourdir cette plateforme au risque d'en « en faire un HADOPI » (sous-entendu un mécanisme inefficace).
+À propos de la plateforme Pharos, une contribution indique qu'elle est efficace pour des actes qualifiés de "lourd" mais en revanche beaucoup moins pour les contenus publiés sur les réseaux sociaux. La contribution pointe le fait de faire attention à ne pas alourdir cette plateforme au risque d'en « faire un HADOPI » (sous-entendu un mécanisme inefficace).
 
-Trois Idées principales ont été suggérées :
+Trois idées principales de mesure ont été suggérées :
 
- - faire appel à des youtubeurs pour sensibiliser les jeunes publics
- - diffuser auprès des médias un lexique permettant de réduire les préjugés sexistes 
- - faire en sorte que les trois séances annuelles dédiées à ces thèmes à l'école soient réellement organisées
+ - faire appel à des youtubeurs pour sensibiliser les jeunes publics ;
+ - diffuser auprès des médias un lexique permettant de réduire les préjugés sexistes ;
+ - faire en sorte que les trois séances annuelles dédiées à ces thèmes à l'école soient réellement organisées.
 
 Une contribution hors sujet par rapport à ce thème à tout de même retenu l'attention des analystes : le fait que les jurys de concours pour la catégorie A soient des jurys paritaires.
 
@@ -578,18 +585,18 @@ Une contribution hors sujet par rapport à ce thème à tout de même retenu l'a
 
 L'analyse collaborative des contributions a permis d'identifier un certain nombre de difficultés qui expliqueraient pourquoi les hommes ont des difficultés à prendre un congé parental :
 
- - des discriminations au travail (et notamment par leur employeur ou manager) dont serait victime les hommes faisant ce choix. Des discriminations provenant d'agents publics et notamment des juges ou des membres de PMI ont été également évoquées ;
- - les congés maternités/paternités qui ne seraient pas assez long ;
- - le fait que les indemnités familiales pour ces congés passeraient que par la mère, ce qui signifierait une perte de revenu du conjoint sans contrepartie.
+ - des discriminations au travail (et notamment par leur employeur ou manager) dont seraient victimes les hommes faisant ce choix. Des discriminations provenant d'agents publics et notamment des juges ou des membres de PMI ont été également évoquées\ ;
+ - les congés maternités/paternités qui ne seraient pas assez long\ ;
+ - le fait que les indemnités familiales pour ces congés ne passeraient que par la mère, ce qui signifierait une perte de revenu du conjoint sans contrepartie.
 
-A propos du droit d'absence du conjoint pour assister aux examens médicaux durant la grossesse, les 3 absences sont jugées comme étant trop peu.
+À propos du droit d'absence du conjoint pour assister aux examens médicaux durant la grossesse, les 3 absences sont jugées comme étant insuffisantes.
 
 Cette thématique fait remonter des contributions pointant des problèmes liés aux stéréotypes :
 
- - le fait que les métiers de la petite enfance soient féminisant (assistante maternelle, sage-femme, école maternelle) pourrait expliquer l'implication moins important des hommes dans les tâches éducatives des enfants. Ces stéréotypes sont qualifiés par une contribution de "terminologie maternaliste". Pour contrecarrer ces stéréotypes, il est suggéré dans une contribution de valoriser les hommes qui font le choix de rester au foyer.
- - stéréotype sexués appliqué dès l'enfance notamment à travers les jeux.
+ - le fait que les métiers de la petite enfance soient féminisants (assistante maternelle, sage-femme, école maternelle) pourrait expliquer l'implication moins importante des hommes dans les tâches éducatives des enfants ; ces stéréotypes sont qualifiés par une contribution de "terminologie maternaliste" ; pour contrecarrer ces stéréotypes, il est suggéré dans une contribution de valoriser les hommes qui font le choix de rester au foyer\;
+  - stéréotype sexués appliqués dès l'enfance notamment à travers les jeux.
 
-La question des réunions organisées en fin de journée voir en début de soirée dans certaines entreprises est évoqué à propos de la répartition des responsabilités parentales en lien avec la vie professionnelles. Les crèches d'entreprises sont également évoquées comme une solution de meilleure conciliation entre la vie professionnelle et les responsabilités parentales.
+La question des réunions organisées en fin de journée voir en début de soirée dans certaines entreprises est évoqué à propos de la répartition des responsabilités parentales en lien avec la vie professionnelle. Les crèches d'entreprises sont également évoquées comme une solution de meilleure conciliation entre la vie professionnelle et les responsabilités parentales.
 
 Les difficultés de retour à la vie professionnelle pour les femmes venant d'accoucher sont également évoquées.
 
@@ -601,33 +608,33 @@ Les contributions sélectionnées pour ce thème contiennent plus d'expériences
 
 Elles évoquent notamment les difficultés liées au non paiement des pensions :
 
- - une contribution évoque les conséquences économique de la judiciarisation des procédures. Elle aurait pour conséquence des montants d'allocation inférieure au montant théorique de la pension ;
+ - une contribution évoque les conséquences économiques de la judiciarisation des procédures. Elle aurait pour conséquence des montants d'allocation inférieurs au montant théorique de la pension ;
  - des difficultés de recouvrement de pensions de "pères français" vivant à l'étranger ;
- - la lenteur de la justice notamment dû à son manque de moyens est évoqué comme cause de disfonctionnement des procédures judiciaires pour non-paiement.
+ - la lenteur de la justice notamment dû à son manque de moyens est évoqué comme cause de dysfonctionnement des procédures judiciaires pour non-paiement.
 
 Les raisons de non paiement sont évoqués dans des contributions :
 
- - le non-respect par la mère du droit de visite de l'ex-conjoint
- - la situations économiques de l'ex-conjoint (perte de revenu, chômage, ...)
- - le sentiment que la pension n'est pas utilisée pour les enfants
+ - le non-respect par la mère du droit de visite de l'ex-conjoint ;
+ - la situation économique de l'ex-conjoint (perte de revenu, chômage...) ;
+ - le sentiment que la pension n'est pas utilisée pour les enfants.
 
-Pour objectiver la perte de revenu de l'ex-conjoint en cas de suspission de pertes de revenus organisées, un accès aux données détenues par des services publics sur les revenus (CAF, fichier FICOBA) est suggéré. Il faut noter que cette disposition fait déjà l'objet d'une disposition législative comme le rappelait l'introduction de ce thème sur la plateforme de l'Assemblée.
+Pour objectiver la perte de revenu de l'ex-conjoint en cas de suspicion de pertes de revenus organisées, un accès aux données détenues par des services publics sur les revenus (CAF, fichier FICOBA) est suggéré. Il faut noter que cette disposition fait déjà l'objet d'une disposition législative comme le rappelait l'introduction de ce thème sur la plateforme de l'Assemblée.
 
 Une contribution pointe le fait que l'Allocation de Soutien Familial ne soit pas accessible si le jugement de séparation n'a pas été prononcé.
 
 Les contributions sélectionnées suggèrent des solutions :
 
- - prélèvement à la source de la pension (cette disposition existe déjà partiellement à l'heure actuel comme le rappel l'introduction sur la plateforme de l'Assemblée) ;
- - l'établissement d'un barème de pension ou tout du moins la publicité coût d'éducation d'un enfant afin d'établir des pensions plus proches de la réalité ;
- - dans le cas de pension payés par un ex violent, utiliser la CAF comme tiers afin de couper le lien de dépendance entre les membres du couple ;
- - le recours plus systématique à la résidence alternée. A ce sujet un point d'attention est soulevé à propos du partage des aides familiales ;
- - l'établissement d'une compensation publique en cas de perte de revenu de l'ex.
+ - prélèvement à la source de la pension (cette disposition existe déjà partiellement à l'heure actuelle comme le rappelle l'introduction sur la plateforme de l'Assemblée) ;
+ - l'établissement d'un barème de pension ou tout du moins la publicité du coût d'éducation d'un enfant afin d'établir des pensions plus proches de la réalité ;
+ - dans le cas de pension payés par un ex-conjoint violent, utiliser la CAF comme tiers afin de couper le lien de dépendance entre les membres du couple ;
+ - le recours plus systématique à la résidence alternée. À ce sujet un point d'attention est soulevé à propos du partage des aides familiales ;
+ - l'établissement d'une compensation publique en cas de perte de revenu de l'ex-conjoint.
 
 ### Thématique 5 : protection contre les violences conjugales
 
-Le nombre de contributions jugées positives par les analyses est le plus important ce sur thème. Comme pour le thème précédent, les contributions sélectionnées sont le plus nombreuses à être basées sur des expériences personnelles.
+Le nombre de contributions sélectionnées par les analyses est le plus important sur ce thème. Comme pour le thème précédent, les contributions sélectionnées sont plus nombreuses à être basées sur des expériences personnelles.
 
-A propos de l'ordonnance de protection, les contributions sélectionnées indiquent qu'elle est difficile à obtenir auprès des juges et qu'en cas de refus par les magistrats, l'ordonnance peut se retourner contre les victimes, le refus semble avoir été évoqué par la défense dans certains dossiers comme élément discréditant les faits de violence dans la suite de la procédure.
+À propos de l'ordonnance de protection, les contributions sélectionnées indiquent qu'elle est difficile à obtenir auprès des juges et qu'en cas de refus par les magistrats, l'ordonnance peut se retourner contre les victimes, le refus semble avoir été évoqué par la défense dans certains dossiers comme élément discréditant les faits de violence dans la suite de la procédure.
 
 Une contribution d'un père accusé de violence évoque les conséquences négatives pour lui pour conserver la garde de ses enfants.
 
@@ -635,49 +642,49 @@ De nombreuses contributions sélectionnées évoquent les grandes difficultés l
 
 Le manque de formation des magistrats et des médecins des Unités Médico-Judiciaires est également évoqué.
 
-Des problèmes non encore pris en compte par le législateur d'après les contribteurs sont évoqués :
+Des problèmes non encore pris en compte par le législateur d'après les contributeurs sont évoqués\ :
 
- - le cas des violences psychologiques (emprises psychologiques citées également)
- - le viol conjugal
- - les difficultés encore plus grande d'identifier les situations de violence dans les milieux ruraux
+ - le cas des violences psychologiques (emprises psychologiques citées également)\ ;
+ - le viol conjugal\ ;
+ - les difficultés encore plus grandes d'identifier les situations de violence dans les milieux ruraux.
 
-Une contribution pointe le fait que les services publics (EDF, Gaz, La poste, téléphone, ...) ne visitant quasiment plus les foyers français auraient des conséquences sur le ralentissement des alertes levées pour violences conjugales.
+Une contribution pointe le fait que les services publics (EDF, Gaz, La poste, téléphone, ...) ne visitent quasiment plus les foyers français aurait des conséquences sur le ralentissement des alertes levées pour violences conjugales.
 
-Des contributions évoquent le cas des violences envers les hommes, certaines citent les chiffres publiés par l'Observatoire national de la délinquance et des réponses pénales (27 % des cas de violence conjugale et 17 % des cas mortels).
+Des contributions évoquent le cas des violences envers les hommes ; certaines citent les chiffres publiés par l'Observatoire national de la délinquance et des réponses pénales (27 % des cas de violence conjugale et 17 % des cas mortels).
 
 Un point d'attention est évoqué à propos du Téléphone Grand Danger afin de s'assurer que ce dispositif soit accessible aux personnes en situation de handicap et notamment aux personnes ayant des problèmes auditifs.
 
 Les contributions sélectionnées offrent des pistes de solutions :
 
- - permettre le signalement des auteurs pour des actes "moins graves" (signes avant-coureur de violence lourdes) afin de convoquer les auteurs dans des groupes thérapeutiques et ainsi prévenir les violences. D'après la contribution, la judiciarisation des violences étant un processus lent, elle ne permettrait pas réellement aux auteurs de se rendre compte de la gravité de leurs actes.
- - la généralisation des lieux ressources et des logements d'urgence ainsi que la pérennisation des lieux existants.
- - des solutions basées sur la géolocalisation des agresseurs (via bracelet électronique) et des victimes afin d'alerter en cas de proximité géographique.
- - rôle pédagogique de l'audiovisuel est également évoqué. Des idées de films documentaires ou de portraits de victime diffusé en début de JT sont suggérées.
+ - permettre le signalement des auteurs pour des actes "moins graves" (signes avant-coureur de violence lourdes) afin de convoquer les auteurs dans des groupes thérapeutiques et ainsi prévenir les violences. D'après la contribution, la judiciarisation des violences étant un processus lent, elle ne permettrait pas réellement aux auteurs de se rendre compte de la gravité de leurs actes\ ;
+ - la généralisation des lieux ressources et des logements d'urgence ainsi que la pérennisation des lieux existants\ ;
+ - des solutions basées sur la géolocalisation des agresseurs (via bracelet électronique) et des victimes afin d'alerter en cas de proximité géographique\ ;
+ - le rôle pédagogique de l'audiovisuel est également évoqué. Des idées de films documentaires ou de portraits de victimes diffusés en début de JT sont suggérées.
 
 \newpage
 
 # Recommandations à propos de l'organisation de consultations
 
-L'exploitation des résultats de la consultation Égalité Femme Homme montre qu'une consultation organisée dans le cadre d'une démocratie de débat ne peut se satisfaire d'un questionnaire constitué uniquement des questions fermées :
+L'exploitation des résultats de la consultation Égalité Femmes / Hommes montre qu'une consultation organisée dans le cadre d'une démocratie d'enquête ne peut se satisfaire d'un questionnaire constitué uniquement de questions fermées :
 
- - ce type d'exercice n'est pas un sondage
- - l'exploitation sous la forme d'aggrégas globaux ou de moyennes n'offrent pas une méthodologie fiable, l'échantillon n'ayant pas maîtrisé de l'échantillon et n'offrant pas la  possibilité de redressement. Ce type d'exploitation risque donc d'augmenter les risques de contestation des résultats
+ - ce type d'exercice n'est pas un sondage\ ;
+ - l'exploitation sous la forme d'aggrégats globaux ou de moyennes n'offre pas une méthodologie fiable, l'échantillon n'étant pas maîtrisé et n'offrant pas la possibilité de redressement. Ce type d'exploitation risque donc d'augmenter les risques de contestation des résultats.
 
-En revanche, des questions ouvertes notamment permettant de mesurer l'engagement des répondant ainsi que les différentes communautés d'opinions relatives au sujet traité peuvent se révéler utiles notamment pour mieux connaitre les partis prenantes d'un débat et s'assurer qu'aucun type d'acteur ne soit oublié lors du travail parlementaire.
+En revanche, des questions fermées permettant de mesurer l'engagement et la qualification des répondants ainsi que les différentes communautés d'opinions relatives au sujet traité peuvent se révéler utiles notamment pour mieux connaitre les partis prenantes d'un débat et s'assurer qu'aucun type d'acteur ne soit oublié lors du travail parlementaire.
 
-L'exploitation statistique révèle que les questions fermées offrent une exploitation plus intéressantes si elles portent sur l'opinion des contributeurs, ce qu'ils pensent pouvoir apporter au législateur ou les solutions qu'ils préfèrent plutot que sur leur connaissance légale ou règlementaire.
+L'exploitation statistique révèle que les questions fermées offrent une exploitation plus intéressante si elles portent sur l'opinion des contributeurs, ce qu'ils pensent pouvoir apporter au législateur ou les solutions qu'ils préfèrent plutot que sur leur connaissance légale ou règlementaire.
 
-La prise en compte des réponses à des questions libres demande plus de travail mais comme a pu le montrer l'Assemblée lors de cette consultation, le travail est réalisable même avec peu de personnes lorsqu'elles sont analysées au fil de l'eau. Afin de faciliter le travail de dépouillement de ces réponses, il semblerait intéressant de mieux formuler les réponses ouvertes afin d'identifier au préalable l'usage potentiel qui pourrait être fait de telle ou telle réponse.
+La prise en compte des réponses à des questions libres demande plus de travail. Si le nombre de contributions reste relativement faible (<2000) et que le travail d'analyse est réalisé au fil de l'eau, les services de l'Assemblée sont en capacité de traiter l'ensemble des contributions même avec peu de personnes, comme a pu le montrer l'Assemblée lors de cette consultation. Afin de faciliter le travail de dépouillement de ces réponses, il semblerait intéressant de mieux formuler les consignes des réponses ouvertes afin d'identifier au préalable l'usage potentiel qui pourrait être fait de telle ou telle réponse.
 
-De plus, comme montré dans ce rapport dans la partie relative à l'analyse sémantique, des outils numériques peuvent aider à s'assurer qu'un maximum de thème est pris en compte.
+De plus, comme l'illustre ce rapport dans la partie relative à l'analyse sémantique, des outils numériques peuvent aider à s'assurer qu'un maximum de thèmes est pris en compte.
 
-Si l'expérience de "crowdsouring" semble difficilement reproductible, il pourrait être envisagé par les services de l'Assemblée de proposer aux contributions d'une consultation d'évaluer un ou deux autres contributions que la leur par exemple pour connaitre leur opinion sur la proximité idéologique de leur contribution par rapport à celles présentées.
+Si l'expérience de "crowdsouring" semble difficilement reproductible, il pourrait être envisagé par les services de l'Assemblée de proposer aux contributeurs d'une consultation d'évaluer une ou deux autres contributions que la leur, par exemple pour connaître leur opinion sur la proximité idéologique de leur contribution par rapport à celles présentées.
 
-Le problème de critères "objectifs" permettant de faire émerger une synthèse la plus fidèles aux propos recueillis n'a pas réellement être résolu lors de l'expériementation que nous avons mené. Malgré notre travail pour proposer une grille d'analyse tentant d'objectiver l'analyse, le fait qu'il ne soit possible que pour 30% des contributions de trouver trois analyses identiques montrent que le risque de biais lors de l'écriture de la synthèse des contributions est important.
+Le problème de critères "objectifs" permettant de faire émerger une synthèse plus fidèle aux propos recueillis n'a pas réellement pu être résolu lors de l'expérimentation que nous avons menée. Malgré notre travail pour proposer une grille d'analyse tentant d'objectiver l'analyse, le fait qu'il ne soit possible que pour 30% des contributions de trouver trois analyses identiques montre que le risque de biais lors de l'écriture de la synthèse des contributions est important.
 
-Il parait donc d'autant plus important que de la transparence soit apporté tout au long du processus de consultation. A ce titre, le fait que l'Assemblée ait publié quotidiennement en Open Data les réponses reçues lors de cette consultation est particulièrement intéressant.
+Il paraît donc d'autant plus important que de la transparence soit apportée tout au long du processus de consultation. À ce titre, le fait que l'Assemblée ait publié quotidiennement en Open Data les réponses reçues lors de cette consultation est particulièrement intéressant.
 
-Enfin, un travail d'animation aurait pu être mis en place par l'Assemblée afin de faire mieux connaitre le dispositif et ainsi permettre à plus de citoyen de s'y intéresser. De plus, prévoir des rencontres en les députés et les contributeurs s'étant particulièrement investit dans le processus ou ayant tenu des propos particulièrement intéresant pourrait permettre de rapprocher les citoyens de leurs représenants.
+Enfin, un travail d'animation aurait pu être mis en place par l'Assemblée afin de faire mieux connaitre le dispositif et ainsi permettre à plus de citoyens de s'y intéresser, en incitant en particulier des tiers médiateurs (associatifs, professionnels, etc.) à aller collecter la parole des publics éloignés du débat démocratique. De plus, prévoir des rencontres entre les députés et les contributeurs s'étant particulièrement investis dans le processus ou ayant tenu des propos particulièrement intéressants pourrait permettre de rapprocher les citoyens de leurs représentants.
 
 \newpage
 

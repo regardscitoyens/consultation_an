@@ -717,7 +717,7 @@ Ce dernier groupe de personnes est plus critique sur la capacité des télévisi
 
 Enfin, un dernier groupe de population apparait en omettant cette différence :
 
- - 447 personnes qui pensent que la disposition de signalement internet n'est pas du tout respectée. Elles sont globalement plus sévères sur l'utiliser du dispositif (Q8 65% peu ou pas du tout adpaté) et sur les dispositions relatives aux médias (Q4)
+ - 447 personnes qui pensent que la disposition de signalement internet n'est pas du tout respectée. Elles sont globalement plus sévères sur l'utilisation du dispositif (Q8 65% peu ou pas du tout adpaté) et sur les dispositions relatives aux médias (Q4)
  - 489 personnes qui pensent que la disposition de signalement internet n'est que peu repectées. Elles jugent plutot négativement les autres dispositions mais sont moins sévères
 
 [Détail de l'exploitation du thème 2](https://github.com/regardscitoyens/consultation_an/blob/master/exploitation/analyse_quanti_theme2.ipynb)
